@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml:18:1-20:12
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml:18:1-20:12
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml:18:1-20:12
+	package
+		ADDED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml:19:9-43
+		INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+		INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml:18:11-69
+uses-sdk
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+		ADDED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+		INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+		ADDED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml
+		INJECTED from /home/levi/AndroidStudioProjects/Contacts-Google/PhoneCommon/AndroidManifest.xml

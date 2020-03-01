@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/levi/AndroidStudioProjects/Contacts-Google/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw720dp-land/integers.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "756",
+                        "endColumns": "63",
+                        "endOffsets": "815"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

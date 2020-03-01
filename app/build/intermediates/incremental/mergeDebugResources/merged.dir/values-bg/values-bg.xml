@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="8696793457340503668" name="contacts_count">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> контакта</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> контакт</item>
+    </plurals>
+    <plurals formatted="false" msgid="7402583111980220575" name="contacts_count_with_account">
+      <item quantity="other"><ns1:g id="COUNT_2">%1$d</ns1:g> контакта · <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">%1$d</ns1:g> контакт · <ns1:g id="ACCOUNT_1">%2$s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="1477708624197262295" name="contacts_deleted_toast">
+      <item quantity="other">Контактите са изтрити</item>
+      <item quantity="one">Контактът е изтрит</item>
+    </plurals>
+    <plurals formatted="false" msgid="5821095773211149295" name="import_from_sim_secondary_contact_count_fmt">
+      <item quantity="other">%1$d контакта</item>
+      <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals formatted="false" msgid="2484832025802907060" name="import_from_sim_secondary_template">
+      <item quantity="other"><ns1:g id="COUNT_2">^1</ns1:g> контакта • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">^1</ns1:g> контакт • <ns1:g id="PHONE_NUMBER_1">^2</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="8572156521110906443" name="sim_import_success_toast_fmt">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> контакта в SIM картата бяха импортирани</item>
+      <item quantity="one">1 контакт в SIM картата бе импортиран</item>
+    </plurals>
+    <plurals formatted="false" msgid="5886112726191455415" name="title_share_via">
+      <item quantity="other">Споделяне на контактите чрез</item>
+      <item quantity="one">Споделяне на контакта чрез</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Навигиране към началния екран"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Навигиране нагоре"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Още опции"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Преглед на всички"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Изберете приложение"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ИЗКЛ."</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"клавиша за интервал"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Търсете…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Изчистване на заявката"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Заявка за търсене"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Търсене"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Изпращане на заявката"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Гласово търсене"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Споделяне със: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Свиване"</string>
+    <string msgid="1765533099416999801" name="about_build_version">"Версия"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"Информация"</string>
+    <string msgid="6479990452352919641" name="about_open_source_licenses">"Лицензи за отворен код"</string>
+    <string msgid="57418386931763994" name="about_open_source_licenses_summary">"Подробности за лицензите на софтуера с отворен код"</string>
+    <string msgid="3705518622499152626" name="about_privacy_policy">"Декларация за поверителност"</string>
+    <string msgid="4642400812150296723" name="about_terms_of_service">"Общи условия"</string>
+    <string msgid="6696859503887762213" name="account_filter_view_checked">"За <ns1:g id="ACCOUNT_INFO">%s</ns1:g> е поставена отметка"</string>
+    <string msgid="2248684521205038389" name="account_filter_view_not_checked">"За <ns1:g id="ACCOUNT_INFO">%s</ns1:g> не е поставена отметка"</string>
+    <string msgid="7128032778471187553" name="account_phone">"Устройство"</string>
+    <string msgid="6519016427905087952" name="account_sim">"SIM карта"</string>
+    <string msgid="7646143254066243924" name="account_sync_off">"Синхронизирането на профила е изключено. Докоснете, за да включите."</string>
+    <string msgid="718948015590343010" name="account_type_format">"Контакт от <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="5506832825256203208" name="action_menu_add_new_contact_button">"Създаване на нов контакт"</string>
+    <string msgid="6435476408621731420" name="action_menu_back_from_edit_select">"затваряне"</string>
+    <string msgid="8793348588949233348" name="action_menu_back_from_search">"спиране на търсенето"</string>
+    <string msgid="8275542497615516969" name="activity_title_contacts_filter">"Контакти за показване"</string>
+    <string msgid="5467767062737708066" name="activity_title_licenses">"Лицензи за отворен код"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Настройки"</string>
+    <string msgid="8201790677994503186" name="add_account">"Добавяне"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"Да се добави ли „<ns1:g id="EMAIL">%s</ns1:g>“ към контакти?"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Добавяне на нов профил"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Да се превключи ли към редактиране на избрания контакт? Въведената досега информация ще бъде копирана."</string>
+    <string msgid="6414231530177338704" name="announce_collapsed_fields">"Свито"</string>
+    <string msgid="1075947220478530622" name="announce_expanded_fields">"Разгънато"</string>
+    <string msgid="3906689777043645443" name="applicationLabel">"Контакти"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"Снимка на контакта"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Гласов разговор"</string>
+    <string msgid="2180147284456026587" name="auto_sync_off">"Автоматичното синхронизиране е изключено. Докоснете, за да включите."</string>
+    <string msgid="4355362760545735065" name="back_arrow_content_description">"Назад"</string>
+    <string msgid="3984346060324014108" name="batch_delete_confirmation">"Да се изтрият ли избраните контакти?"</string>
+    <string msgid="8207205649127030030" name="batch_delete_multiple_accounts_confirmation">"Контактите, които предстоят да бъдат изтрити, съдържат подробности от няколко профила. Подробностите от профилите само за четене ще бъдат скрити, а не изтрити."</string>
+    <string msgid="8411117621035639964" name="batch_delete_read_only_contact_confirmation">"Контактите от профилите ви само за четене могат да бъдат скрити, но не и изтрити."</string>
+    <string msgid="5864256698061641841" name="blurbJoinContactDataWith">"Изберете контакта, който искате да свържете с/ъс <ns1:g id="NAME">%s</ns1:g>:"</string>
+    <string msgid="4926308675041506756" name="caching_vcard_message">"vCard се кешира/т във временно локално хранилище. Самото импортиране ще започне скоро."</string>
+    <string msgid="1226272312940516605" name="caching_vcard_title">"Кешира се"</string>
+    <string msgid="437630601519502587" name="callEnded_pulled">"Обаждането бе прехвърлено на друго устройство."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"Не могат да се извършват изходящи обаждания, докато забраната за обаждане е включена."</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Мрежата е заета"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"Обаждането завърши, защото мобилната връзка за данни бе деактивирана."</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"Лимитът за данните бе достигнат. Обаждането завърши."</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"Обаждането завърши, защото бе достигнат лимитът за мобилните данни."</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"Променено на друг номер"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"Променено на видеообаждане"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"Обаждането е променено на SS заявка"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"Обаждането е променено на USSD заявка"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"Променено на обикновено обаждане"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"Променено на друг номер"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"Видеообаждането е променено на SS заявка"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"Видеообаждането е променено на USSD заявка"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Обажданията са ограничени чрез контрол на достъпа."</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Спешните обаждания са ограничени чрез контрол на достъпа."</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Нормалните обаждания са ограничени чрез контрол на достъпа."</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Изходящите обаждания са ограничени от FDN."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Неправилно потребителско име или парола"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"Надвишено ограничение за ACM"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"Всички налични линии се използват. За да извършите обаждане, прекъснете едно от обажданията на това устройство или на някое от другите си устройства."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"Няма сигнал"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"Няма достъп до номера"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Няма достъп до клетъчната мрежа"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Обаждане извън мрежата"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Радиото е изключено"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Грешка в сървъра. Опитайте отново по-късно."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Няма достъп до сървъра"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"Няма SIM карта или грешка в SIM картата"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"Няма отговор – времето за изчакване изтече"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"Невалиден номер"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Линията е заета"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"Не може да се извършват видеообаждания, когато режимът на TTY е активиран."</string>
+    <string msgid="670941612175068337" name="call_assistant">"Обаждане на <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="2566802538698913124" name="call_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (обаждане)"</string>
+    <string msgid="1910165691349426858" name="call_callback">"Обаждане на обратно обаждане"</string>
+    <string msgid="3280537320306436445" name="call_car">"Обаждане на кола"</string>
+    <string msgid="6105120947138711257" name="call_company_main">"Обаждане на основен служебен"</string>
+    <string msgid="6385303130912713318" name="call_custom">"Обаждане на <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8342175628887571876" name="call_fax_home">"Обаждане на домашен факс"</string>
+    <string msgid="7467763592359059243" name="call_fax_work">"Обаждане на служебен факс"</string>
+    <string msgid="1990519474420545392" name="call_home">"Обаждане на домашен"</string>
+    <string msgid="1541590690193403411" name="call_isdn">"Обаждане на ISDN"</string>
+    <string msgid="6082900571803441339" name="call_main">"Обаждане на основен"</string>
+    <string msgid="6274041545876221437" name="call_mms">"Обаждане на MMS"</string>
+    <string msgid="7502236805487609178" name="call_mobile">"Обаждане на мобилен"</string>
+    <string msgid="8563753966926932052" name="call_other">"Обаждане"</string>
+    <string msgid="5745314124619636674" name="call_other_fax">"Обаждане на факс"</string>
+    <string msgid="9003902812293983281" name="call_pager">"Обаждане на пейджър"</string>
+    <string msgid="8296755876398357063" name="call_radio">"Обаждане на радио"</string>
+    <string msgid="3043028982108363572" name="call_subject_hint">"Напишете бележка, която да се изпрати с обаждането…"</string>
+    <string msgid="4545212901205397669" name="call_subject_limit">"<ns1:g id="COUNT">%1$s</ns1:g>/<ns1:g id="LIMIT">%2$s</ns1:g>"</string>
+    <string msgid="7667188212129152558" name="call_subject_type_and_number">"<ns1:g id="TYPE">%1$s</ns1:g> • <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2223170774548648114" name="call_telex">"Обаждане на телекс"</string>
+    <string msgid="8951266948204379604" name="call_tty_tdd">"Обаждане на TTY/TDD"</string>
+    <string msgid="8389827628360791676" name="call_with_a_note">"Обаждане, включващо бележка"</string>
+    <string msgid="5328785911463744028" name="call_work">"Обаждане на служебен"</string>
+    <string msgid="8707874281430105394" name="call_work_mobile">"Обаждане на служебен мобилен"</string>
+    <string msgid="3419348514157949008" name="call_work_pager">"Обаждане на служебен пейджър"</string>
+    <string msgid="1288652456274531846" name="cancel_button_content_description">"Отказ"</string>
+    <string msgid="3057023972074640671" name="cancel_confirmation_dialog_cancel_editing_button">"Отхвърляне"</string>
+    <string msgid="3316573928085916146" name="cancel_confirmation_dialog_keep_editing_button">"Отказ"</string>
+    <string msgid="9008214737653278989" name="cancel_confirmation_dialog_message">"Да се отхвърлят ли промените?"</string>
+    <string msgid="1995462401949262638" name="cancel_export_confirmation_message">"Да се анулира ли експортирането на <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="3929951040347726757" name="cancel_import_confirmation_message">"Да се анулира ли импортирането на <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="6139900383366166706" name="cancel_vcard_import_or_export_failed">"Импорт./експорт. не можа да се анулира"</string>
+    <string msgid="9025361898797412245" name="chat">"Чат"</string>
+    <string msgid="2588492205291249142" name="chat_aim">"Чат по AIM"</string>
+    <string msgid="981575737258117697" name="chat_gtalk">"Чат по Google Talk"</string>
+    <string msgid="8438405386153745775" name="chat_icq">"Чат по ICQ"</string>
+    <string msgid="7561444230307829609" name="chat_jabber">"Чат по Jabber"</string>
+    <string msgid="8041633440091073484" name="chat_msn">"Чат по Windows Live"</string>
+    <string msgid="4294637812847719693" name="chat_qq">"Чат по QQ"</string>
+    <string msgid="1210045020427480566" name="chat_skype">"Чат по Skype"</string>
+    <string msgid="6629211142719943666" name="chat_yahoo">"Чат по Yahoo"</string>
+    <string msgid="2270554975938265734" name="clearFrequentsConfirmation">"Ще изчистите списъка с често търсените в приложенията Контакти и Телефон и ще принудите приложенията за електронна поща да научат отново предпочитанията ви за адресите."</string>
+    <string msgid="766292372438450432" name="clearFrequentsConfirmation_title">"Да се изчистят ли често търсените?"</string>
+    <string msgid="5157001637482794212" name="clearFrequentsProgress_title">"Често търсените се изчистват…"</string>
+    <string msgid="7193185801596678067" name="clear_default">"Изчистване на стандартната настройка"</string>
+    <string msgid="1884143625854637874" name="collapse_fields_description">"Свиване"</string>
+    <string msgid="4757877385895561556" name="collapse_name_fields_description">"Свиване на полетата за имена"</string>
+    <string msgid="1765944280846236723" name="composer_failed_to_get_database_infomation">"Информацията за базата от данни не можа да бъде получена."</string>
+    <string msgid="5712531702823346549" name="composer_has_no_exportable_contact">"Няма контакти, позволяващи експортиране."</string>
+    <string msgid="2321648986367005254" name="composer_not_initialized">"Създателят на vCard не се стартира правилно."</string>
+    <string msgid="7046408921529247089" name="connection_error_message">"Няма връзка"</string>
+    <string msgid="3885457515665783976" name="contactGenericErrorToast">"При запазването на контакта възникна грешка"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Добавяне към контакта"</string>
+    <string msgid="5735129234573327701" name="contactJoinErrorToast">"Контактът не можа да бъде свързан"</string>
+    <string msgid="6860883564984042194" name="contactPhotoSavedErrorToast">"Промените в снимката на контакта не можаха да бъдат запазени"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Избор на контакт"</string>
+    <string msgid="4827033473908688031" name="contactSavedErrorToast">"Промените в контакта не можаха да бъдат запазени"</string>
+    <string msgid="895136068894549611" name="contactSavedNamedToast">"Запазихте <ns1:g id="DISPLAY_NAME">%s</ns1:g>"</string>
+    <string msgid="9171862279493213075" name="contactSavedToast">"Контактът е запазен"</string>
+    <string msgid="2706297508166952431" name="contactUnlinkErrorToast">"Връзката на контакта не можа да бъде прекратена"</string>
+    <string msgid="7122823195786012553" name="contactUnlinkedToast">"Контактите са разделени"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"Директория „<ns1:g id="TYPE">%1$s</ns1:g>“"</string>
+    <string msgid="426142748048816297" name="contact_editor_add_linked_contact">"Добавяне"</string>
+    <string msgid="4618465940423857694" name="contact_editor_pick_linked_contact_dialog_title">"Свързани контакти"</string>
+    <string msgid="4186699385645902152" name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Избор на контакт за редактиране"</string>
+    <string msgid="8565761674283473549" name="contact_editor_prompt_multiple_accounts">"Изберете стандартен профил за новите контакти:"</string>
+    <string msgid="3087691056345099310" name="contact_editor_prompt_one_account">"Новите контакти ще се запазват в/ъв <ns1:g id="ACCOUNT_NAME">%1$s</ns1:g>."</string>
+    <string msgid="6648376557574360096" name="contact_editor_prompt_zero_accounts">"Отделете малко време и добавете профил, чрез който ще се създават резервни копия на контактите ви в Google."</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Редактиране"</string>
+    <string msgid="3042788718983070111" name="contact_editor_title_new_contact">"Нов контакт"</string>
+    <string msgid="2443496574528842237" name="contact_editor_title_read_only_contact">"Само преглед"</string>
+    <string msgid="4525214336177236653" name="contact_editor_unlink_contacts">"Разделяне"</string>
+    <string msgid="752179367353018597" name="contact_status_update_attribution">"чрез <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="7358045508107825068" name="contact_status_update_attribution_with_date">"<ns1:g id="DATE">%1$s</ns1:g> чрез <ns1:g id="SOURCE">%2$s</ns1:g>"</string>
+    <string msgid="8417039765586853670" name="contactsFavoritesLabel">"Любими"</string>
+    <string msgid="3343535986195643136" name="contactsJoinedMessage">"Контактите са свързани"</string>
+    <string msgid="1299418263439579455" name="contactsJoinedNamedMessage">"Свързахте <ns1:g id="NAME">%s</ns1:g>"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Контакти"</string>
+    <string msgid="4754058700611188581" name="contacts_default_notification_channel">"Известия"</string>
+    <string msgid="7731565342428031249" name="contacts_deleted_many_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g>, <ns1:g id="NAME_1">%2$s</ns1:g>, <ns1:g id="NAME_2">%3$s</ns1:g>… бяха изтрити"</string>
+    <string msgid="2252551736301363193" name="contacts_deleted_one_named_toast">"Изтрихте <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="3642082931473111791" name="contacts_deleted_two_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g> и <ns1:g id="NAME_1">%2$s</ns1:g> бяха изтрити"</string>
+    <string msgid="8538705791417534431" name="contacts_export_will_start_message">"Контактите ще бъдат експортирани скоро."</string>
+    <string msgid="2846494347384549277" name="contacts_linking_progress_bar">"Свързват се"</string>
+    <string msgid="4347232421410561500" name="contacts_unavailable_add_account">"Добавяне на профил"</string>
+    <string msgid="3182801738595937144" name="contacts_unavailable_import_contacts">"Импортиране"</string>
+    <string msgid="5989310198163726929" name="contacts_unlinking_progress_bar">"Връзката се спира"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"упътвания до местоположението"</string>
+    <string msgid="3257145021583508761" name="copy_text">"Копиране в буфера"</string>
+    <string msgid="953651153238790069" name="createContactShortcutSuccessful">"Добавихте <ns1:g id="NAME">%s</ns1:g> към началния екран."</string>
+    <string msgid="8831303345367275472" name="createContactShortcutSuccessful_NoName">"Контактът е добавен към началния екран."</string>
+    <string msgid="3263064599743742865" name="create_group_item_label">"Създаване на ново…"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Персонализирано име на етикет"</string>
+    <string msgid="9048525797111024204" name="custom_list_filter">"Персонализиране"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Задаване"</string>
+    <string msgid="7122002148518724139" name="date_year_toggle">"Включване на годината"</string>
+    <string msgid="699591683362420991" name="default_editor_account">"Стандартен профил за новите контакти"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Стандартен звук (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="3512271779086656043" name="deleteConfirmation">"Да се изтрие ли този контакт?"</string>
+    <string msgid="7857888845028586365" name="deleteConfirmation_positive_button">"Изтриване"</string>
+    <string msgid="335713829185261371" name="delete_group_dialog_message">"Да се изтрие ли етикетът „<ns1:g id="GROUP_LABEL">%1$s</ns1:g>“? (Самите контакти няма да бъдат изтрити.)"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"Добавено към любимите"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"Премахнато от любимите"</string>
+    <string msgid="688023606766232904" name="description_clear_search">"Изчистване на търсенето"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"назад"</string>
+    <string msgid="53835657343783663" name="description_delete_contact">"Изтриване"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"Преминаване назад"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Още опции"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"плюс"</string>
+    <string msgid="6908099247930477551" name="description_minus_button">"изтриване"</string>
+    <string msgid="8884991311595943271" name="description_no_name_header">"Многоточие"</string>
+    <string msgid="6737516415168327789" name="description_quick_contact_for">"Бърз контакт за <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5841525580339803272" name="description_search_video_call">"Извършване на видеообаждане"</string>
+    <string msgid="7120921378651700947" name="description_video_call">"Провеждане на видеообаждане"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"гласова поща"</string>
+    <string msgid="1628001095187741417" name="dialog_export">"Експортиране на контакти"</string>
+    <string msgid="2423592905927819672" name="dialog_import">"Импортиране на контакти от"</string>
+    <string msgid="4969619718062454756" name="dialog_new_contact_account">"Запазване на импортираните контакти във:"</string>
+    <string msgid="3451312333591556651" name="dialog_new_group_account">"Избиране на профил"</string>
+    <string msgid="8267045393119375803" name="dialog_sync_add">"Добавяне на група за синхронизиране"</string>
+    <string msgid="1887759056597975053" name="directory_search_label">"Директория"</string>
+    <string msgid="8618292129829443176" name="directory_search_label_work">"Служебен указател"</string>
+    <string msgid="8941131776605093596" name="dismiss_sync_alert">"Отхвърляне"</string>
+    <string msgid="2031647544742889505" name="display_all_contacts">"Всички контакти"</string>
+    <string msgid="2682547080423434170" name="display_more_groups">"Още групи..."</string>
+    <string msgid="3771577099236534776" name="display_options_phonetic_name_fields">"Име (фонетично)"</string>
+    <string msgid="2684905041926954793" name="display_options_sort_by_family_name">"Фамилно име"</string>
+    <string msgid="2778421332815687873" name="display_options_sort_by_given_name">"Собствено име"</string>
+    <string msgid="7028809117272018712" name="display_options_sort_list_by">"Сортиране по"</string>
+    <string msgid="956445100777296467" name="display_options_view_family_name_first">"Първо фамилното име"</string>
+    <string msgid="3616004640258761473" name="display_options_view_given_name_first">"Първо собственото име"</string>
+    <string msgid="6514632499276563482" name="display_options_view_names_as">"Формат на името"</string>
+    <string msgid="6885954210243119591" name="display_ungrouped">"Всички други контакти"</string>
+    <string msgid="8872290721676651414" name="display_warn_remove_ungrouped">"Ако синхронизирането на „<ns1:g id="GROUP">%s</ns1:g>“ спре, то ще спре и за негрупираните контакти."</string>
+    <string msgid="6845645831837615899" name="dynamic_shortcut_contact_removed_message">"Контактът бе премахнат"</string>
+    <string msgid="249939425761315252" name="dynamic_shortcut_disabled_message">"Този пряк път е деактивиран"</string>
+    <string msgid="4137969650184457126" name="editor_account_selector_read_only_title">"Данните за контакта от <ns1:g id="ACCOUNT">%s</ns1:g> не могат да се редактират"</string>
+    <string msgid="4426337993307015833" name="editor_account_selector_title">"Запазва се във:"</string>
+    <string msgid="4194479313465418120" name="editor_add_photo_content_description">"Добавяне на снимка на контакта"</string>
+    <string msgid="820879708069864340" name="editor_change_photo_content_description">"Промяна на снимката на контакта"</string>
+    <string msgid="8571975622926162369" name="editor_contact_photo_content_description">"Снимка на контакта"</string>
+    <string msgid="8583095381562991959" name="editor_delete_view_description">"Изтриване на <ns1:g id="DATA_TYPE">%1$s </ns1:g><ns1:g id="DATA_KIND">%2$s</ns1:g>"</string>
+    <string msgid="7335518371270844912" name="editor_delete_view_description_short">"Изтриване на <ns1:g id="DATA_KIND">%s</ns1:g>"</string>
+    <string msgid="1623639078580475818" name="editor_failed_to_load">"Отварянето на редактора не бе успешно."</string>
+    <string msgid="3630987771304393421" name="editor_more_fields">"Още полета"</string>
+    <string msgid="7253911385818398903" name="editor_options_always_show_phonetic_names">"Винаги да се показва"</string>
+    <string msgid="2672008764795671104" name="editor_options_hide_phonetic_names_if_empty">"Скриване, ако е празно"</string>
+    <string msgid="5668400997660065897" name="email">"Изпращане на имейл"</string>
+    <string msgid="8389931313045344406" name="emailLabelsGroup">"Имейл"</string>
+    <string msgid="5536404237099078802" name="email_custom">"Имейл до <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8573740658148184279" name="email_home">"Изпращане на имейл до домашен"</string>
+    <string msgid="2042889209787989814" name="email_mobile">"Изпращане на имейл до мобилен"</string>
+    <string msgid="3454004077967657109" name="email_other">"Изпращане на имейл"</string>
+    <string msgid="2807430017302722689" name="email_work">"Изпращане на имейл до служебен"</string>
+    <string msgid="6873962901497975964" name="emptyAccount">"В този профил няма контакти"</string>
+    <string msgid="5102411903247859575" name="emptyGroup">"Няма контакти с този етикет"</string>
+    <string msgid="2772242747899664460" name="emptyMainList">"Списъкът ви с контакти е празен"</string>
+    <string msgid="4594274696120278368" name="enter_contact_name">"Търсене в контактите"</string>
+    <string msgid="7960408705307831289" name="eventLabelsGroup">"Специална дата"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Дата"</string>
+    <string msgid="8129294181216760037" name="expand_fields_description">"Разгъване"</string>
+    <string msgid="6948274252874552543" name="expand_name_fields_description">"Показване на още полета за името"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Преглед на по-малко"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Преглед на още"</string>
+    <string msgid="4407527157056120858" name="export_to_vcf_file">"Експорт като .vcf файл"</string>
+    <string msgid="4938527850142003141" name="exporting_contact_failed_message">"Данните за контакта не бяха експортирани.\nПричина: „<ns1:g id="FAIL_REASON">%s</ns1:g>“"</string>
+    <string msgid="4892358112409576342" name="exporting_contact_failed_title">"Не се експортира"</string>
+    <string msgid="3367949209642931952" name="exporting_contact_list_message">"Данните за контактите се експортират."</string>
+    <string msgid="9072240631534457415" name="exporting_contact_list_title">"Експортиране на данни за контакти"</string>
+    <string msgid="2652222370493306887" name="exporting_vcard_canceled_title">"Експортирането на <ns1:g id="FILENAME">%s</ns1:g> е анулирано."</string>
+    <string msgid="4767045779458185251" name="exporting_vcard_finished_title">"Експортирането на <ns1:g id="FILENAME">%s</ns1:g> завърши."</string>
+    <string msgid="6060472638008218274" name="exporting_vcard_finished_title_fallback">"Експортирането на контактите завърши."</string>
+    <string msgid="1739055986856453882" name="exporting_vcard_finished_toast">"Експортирането на контактите завърши. Кликнете върху известието, за да ги споделите."</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Потр. ми профил <ns1:g id="EXTERNAL_SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="707260459259688510" name="fail_reason_could_not_initialize_exporter">"Експортирането не можа да започне: „<ns1:g id="EXACT_REASON">%s</ns1:g>“."</string>
+    <string msgid="2067725459821997463" name="fail_reason_could_not_open_file">"„<ns1:g id="FILE_NAME">%1$s</ns1:g>“ не можа да се отвори: <ns1:g id="EXACT_REASON">%2$s</ns1:g>."</string>
+    <string msgid="3018855323913649063" name="fail_reason_error_occurred_during_export">"Възникна грешка при експортирането: „<ns1:g id="EXACT_REASON">%s</ns1:g>“."</string>
+    <string msgid="6748358842976073255" name="fail_reason_io_error">"I/O грешка"</string>
+    <string msgid="875222757734882898" name="fail_reason_low_memory_during_import">"Няма достатъчно памет. Файлът може да е твърде голям."</string>
+    <string msgid="8728506011371262065" name="fail_reason_no_exportable_contact">"Няма контакт, позволяващ експортиране."</string>
+    <string msgid="8219562769267148825" name="fail_reason_not_supported">"Форматът не се поддържа."</string>
+    <string msgid="1714092345030570863" name="fail_reason_unknown">"Неизвестна грешка."</string>
+    <string msgid="5414421120553765775" name="ghostData_company">"Фирма"</string>
+    <string msgid="7496735200318496110" name="ghostData_title">"Длъжност"</string>
+    <string msgid="5283997303922067997" name="google_account_type_format">"Профил в <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="4359093891863474299" name="groupCreateFailedToast">"Етикетът не може да бъде създаден"</string>
+    <string msgid="1924195126172834870" name="groupCreatedToast">"Етикетът бе създаден"</string>
+    <string msgid="520896687873262027" name="groupDeletedToast">"Етикетът бе изтрит"</string>
+    <string msgid="5196811283836946189" name="groupExistsErrorMessage">"Етикетът вече съществува"</string>
+    <string msgid="7536267148196064554" name="groupLoadErrorToast">"Зареждането на етикета не бе успешно"</string>
+    <string msgid="1431750793695262522" name="groupMemberPickerActivityTitle">"Избиране"</string>
+    <string msgid="4824834898718972768" name="groupMembersAddedToast">"Добавянето към етикета бе успешно"</string>
+    <string msgid="3510563559799376603" name="groupMembersRemovedToast">"Премахнати от етикета"</string>
+    <string msgid="2355891714292740162" name="groupSavedErrorToast">"Промените в етикета не можаха да бъдат запазени"</string>
+    <string msgid="8211161470235548732" name="groupSomeContactsNoEmailsToast">"Някои контакти нямат имейл адреси."</string>
+    <string msgid="5530760834827530509" name="groupSomeContactsNoPhonesToast">"Някои контакти нямат телефонни номера."</string>
+    <string msgid="3667977658676267687" name="groupUpdatedToast">"Етикетът бе актуализиран"</string>
+    <string msgid="8038224059926963133" name="group_edit_field_hint_text">"Етикет"</string>
+    <string msgid="7624523157537700160" name="group_name_dialog_hint">"Име на етикета"</string>
+    <string msgid="2668452090427027941" name="group_name_dialog_insert_title">"Създаване на етикет"</string>
+    <string msgid="6328021162869677383" name="group_name_dialog_update_title">"Преименуване на етикета"</string>
+    <string msgid="7000816729542098972" name="groupsLabel">"Етикети"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"Имейл"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Създайте нов контакт"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Събитие"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"Незабавно съобщение"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Име"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Псевдоним"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Бележка"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Организация"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Телефон"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Връзка"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Уебсайт"</string>
+    <string msgid="7128627979899070325" name="hint_findContacts">"Търсете контакти"</string>
+    <string msgid="3898238486262614027" name="imLabelsGroup">"Незабавни съобщения"</string>
+    <string msgid="6912071635295799131" name="import_from_sim">"SIM карта"</string>
+    <string msgid="5169032449686348118" name="import_from_sim_summary_fmt">"SIM карта <ns1:g id="SIM_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8662528435646418203" name="import_from_vcf_file">".vcf файл"</string>
+    <string msgid="967723361108008345" name="import_from_vcf_file_confirmation_message">"Да се импортират ли контактите от vCard?"</string>
+    <string msgid="3345258302998021066" name="importing_sim_failed_message">"Контактите не можаха да се импортират от SIM картата"</string>
+    <string msgid="39706901030537985" name="importing_sim_failed_title">"Импортирането не бе успешно"</string>
+    <string msgid="5196369441294050721" name="importing_sim_finished_title">"Импортирането от SIM картата завърши"</string>
+    <string msgid="3638299581276676109" name="importing_sim_in_progress_title">"Импортира се от SIM картата"</string>
+    <string msgid="2147475978165599336" name="importing_vcard_canceled_title">"Импортирането на <ns1:g id="FILENAME">%s</ns1:g> е анулирано"</string>
+    <string msgid="4245275224298571351" name="importing_vcard_description">"<ns1:g id="NAME">%s</ns1:g> се импортира"</string>
+    <string msgid="3341541727268747967" name="importing_vcard_finished_title">"Импортирането на vCard <ns1:g id="FILENAME">%s</ns1:g> завърши"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Неизвестен номер за гласова поща."</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Контактът не съществува."</string>
+    <string msgid="8262614843581924365" name="joinConfirmation">"Искате ли да запазите вече направените от вас промени и да свържете този контакт с избрания от вас?"</string>
+    <string msgid="4573092849769149516" name="joinConfirmation_positive_button">"Запазване и свързване"</string>
+    <string msgid="1994056912242214426" name="label_custom_field">"Персонализирано"</string>
+    <string msgid="1276051790427638142" name="label_name_dialog_hint">"Име на етикета"</string>
+    <string msgid="8337354953278341042" name="label_notes">"Бележки"</string>
+    <string msgid="7252153678613978127" name="label_sip_address">"SIP"</string>
+    <string msgid="4277114551206032979" name="leave_customize_confirmation_dialog_message">"Да се отхвърли ли персонализирането?"</string>
+    <string msgid="1840624396582117590" name="listCustomView">"Персонализиран изглед"</string>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Няма контакти"</string>
+    <string msgid="8908683398914322369" name="list_filter_all_accounts">"Всички контакти"</string>
+    <string msgid="5031734941601931356" name="list_filter_all_starred">"Със звезда"</string>
+    <string msgid="4789963356004169321" name="list_filter_customize">"Персонализиране"</string>
+    <string msgid="735313795643493365" name="list_filter_phones">"Всички контакти с телефонни номера"</string>
+    <string msgid="1470173699551475015" name="list_filter_phones_work">"Контакти в служебния потребителски профил"</string>
+    <string msgid="5871400283515893087" name="list_filter_single">"Контакт"</string>
+    <string msgid="6046691709127661065" name="local_invisible_directory">"Други"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Моят локален потр. профил"</string>
+    <string msgid="2551177578246113614" name="local_search_label">"Всички контакти"</string>
+    <string msgid="8761800628069473526" name="map_custom">"Преглед на адреса на <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="1243547733423343982" name="map_home">"Преглед на домашен адрес"</string>
+    <string msgid="3817820803587012641" name="map_other">"Преглед на адрес"</string>
+    <string msgid="1360474076921878088" name="map_work">"Преглед на служебен адрес"</string>
+    <string msgid="655196688840626483" name="menu_addContactsToGroup">"Добавяне на контакти"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Добавяне към предпочитани"</string>
+    <string msgid="3267409983764370041" name="menu_addToGroup">"Добавяне на контакт"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Добавяне към контактите"</string>
+    <string msgid="4465646512002163011" name="menu_add_contacts">"Добавяне"</string>
+    <string msgid="5760693735722052454" name="menu_assistant">"Предложения"</string>
+    <string msgid="3132884821616980034" name="menu_assistant_new_badge">"Ново"</string>
+    <string msgid="5272951629083025995" name="menu_blocked_numbers">"Блокирани номера"</string>
+    <string msgid="7769177631511496210" name="menu_change_photo">"Промяна на снимката"</string>
+    <string msgid="2165153460860262501" name="menu_contacts_filter">"Контакти за показване"</string>
+    <string msgid="1663022219127343858" name="menu_create_contact_shortcut">"Създаване на пряк път"</string>
+    <string msgid="2679793632208086460" name="menu_custom_filter_save">"Запазване"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Изтриване"</string>
+    <string msgid="1126469629233412249" name="menu_deleteGroup">"Изтриване на етикета"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Редактиране"</string>
+    <string msgid="6696843438454341063" name="menu_editGroup">"Премахване на контакти"</string>
+    <string msgid="2658783911863503902" name="menu_export">"Експортиране"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Експортиране на файловете на базата от данни"</string>
+    <string msgid="1680178646764069976" name="menu_help">"Помощ и отзиви"</string>
+    <string msgid="6107961135813836467" name="menu_import">"Импортиране"</string>
+    <string msgid="3599512127797513606" name="menu_joinAggregate">"Свързване"</string>
+    <string msgid="400444389718855621" name="menu_linkedContacts">"Преглед на свързаните контакти"</string>
+    <string msgid="3127059073617415221" name="menu_new_group_action_bar">"Създаване на етикет"</string>
+    <string msgid="83331924006712755" name="menu_redirect_calls_to_vm">"Препращане към гласовата поща"</string>
+    <string msgid="6720354305399961978" name="menu_removeFromGroup">"Премахване от етикета"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Премахване от любими"</string>
+    <string msgid="7169512355179757182" name="menu_renameGroup">"Преименуване на етикета"</string>
+    <string msgid="1727844363591825909" name="menu_save">"Запазване"</string>
+    <string msgid="3999234528229376098" name="menu_selectForGroup">"Избор на контакти"</string>
+    <string msgid="5978319931321657780" name="menu_sendEmailOption">"Изпращане на имейл"</string>
+    <string msgid="8850168125274916426" name="menu_sendMessageOption">"Изпращане на съобщение"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"Задаване на мелодия"</string>
+    <string msgid="377929915873428211" name="menu_settings">"Настройки"</string>
+    <string msgid="943789700636542260" name="menu_share">"Споделяне"</string>
+    <string msgid="2627252205317945563" name="menu_splitAggregate">"Разделяне"</string>
+    <string msgid="3266725887008450161" name="menu_sync_remove">"Премахване на група за синхронизиране"</string>
+    <string msgid="8210922220185114527" name="menu_title_filters">"Профили"</string>
+    <string msgid="8356921831150278868" name="menu_title_groups">"Етикети"</string>
+    <string msgid="8725542534701811737" name="menu_unredirect_calls_to_vm">"Спиране на препращането"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Не бе намерено приложение за извършване на това действие."</string>
+    <string msgid="8745511583852904385" name="missing_name">"(Няма име)"</string>
+    <string msgid="5865884842972833120" name="missing_required_permission">"Деактивирахте задължително разрешение."</string>
+    <string msgid="5235324124905653550" name="multipleContactDeleteConfirmation">"Изтриването на този контакт ще премахне подробностите от няколко профила."</string>
+    <string msgid="2034640839640477827" name="nameLabelsGroup">"Име"</string>
+    <string msgid="7466985689626017037" name="name_family">"Фамилно име"</string>
+    <string msgid="4280790853455320619" name="name_given">"Собствено име"</string>
+    <string msgid="8467433655992690326" name="name_middle">"Презиме"</string>
+    <string msgid="4259595234312430484" name="name_phonetic">"Име, както се произнася"</string>
+    <string msgid="2640133663656011626" name="name_phonetic_family">"Фамилно име (фонетично)"</string>
+    <string msgid="8723179018384187631" name="name_phonetic_given">"Собствено име (фонетично)"</string>
+    <string msgid="8643721493320405200" name="name_phonetic_middle">"Презиме (фонетично)"</string>
+    <string msgid="59756378548779822" name="name_prefix">"Обръщение"</string>
+    <string msgid="3855278445375651441" name="name_suffix">"Обръщение"</string>
+    <string msgid="4137416137011817930" name="navigation_drawer_close">"Затваряне на слоя за навигация"</string>
+    <string msgid="4154758025620107419" name="navigation_drawer_label">"Етикет „<ns1:g id="LABEL_NAME">%s</ns1:g>“"</string>
+    <string msgid="1126498472143250642" name="navigation_drawer_open">"Отваряне на слоя за навигация"</string>
+    <string msgid="2823095213265993609" name="nfc_vcard_file_name">"Контакт: Получ. чрез NFC"</string>
+    <string msgid="2891682101053358010" name="nicknameLabelsGroup">"Псевдоним"</string>
+    <string msgid="2228592924476426108" name="noContacts">"Списъкът ви с контакти е празен"</string>
+    <string msgid="5742815694687835125" name="no_button">"Не"</string>
+    <string msgid="1276397530378323033" name="no_contact_to_share">"Няма контакти за споделяне."</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Добавяне към контактите"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Телефонен номер"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Затваряне"</string>
+    <string msgid="1651921906873335656" name="nothing_to_import_message">"Няма нищо за импортиране"</string>
+    <string msgid="2478611760751832035" name="organizationLabelsGroup">"Организация"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<ns1:g id="COMPANY_0">%2$s</ns1:g>, <ns1:g id="COMPANY_1">%1$s</ns1:g>"</string>
+    <string msgid="6468091477851199285" name="phoneLabelsGroup">"Телефон"</string>
+    <string msgid="2052542573853433204" name="photoPickerNotFoundText">"В устройството няма снимки."</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Избор на нова снимка"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Избор на снимка"</string>
+    <string msgid="1936544190231136729" name="pickerSelectContactsActivityTitle">"Избиране на контакти"</string>
+    <string msgid="3487738141112589324" name="postalLabelsGroup">"Адрес"</string>
+    <string msgid="8765560217149624536" name="postal_address">"Адрес"</string>
+    <string msgid="6597491300084895548" name="postal_city">"Град"</string>
+    <string msgid="7638264508416368690" name="postal_country">"Държава"</string>
+    <string msgid="572136414136673751" name="postal_postcode">"Пощенски код"</string>
+    <string msgid="6045263193478437672" name="postal_region">"Щат"</string>
+    <string msgid="8133143961580058972" name="postal_street">"Улица"</string>
+    <string msgid="2311011466908220528" name="progress_notifier_message">"Импортира се <ns1:g id="CURRENT_NUMBER">%1$s</ns1:g>/<ns1:g id="TOTAL_NUMBER">%2$s</ns1:g>: <ns1:g id="NAME">%3$s</ns1:g>"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Добавяне на имейл"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Добавяне на телефонен номер"</string>
+    <string msgid="8236954313106630862" name="quickcontact_suggestion_cancel_button">"ОТКАЗ"</string>
+    <string msgid="3244619714781727946" name="quickcontact_suggestion_link_button">"СВЪРЗВАНЕ НА КОНТАКТИТЕ"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Кликнете за връщане към предишния екран"</string>
+    <string msgid="4717023505914239809" name="readOnlyContactDeleteConfirmation">"Контактите само за четене в този профил ще бъдат скрити, не изтрити."</string>
+    <string msgid="7514475664695089411" name="readOnlyContactWarning">"Този контакт е само за четене. Не може да бъде изтрит, но можете да го скриете."</string>
+    <string msgid="8914797212167683673" name="readOnlyContactWarning_positive_button">"Скриване на контакта"</string>
+    <string msgid="4251647443358422855" name="reading_vcard_failed_title">"Данните не можаха да бъдат прочетени"</string>
+    <string msgid="1854373894284572781" name="relationLabelsGroup">"Връзка"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Премахване на снимката"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"Няма"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"Неизвестна мелодия"</string>
+    <string msgid="2133152192716475939" name="savingDisplayGroups">"Опциите за показване се запазват..."</string>
+    <string msgid="8482945356247760701" name="searchHint">"Търсене в контактите"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Търсене"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Търси се..."</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Имена на контактите ви"</string>
+    <string msgid="5478489655696599219" name="select_account_dialog_title">"Профил"</string>
+    <string msgid="7740295432834590737" name="send_and_call_button">"ИЗПРАЩАНЕ И ОБАЖДАНЕ"</string>
+    <string msgid="2251339182881603540" name="send_to_selection">"Изпращане"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Всички контакти"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Предлагани контакти"</string>
+    <string msgid="4417505153468300351" name="set_default">"Задаване като стандартна настройка"</string>
+    <string msgid="4311613760725609801" name="set_default_account">"Винаги да се използва за обаждания"</string>
+    <string msgid="7370213843590143771" name="set_up_profile">"Настройте потребителския си профил"</string>
+    <string msgid="7014388749752042863" name="setting_about">"Всичко за Контакти"</string>
+    <string msgid="350219740670774576" name="settings_accounts">"Профили"</string>
+    <string msgid="1534272456405343119" name="settings_my_info_title">"Моята информация"</string>
+    <string msgid="8109287987498711664" name="share_contacts">"Споделяне на всички контакти"</string>
+    <string msgid="1216431977330560559" name="share_contacts_failure">"Споделянето на контактите не бе успешно."</string>
+    <string msgid="948429331673358107" name="share_error">"Този контакт не може да бъде споделен."</string>
+    <string msgid="4280926751003081042" name="share_favorite_contacts">"Споделяне на любимите контакти"</string>
+    <string msgid="1504383567778497348" name="shortcutActivityTitle">"Избиране на контакт"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Контакт"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Директно набиране"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Директно съобщение"</string>
+    <string msgid="7476283631356909204" name="shortcut_add_contact">"Добавяне на контакт"</string>
+    <string msgid="4277410425912984722" name="show_more_content_description">"Показване на още"</string>
+    <string msgid="4270841592496619317" name="sim_import_button_text">"Импортиране"</string>
+    <string msgid="1619832410253424452" name="sim_import_cancel_content_description">"Отказ"</string>
+    <string msgid="1503743663717316732" name="sim_import_contact_exists_toast">"Контактът вече съществува в списъка ви"</string>
+    <string msgid="7743815244380189651" name="sim_import_empty_message">"В SIM картата ви няма контакти"</string>
+    <string msgid="5559267299793622705" name="sim_import_failed_toast">"Импортирането на контактите в SIM картата не бе успешно"</string>
+    <string msgid="2511154832820812822" name="sim_import_title">"Импортиране от SIM картата"</string>
+    <string msgid="6910517331401970693" name="sim_import_title_none_selected">"Избор на контакти"</string>
+    <string msgid="3106905986948679720" name="single_delete_confirmation">"Да се изтрие ли този контакт?"</string>
+    <string msgid="6985770499439371497" name="single_sim_display_label">"SIM карта"</string>
+    <string msgid="1756857139634224222" name="sms">"Текстово съобщение"</string>
+    <string msgid="2773424339923116234" name="sms_assistant">"Изпращане на SMS на <ns1:g id="ASSISTANT">%s</ns1:g>"</string>
+    <string msgid="7741770672976099517" name="sms_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (изпращане на съобщение)"</string>
+    <string msgid="5004824430094288752" name="sms_callback">"Изпращане на SMS на отговорилия"</string>
+    <string msgid="7444227058437359641" name="sms_car">"Изпращане на SMS на кола"</string>
+    <string msgid="118970873419678087" name="sms_company_main">"Изпращaне на SMS на основен служебен"</string>
+    <string msgid="415060214233647603" name="sms_custom">"SMS до <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="9204042076306809634" name="sms_fax_home">"Изпращане на SMS на домашен факс"</string>
+    <string msgid="8028189067816907075" name="sms_fax_work">"Изпращане на SMS на служебен факс"</string>
+    <string msgid="7524332261493162995" name="sms_home">"Изпращaне на SMS на домашен"</string>
+    <string msgid="8153785037515047845" name="sms_isdn">"Изпращaне на SMS на ISDN"</string>
+    <string msgid="8621625784504541679" name="sms_main">"Изпращане на SMS на основен"</string>
+    <string msgid="4069352461380762677" name="sms_mms">"Изпращане на SMS на MMS"</string>
+    <string msgid="5200107250451030769" name="sms_mobile">"Изпращaне на SMS на мобилен"</string>
+    <string msgid="806127844607642331" name="sms_other">"Текст"</string>
+    <string msgid="3888842199855843152" name="sms_other_fax">"Изпращане на SMS на факс"</string>
+    <string msgid="7730404569637015192" name="sms_pager">"Изпращане на SMS на пейджър"</string>
+    <string msgid="3329166673433967820" name="sms_radio">"Изпращане на SMS на радио"</string>
+    <string msgid="9034802430065267848" name="sms_telex">"Изпращане на SMS на телекс"</string>
+    <string msgid="6782284969132531532" name="sms_tty_tdd">"Изпращане на SMS на TTY/TDD"</string>
+    <string msgid="2269624156655267740" name="sms_work">"Изпращане на SMS на служебен"</string>
+    <string msgid="2459939960512702560" name="sms_work_mobile">"Изпращане на SMS на служебен мобилен"</string>
+    <string msgid="5566924423316960597" name="sms_work_pager">"Изпращaне на SMS на служебен пейджър"</string>
+    <string msgid="7342030840130187290" name="splitConfirmation">"Искате ли да разделите този контакт на няколко?"</string>
+    <string msgid="7719062163511895696" name="splitConfirmationWithPendingChanges">"Искате ли да запазите вече направените от вас промени и да разделите този контакт на няколко?"</string>
+    <string msgid="9073444264887244032" name="splitConfirmationWithPendingChanges_positive_button">"Запазване и разделяне"</string>
+    <string msgid="9129409098807939699" name="splitConfirmation_positive_button">"Разделяне"</string>
+    <string msgid="5586870015822828392" name="status_available">"Налице"</string>
+    <string msgid="1838861100379804730" name="status_away">"Отсъства"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9147992455450257136" name="status_busy">"Зает/а"</string>
+    <string msgid="9107788743178980902" name="suggestion_card_duplicates_title">"Възможни дубликати"</string>
+    <string msgid="4474061044387181093" name="suggestion_card_help_message">"Тези контакти може да са един и същи човек. Можете да ги свържете в един."</string>
+    <string msgid="3039457405374454914" name="suggestion_card_this_contact_title">"Този контакт"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"Заснемане на нова снимка"</string>
+    <string msgid="7496128293167402354" name="take_photo">"Снимане"</string>
+    <string msgid="6825255752748313944" name="titleJoinContactDataWith">"Свързване на контактите"</string>
+    <string msgid="8602752287270586734" name="title_edit_group">"Премахване на контакти"</string>
+    <string msgid="4664084747121207202" name="title_from_google">"От Google"</string>
+    <string msgid="8307885412426754288" name="title_from_other_accounts">"От <ns1:g id="ACCOUNT">%s</ns1:g>"</string>
+    <string msgid="1215465657839085613" name="toast_join_with_empty_contact">"Въведете името на контакта преди свързването му с друг."</string>
+    <string msgid="288549957278065542" name="toast_making_personal_copy">"Създава се лично копие..."</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Текстът бе копиран"</string>
+    <string msgid="4882485525268469736" name="touch_to_share_contacts">"Докоснете, за да споделите контактите."</string>
+    <string msgid="5025336917533693997" name="turn_auto_sync_on_dialog_body">"Промените ви във всички приложения и профили, не само в контактите в Google, ще се поддържат актуални в устройствата ви и в мрежата."</string>
+    <string msgid="1070332014838295599" name="turn_auto_sync_on_dialog_confirm_btn">"Включване"</string>
+    <string msgid="333965456829670541" name="turn_auto_sync_on_dialog_title">"Да се включи ли автоматичното синхронизиране?"</string>
+    <string msgid="1425165101664071422" name="undo">"Отмяна"</string>
+    <string msgid="452592089815420457" name="url_open_error_toast">"Отварянето на URL адреса не бе успешно."</string>
+    <string msgid="2844874826431327531" name="vcard_export_request_rejected_message">"Заявката за експортиране на vCard бе отхвърлена. Опитайте отново по-късно."</string>
+    <string msgid="5223531255894842406" name="vcard_import_failed">"vCard не можа да бъде импортирана."</string>
+    <string msgid="2890471184508516011" name="vcard_import_request_rejected_message">"Заявката за импортиране на vCard бе отхвърлена. Опитайте отново по-късно."</string>
+    <string msgid="2804911199145873396" name="vcard_import_will_start_message">"<ns1:g id="FILENAME">%s</ns1:g> ще се импортира скоро."</string>
+    <string msgid="1022969530654129470" name="vcard_import_will_start_message_with_default_name">"Файлът ще се импортира скоро."</string>
+    <string msgid="7171709890959915954" name="vcard_unknown_filename">"контакт"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Видеоразговор"</string>
+    <string msgid="1782685984905600034" name="view_updates_from_group">"Актуализации"</string>
+    <string msgid="4202998982804009261" name="websiteLabelsGroup">"Уебсайт"</string>
+    <string msgid="1268479086848288060" name="yes_button">"Да"</string>
+</resources>

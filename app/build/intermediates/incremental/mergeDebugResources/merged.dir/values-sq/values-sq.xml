@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="8696793457340503668" name="contacts_count">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> kontakte</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> kontakt</item>
+    </plurals>
+    <plurals formatted="false" msgid="7402583111980220575" name="contacts_count_with_account">
+      <item quantity="other"><ns1:g id="COUNT_2">%1$d</ns1:g> kontakte · <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">%1$d</ns1:g> kontakt · <ns1:g id="ACCOUNT_1">%2$s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="1477708624197262295" name="contacts_deleted_toast">
+      <item quantity="other">Kontaktet u fshinë</item>
+      <item quantity="one">Kontakti u fshi</item>
+    </plurals>
+    <plurals formatted="false" msgid="5821095773211149295" name="import_from_sim_secondary_contact_count_fmt">
+      <item quantity="other">%1$d kontakte</item>
+      <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals formatted="false" msgid="2484832025802907060" name="import_from_sim_secondary_template">
+      <item quantity="other"><ns1:g id="COUNT_2">^1</ns1:g> kontakte • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">^1</ns1:g> kontakt • <ns1:g id="PHONE_NUMBER_1">^2</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="8572156521110906443" name="sim_import_success_toast_fmt">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> kontakte të kartës SIM u importuan</item>
+      <item quantity="one">1 kontakt i kartës SIM u importua</item>
+    </plurals>
+    <plurals formatted="false" msgid="5886112726191455415" name="title_share_via">
+      <item quantity="other">Shpërnda kontaktet nëpërmjet</item>
+      <item quantity="one">Shpërnda kontaktin nëpërmjet</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Orientohu për në shtëpi"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Ngjitu lart"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Opsione të tjera"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"U krye"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Shfaq çdo gjë"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Zgjidh një aplikacion"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"JOAKTIV"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"AKTIV"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funksioni+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"hapësirë"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menyja+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Kërko…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Pastro pyetjen"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Kërko pyetjen"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Kërko"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Dërgo pyetjen"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Kërkim me zë"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Ndaje me"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Ndaje me <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Palos"</string>
+    <string msgid="1765533099416999801" name="about_build_version">"Versioni i ndërtimit"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"Informacion rreth"</string>
+    <string msgid="6479990452352919641" name="about_open_source_licenses">"Licenca me burim informacioni të hapur"</string>
+    <string msgid="57418386931763994" name="about_open_source_licenses_summary">"Detajet e licencës për softuer me burim të hapur"</string>
+    <string msgid="3705518622499152626" name="about_privacy_policy">"Politika e privatësisë"</string>
+    <string msgid="4642400812150296723" name="about_terms_of_service">"Kushtet e shërbimit"</string>
+    <string msgid="6696859503887762213" name="account_filter_view_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g> u shënua"</string>
+    <string msgid="2248684521205038389" name="account_filter_view_not_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g> nuk u shënua"</string>
+    <string msgid="7128032778471187553" name="account_phone">"Pajisja"</string>
+    <string msgid="6519016427905087952" name="account_sim">"SIM"</string>
+    <string msgid="7646143254066243924" name="account_sync_off">"Sinkronizimi i llogarisë është joaktiv. Trokit për ta aktivizuar."</string>
+    <string msgid="718948015590343010" name="account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="5506832825256203208" name="action_menu_add_new_contact_button">"Krijo një kontakt të ri"</string>
+    <string msgid="6435476408621731420" name="action_menu_back_from_edit_select">"mbyll"</string>
+    <string msgid="8793348588949233348" name="action_menu_back_from_search">"ndalo kërkimin"</string>
+    <string msgid="8275542497615516969" name="activity_title_contacts_filter">"Kontakte për t\'u shfaqur"</string>
+    <string msgid="5467767062737708066" name="activity_title_licenses">"Licenca me burim informacioni të hapur"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Cilësimet"</string>
+    <string msgid="8201790677994503186" name="add_account">"Shto një llogari"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"Të shtohet \"<ns1:g id="EMAIL">%s</ns1:g>\" te kontaktet?"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Shto një llogari të re"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Të kalohet te redaktimi i kontaktit të zgjedhur? Informacionet që fute deri tani do të kopjohen."</string>
+    <string msgid="6414231530177338704" name="announce_collapsed_fields">"U palos"</string>
+    <string msgid="1075947220478530622" name="announce_expanded_fields">"U zgjerua"</string>
+    <string msgid="3906689777043645443" name="applicationLabel">"Kontaktet"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"Fotografia e kontaktit"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Biseda me zë"</string>
+    <string msgid="2180147284456026587" name="auto_sync_off">"Sinkronizimi automatik është joaktiv. Trokit për ta aktivizuar."</string>
+    <string msgid="4355362760545735065" name="back_arrow_content_description">"Prapa"</string>
+    <string msgid="3984346060324014108" name="batch_delete_confirmation">"Të fshihen kontaktet e zgjedhura?"</string>
+    <string msgid="8207205649127030030" name="batch_delete_multiple_accounts_confirmation">"Kontaktet që do të fshihen kanë detaje nga shumë llogari. Detajet nga llogaritë vetëm për lexim nuk do të shfaqen, por nuk do të fshihen."</string>
+    <string msgid="8411117621035639964" name="batch_delete_read_only_contact_confirmation">"Kontaktet nga llogaritë e tua vetëm për lexim nuk mund të fshihen, por mund të mos shfaqen."</string>
+    <string msgid="5864256698061641841" name="blurbJoinContactDataWith">"Zgjidh kontaktin që dëshiron të lidhësh me <ns1:g id="NAME">%s</ns1:g>:"</string>
+    <string msgid="4926308675041506756" name="caching_vcard_message">"Po ruan vCard në hapësirën ruajtëse lokale të përkohshme. Importimi aktual do të nisë së shpejti."</string>
+    <string msgid="1226272312940516605" name="caching_vcard_title">"Po ruan memorien e përkohshme"</string>
+    <string msgid="437630601519502587" name="callEnded_pulled">"Telefonata u transferua te një pajisje tjetër."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"Nuk mund të kryesh telefonata dalëse kur është i aktivizuar bllokimi i telefonatave."</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Rrjeti është i zënë"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"Telefonata përfundoi sepse të dhënat celulare u çaktivizuan."</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"Kufiri i të dhënave u arrit. Telefonata përfundoi."</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"Telefonata përfundoi sepse kufiri i të dhënave celulare u arrit."</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"U ndryshua në një numër tjetër"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"U ndryshua në telefonatë me video"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"Telefonata u ndryshua në kërkesë SS"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"Telefonata u ndryshua në kërkesë USSD"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"U ndryshua në një telefonatë të zakonshme"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"U ndryshua në një numër tjetër"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"Telefonata me video u ndryshua në kërkesë SS"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"Telefonata me video u ndryshua në kërkesë USSD"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Telefonatat janë të kufizuara nga kontrolli i qasjes."</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Telefonatat e urgjencës janë të kufizuara nga kontrolli i qasjes."</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Telefonatat normale janë të kufizuara nga kontrolli i qasjes."</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Telefonatat dalëse janë të kufizuara nga FDN-ja."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Emri i përdoruesit ose fjalëkalimi është i pasaktë"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"Kufiri i ACM-së u tejkalua."</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"Të gjitha linjat e disponueshme janë në përdorim. Për të bërë një telefonatë, shkëput një nga telefonatat në këtë pajisje ose në një nga pajisjet e tjera të tua."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"Nuk ka sinjal"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"Numri është i paarritshëm"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Rrjeti celular nuk mundësohet"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Telefonatë nga jashtë rrjetit"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Radioja është e çaktivizuar"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Gabim në server. Provo sërish më vonë."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Serveri është i paarritshëm"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"Nuk ka kartë SIM ose gabim në kartën SIM"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"Nuk ka përgjigje. Koha e veprimit përfundoi!"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"Numri është i pavlefshëm"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Linja është e zënë"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"Nuk mund të kryhen telefonata kur pajisja TTY është e aktivizuar."</string>
+    <string msgid="670941612175068337" name="call_assistant">"Telefono <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="2566802538698913124" name="call_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (Telefono)"</string>
+    <string msgid="1910165691349426858" name="call_callback">"Telefono numrin e kthimit të telefonatave"</string>
+    <string msgid="3280537320306436445" name="call_car">"Telefono numrin e makinës"</string>
+    <string msgid="6105120947138711257" name="call_company_main">"Telefono numrin kryesor të kompanisë"</string>
+    <string msgid="6385303130912713318" name="call_custom">"Telefono <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8342175628887571876" name="call_fax_home">"Telefono faksin e shtëpisë"</string>
+    <string msgid="7467763592359059243" name="call_fax_work">"Telefono faksin e punës"</string>
+    <string msgid="1990519474420545392" name="call_home">"Telefono numrin e shtëpisë"</string>
+    <string msgid="1541590690193403411" name="call_isdn">"Telefono numrin ISDN"</string>
+    <string msgid="6082900571803441339" name="call_main">"Telefono numrin kryesor"</string>
+    <string msgid="6274041545876221437" name="call_mms">"Telefono numrin MMS"</string>
+    <string msgid="7502236805487609178" name="call_mobile">"Telefono numrin celular"</string>
+    <string msgid="8563753966926932052" name="call_other">"Telefono"</string>
+    <string msgid="5745314124619636674" name="call_other_fax">"Telefono numrin e faksit"</string>
+    <string msgid="9003902812293983281" name="call_pager">"Telefoni numrin e biperit"</string>
+    <string msgid="8296755876398357063" name="call_radio">"Telefono numrin e radios"</string>
+    <string msgid="3043028982108363572" name="call_subject_hint">"Shkruaj një shënim për ta dërguar me telefonatën…"</string>
+    <string msgid="4545212901205397669" name="call_subject_limit">"<ns1:g id="COUNT">%1$s</ns1:g> / <ns1:g id="LIMIT">%2$s</ns1:g>"</string>
+    <string msgid="7667188212129152558" name="call_subject_type_and_number">"<ns1:g id="TYPE">%1$s</ns1:g> • <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2223170774548648114" name="call_telex">"Telefono numrin e telefaksit"</string>
+    <string msgid="8951266948204379604" name="call_tty_tdd">"Telefono numrin e TTY/TDD"</string>
+    <string msgid="8389827628360791676" name="call_with_a_note">"Telefono me shënim"</string>
+    <string msgid="5328785911463744028" name="call_work">"Telefono numrin e punës"</string>
+    <string msgid="8707874281430105394" name="call_work_mobile">"Telefono numrin celular të punës"</string>
+    <string msgid="3419348514157949008" name="call_work_pager">"Telefono numrin e biperit të punës"</string>
+    <string msgid="1288652456274531846" name="cancel_button_content_description">"Anulo"</string>
+    <string msgid="3057023972074640671" name="cancel_confirmation_dialog_cancel_editing_button">"Hiq"</string>
+    <string msgid="3316573928085916146" name="cancel_confirmation_dialog_keep_editing_button">"Anulo"</string>
+    <string msgid="9008214737653278989" name="cancel_confirmation_dialog_message">"Të injorohen ndryshimet?"</string>
+    <string msgid="1995462401949262638" name="cancel_export_confirmation_message">"Të anulohet eksportimi i <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="3929951040347726757" name="cancel_import_confirmation_message">"Të anulohet importimi i <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="6139900383366166706" name="cancel_vcard_import_or_export_failed">"Importi/eksporti i vCard nuk u anulua"</string>
+    <string msgid="9025361898797412245" name="chat">"Bisedë"</string>
+    <string msgid="2588492205291249142" name="chat_aim">"Bisedo me AIM"</string>
+    <string msgid="981575737258117697" name="chat_gtalk">"Bisedo me \"Bisedo me Google\""</string>
+    <string msgid="8438405386153745775" name="chat_icq">"Bisedo me ICQ"</string>
+    <string msgid="7561444230307829609" name="chat_jabber">"Bisedo me Jabber"</string>
+    <string msgid="8041633440091073484" name="chat_msn">"Bisedo me Windows Live"</string>
+    <string msgid="4294637812847719693" name="chat_qq">"Bisedo me QQ"</string>
+    <string msgid="1210045020427480566" name="chat_skype">"Bisedo me Skype"</string>
+    <string msgid="6629211142719943666" name="chat_yahoo">"Bisedo me Yahoo"</string>
+    <string msgid="2270554975938265734" name="clearFrequentsConfirmation">"Do ta pastrosh listën e kontakteve të shpeshta në aplikacionet \"Kontaktet\" dhe \"Telefoni\" dhe do t\'i detyrosh aplikacionet e email-it të mësojnë preferencat e tua të adresimit nga e para."</string>
+    <string msgid="766292372438450432" name="clearFrequentsConfirmation_title">"Të pastrohen kontaktet e shpeshta?"</string>
+    <string msgid="5157001637482794212" name="clearFrequentsProgress_title">"Po pastron kontaktet e shpeshta…"</string>
+    <string msgid="7193185801596678067" name="clear_default">"Pastro të paracaktuarin"</string>
+    <string msgid="1884143625854637874" name="collapse_fields_description">"Palos"</string>
+    <string msgid="4757877385895561556" name="collapse_name_fields_description">"Palos fushat e emrit"</string>
+    <string msgid="1765944280846236723" name="composer_failed_to_get_database_infomation">"Informacionet e bazës së të dhënave nuk mund të merreshin."</string>
+    <string msgid="5712531702823346549" name="composer_has_no_exportable_contact">"Nuk ka kontakte që mund të eksportohen."</string>
+    <string msgid="2321648986367005254" name="composer_not_initialized">"Kompozitori i vCard nuk u nis si duhet."</string>
+    <string msgid="7046408921529247089" name="connection_error_message">"Nuk ka lidhje"</string>
+    <string msgid="3885457515665783976" name="contactGenericErrorToast">"Gabim gjatë ruajtjes së kontaktit"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Shto te kontakti"</string>
+    <string msgid="5735129234573327701" name="contactJoinErrorToast">"Kontakti nuk mund të lidhej"</string>
+    <string msgid="6860883564984042194" name="contactPhotoSavedErrorToast">"Ndryshimet e fotografisë së kontaktit nuk mund të ruheshin"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Zgjidh një kontakt"</string>
+    <string msgid="4827033473908688031" name="contactSavedErrorToast">"Ndryshimet e kontaktit nuk mund të ruheshin"</string>
+    <string msgid="895136068894549611" name="contactSavedNamedToast">"<ns1:g id="DISPLAY_NAME">%s</ns1:g> u ruajt"</string>
+    <string msgid="9171862279493213075" name="contactSavedToast">"Kontakti u ruajt"</string>
+    <string msgid="2706297508166952431" name="contactUnlinkErrorToast">"Nuk mund të shkëpusë lidhjen me kontaktin"</string>
+    <string msgid="7122823195786012553" name="contactUnlinkedToast">"Kontaktet u shkëputën"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"Direktoria <ns1:g id="TYPE">%1$s</ns1:g>"</string>
+    <string msgid="426142748048816297" name="contact_editor_add_linked_contact">"Shto"</string>
+    <string msgid="4618465940423857694" name="contact_editor_pick_linked_contact_dialog_title">"Kontaktet e lidhura"</string>
+    <string msgid="4186699385645902152" name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Zgjidh një kontakt për ta redaktuar"</string>
+    <string msgid="8565761674283473549" name="contact_editor_prompt_multiple_accounts">"Zgjidh një llogari të parazgjedhur për kontaktet e reja:"</string>
+    <string msgid="3087691056345099310" name="contact_editor_prompt_one_account">"Kontaktet e reja do të ruhen në <ns1:g id="ACCOUNT_NAME">%1$s</ns1:g>."</string>
+    <string msgid="6648376557574360096" name="contact_editor_prompt_zero_accounts">"Nevojitet një minutë për të shtuar një llogari që mban kopje rezervë të kontakteve në Google."</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Redakto"</string>
+    <string msgid="3042788718983070111" name="contact_editor_title_new_contact">"Krijo një kontakt të ri"</string>
+    <string msgid="2443496574528842237" name="contact_editor_title_read_only_contact">"Vetëm shiko"</string>
+    <string msgid="4525214336177236653" name="contact_editor_unlink_contacts">"Shkëput"</string>
+    <string msgid="752179367353018597" name="contact_status_update_attribution">"nëpërmjet <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="7358045508107825068" name="contact_status_update_attribution_with_date">"<ns1:g id="DATE">%1$s</ns1:g> nëpërmjet <ns1:g id="SOURCE">%2$s</ns1:g>"</string>
+    <string msgid="8417039765586853670" name="contactsFavoritesLabel">"Të preferuarat"</string>
+    <string msgid="3343535986195643136" name="contactsJoinedMessage">"Kontaktet u lidhën"</string>
+    <string msgid="1299418263439579455" name="contactsJoinedNamedMessage">"<ns1:g id="NAME">%s</ns1:g> u lidh"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Kontaktet"</string>
+    <string msgid="4754058700611188581" name="contacts_default_notification_channel">"Njoftime"</string>
+    <string msgid="7731565342428031249" name="contacts_deleted_many_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g>, <ns1:g id="NAME_1">%2$s</ns1:g>, <ns1:g id="NAME_2">%3$s</ns1:g>… u fshinë"</string>
+    <string msgid="2252551736301363193" name="contacts_deleted_one_named_toast">"<ns1:g id="NAME">%1$s</ns1:g> u fshi"</string>
+    <string msgid="3642082931473111791" name="contacts_deleted_two_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g> dhe <ns1:g id="NAME_1">%2$s</ns1:g> u fshinë"</string>
+    <string msgid="8538705791417534431" name="contacts_export_will_start_message">"Kontaktet do të eksportohen së shpejti."</string>
+    <string msgid="2846494347384549277" name="contacts_linking_progress_bar">"Po lidhet"</string>
+    <string msgid="4347232421410561500" name="contacts_unavailable_add_account">"Shto llogari"</string>
+    <string msgid="3182801738595937144" name="contacts_unavailable_import_contacts">"Importo"</string>
+    <string msgid="5989310198163726929" name="contacts_unlinking_progress_bar">"Po shkëputet"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"drejtime për te vendndodhja"</string>
+    <string msgid="3257145021583508761" name="copy_text">"Kopjo në kujtesën e fragmenteve"</string>
+    <string msgid="953651153238790069" name="createContactShortcutSuccessful">"<ns1:g id="NAME">%s</ns1:g> u shtua tek Ekrani bazë."</string>
+    <string msgid="8831303345367275472" name="createContactShortcutSuccessful_NoName">"Kontakti u shtua tek Ekrani bazë."</string>
+    <string msgid="3263064599743742865" name="create_group_item_label">"Krijo të re..."</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Emri i personalizuar i etiketës"</string>
+    <string msgid="9048525797111024204" name="custom_list_filter">"Personalizo pamjen"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Cakto"</string>
+    <string msgid="7122002148518724139" name="date_year_toggle">"Përfshi vitin"</string>
+    <string msgid="699591683362420991" name="default_editor_account">"Llogaria e parazgjedhur për kontaktet e reja"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Tingulli i parazgjedhur (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="3512271779086656043" name="deleteConfirmation">"Të fshihet ky kontakt?"</string>
+    <string msgid="7857888845028586365" name="deleteConfirmation_positive_button">"Fshi"</string>
+    <string msgid="335713829185261371" name="delete_group_dialog_message">"Të fshihet grupi \"<ns1:g id="GROUP_LABEL">%1$s</ns1:g>\"? (Kontaktet nuk do të fshihen.)"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"U shtua te të preferuarat"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"U hoq nga të preferuarat"</string>
+    <string msgid="688023606766232904" name="description_clear_search">"Pastro kërkimin"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"butoni \"kthim prapa\""</string>
+    <string msgid="53835657343783663" name="description_delete_contact">"Fshi"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"Kthehu prapa"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Opsione të tjera"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"plus"</string>
+    <string msgid="6908099247930477551" name="description_minus_button">"fshi"</string>
+    <string msgid="8884991311595943271" name="description_no_name_header">"Elipsë"</string>
+    <string msgid="6737516415168327789" name="description_quick_contact_for">"Kontakti i shpejtë për <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5841525580339803272" name="description_search_video_call">"Kryej një telefonatë me video"</string>
+    <string msgid="7120921378651700947" name="description_video_call">"Bëj një telefonatë me video"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"posta zanore"</string>
+    <string msgid="1628001095187741417" name="dialog_export">"Eksporto kontaktet"</string>
+    <string msgid="2423592905927819672" name="dialog_import">"Importo kontaktet nga"</string>
+    <string msgid="4969619718062454756" name="dialog_new_contact_account">"Ruaji kontaktet e importuara në:"</string>
+    <string msgid="3451312333591556651" name="dialog_new_group_account">"Zgjidh llogarinë"</string>
+    <string msgid="8267045393119375803" name="dialog_sync_add">"Shto një grup sinkronizimi"</string>
+    <string msgid="1887759056597975053" name="directory_search_label">"Direktoria"</string>
+    <string msgid="8618292129829443176" name="directory_search_label_work">"Direktoria e punës"</string>
+    <string msgid="8941131776605093596" name="dismiss_sync_alert">"Hiqe"</string>
+    <string msgid="2031647544742889505" name="display_all_contacts">"Të gjitha kontaktet"</string>
+    <string msgid="2682547080423434170" name="display_more_groups">"Më shumë grupe…"</string>
+    <string msgid="3771577099236534776" name="display_options_phonetic_name_fields">"Emri fonetik"</string>
+    <string msgid="2684905041926954793" name="display_options_sort_by_family_name">"Mbiemri"</string>
+    <string msgid="2778421332815687873" name="display_options_sort_by_given_name">"Emri"</string>
+    <string msgid="7028809117272018712" name="display_options_sort_list_by">"Rendit sipas"</string>
+    <string msgid="956445100777296467" name="display_options_view_family_name_first">"Mbiemri në fillim"</string>
+    <string msgid="3616004640258761473" name="display_options_view_given_name_first">"Emri në fillim"</string>
+    <string msgid="6514632499276563482" name="display_options_view_names_as">"Formati i emrit"</string>
+    <string msgid="6885954210243119591" name="display_ungrouped">"Gjithë kontaktet e tjera"</string>
+    <string msgid="8872290721676651414" name="display_warn_remove_ungrouped">"Heqja e \"<ns1:g id="GROUP">%s</ns1:g>\" nga sinkronizimi gjithashtu heq kontaktet e pagrupuara nga sinkronizimi."</string>
+    <string msgid="6845645831837615899" name="dynamic_shortcut_contact_removed_message">"Kontakti u hoq"</string>
+    <string msgid="249939425761315252" name="dynamic_shortcut_disabled_message">"Kjo shkurtore u çaktivizua"</string>
+    <string msgid="4137969650184457126" name="editor_account_selector_read_only_title">"Informacionet e kontaktit nga <ns1:g id="ACCOUNT">%s</ns1:g> nuk mund të redaktohen"</string>
+    <string msgid="4426337993307015833" name="editor_account_selector_title">"Po ruhet te"</string>
+    <string msgid="4194479313465418120" name="editor_add_photo_content_description">"Shto një fotografi të kontaktit"</string>
+    <string msgid="820879708069864340" name="editor_change_photo_content_description">"Ndrysho fotografinë e kontaktit"</string>
+    <string msgid="8571975622926162369" name="editor_contact_photo_content_description">"Fotografia e kontaktit"</string>
+    <string msgid="8583095381562991959" name="editor_delete_view_description">"Fshi <ns1:g id="DATA_TYPE">%1$s </ns1:g><ns1:g id="DATA_KIND">%2$s</ns1:g>"</string>
+    <string msgid="7335518371270844912" name="editor_delete_view_description_short">"Fshi <ns1:g id="DATA_KIND">%s</ns1:g>"</string>
+    <string msgid="1623639078580475818" name="editor_failed_to_load">"Dështoi në hapjen e redaktorit."</string>
+    <string msgid="3630987771304393421" name="editor_more_fields">"Fusha të tjera"</string>
+    <string msgid="7253911385818398903" name="editor_options_always_show_phonetic_names">"Shfaq gjithnjë"</string>
+    <string msgid="2672008764795671104" name="editor_options_hide_phonetic_names_if_empty">"Fshihe nëse është bosh"</string>
+    <string msgid="5668400997660065897" name="email">"Email"</string>
+    <string msgid="8389931313045344406" name="emailLabelsGroup">"Email"</string>
+    <string msgid="5536404237099078802" name="email_custom">"Mail <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8573740658148184279" name="email_home">"Dërgoji mail shtëpisë"</string>
+    <string msgid="2042889209787989814" name="email_mobile">"Dërgoji mail celularit"</string>
+    <string msgid="3454004077967657109" name="email_other">"Dërgo email"</string>
+    <string msgid="2807430017302722689" name="email_work">"Dërgoji mail punës"</string>
+    <string msgid="6873962901497975964" name="emptyAccount">"Nuk ka kontakte në këtë llogari"</string>
+    <string msgid="5102411903247859575" name="emptyGroup">"Nuk ka kontakte me këtë etiketë"</string>
+    <string msgid="2772242747899664460" name="emptyMainList">"Lista e kontakteve të tua është bosh"</string>
+    <string msgid="4594274696120278368" name="enter_contact_name">"Kërko kontaktet"</string>
+    <string msgid="7960408705307831289" name="eventLabelsGroup">"Data e veçantë"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Data"</string>
+    <string msgid="8129294181216760037" name="expand_fields_description">"Zgjero"</string>
+    <string msgid="6948274252874552543" name="expand_name_fields_description">"Shfaq më shumë fusha të emrit"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Shiko më pak"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Shiko më shumë"</string>
+    <string msgid="4407527157056120858" name="export_to_vcf_file">"Eksporto në skedar .vcf"</string>
+    <string msgid="4938527850142003141" name="exporting_contact_failed_message">"Të dhënat e kontaktit nuk u eksportuan.\nArsyeja: \"<ns1:g id="FAIL_REASON">%s</ns1:g>\""</string>
+    <string msgid="4892358112409576342" name="exporting_contact_failed_title">"Nuk u eksportuan"</string>
+    <string msgid="3367949209642931952" name="exporting_contact_list_message">"Të dhënat e kontaktit po eksportohen."</string>
+    <string msgid="9072240631534457415" name="exporting_contact_list_title">"Po eksporton të dhënat e kontaktit"</string>
+    <string msgid="2652222370493306887" name="exporting_vcard_canceled_title">"Eksportimi i <ns1:g id="FILENAME">%s</ns1:g> u anulua."</string>
+    <string msgid="4767045779458185251" name="exporting_vcard_finished_title">"Eksportimi i <ns1:g id="FILENAME">%s</ns1:g> përfundoi."</string>
+    <string msgid="6060472638008218274" name="exporting_vcard_finished_title_fallback">"Eksportimi i kontakteve përfundoi."</string>
+    <string msgid="1739055986856453882" name="exporting_vcard_finished_toast">"Eksportimi i kontakteve përfundoi, kliko njoftimin për të ndarë kontaktet."</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Profili im i <ns1:g id="EXTERNAL_SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="707260459259688510" name="fail_reason_could_not_initialize_exporter">"Eksportuesi nuk mund të nisej: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\"."</string>
+    <string msgid="2067725459821997463" name="fail_reason_could_not_open_file">"Nuk mund të hapej \"<ns1:g id="FILE_NAME">%1$s</ns1:g>\": <ns1:g id="EXACT_REASON">%2$s</ns1:g>."</string>
+    <string msgid="3018855323913649063" name="fail_reason_error_occurred_during_export">"Ndodhi një gabim gjatë eksportimit: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\"."</string>
+    <string msgid="6748358842976073255" name="fail_reason_io_error">"Gabim I/O"</string>
+    <string msgid="875222757734882898" name="fail_reason_low_memory_during_import">"Nuk ka memorie të mjaftueshme. Skedari mund të jetë shumë i madh."</string>
+    <string msgid="8728506011371262065" name="fail_reason_no_exportable_contact">"Nuk ka asnjë kontakt që mund të eksportohet."</string>
+    <string msgid="8219562769267148825" name="fail_reason_not_supported">"Formati nuk mbështetet."</string>
+    <string msgid="1714092345030570863" name="fail_reason_unknown">"Gabim i panjohur."</string>
+    <string msgid="5414421120553765775" name="ghostData_company">"Kompania"</string>
+    <string msgid="7496735200318496110" name="ghostData_title">"Titulli"</string>
+    <string msgid="5283997303922067997" name="google_account_type_format">"Llogari <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="4359093891863474299" name="groupCreateFailedToast">"Etiketa nuk krijohet"</string>
+    <string msgid="1924195126172834870" name="groupCreatedToast">"Etiketa u krijua"</string>
+    <string msgid="520896687873262027" name="groupDeletedToast">"Etiketa u fshi"</string>
+    <string msgid="5196811283836946189" name="groupExistsErrorMessage">"Ky emërtim ekziston tashmë"</string>
+    <string msgid="7536267148196064554" name="groupLoadErrorToast">"Dështoi në ngarkimin e etiketës"</string>
+    <string msgid="1431750793695262522" name="groupMemberPickerActivityTitle">"Zgjidh"</string>
+    <string msgid="4824834898718972768" name="groupMembersAddedToast">"U shtua në emërtim"</string>
+    <string msgid="3510563559799376603" name="groupMembersRemovedToast">"Hequr nga etiketa"</string>
+    <string msgid="2355891714292740162" name="groupSavedErrorToast">"Nuk mund të ruhen ndryshimet e etiketës"</string>
+    <string msgid="8211161470235548732" name="groupSomeContactsNoEmailsToast">"Disa kontakte nuk kanë mail-e."</string>
+    <string msgid="5530760834827530509" name="groupSomeContactsNoPhonesToast">"Disa kontakte nuk kanë numra telefoni."</string>
+    <string msgid="3667977658676267687" name="groupUpdatedToast">"Etiketa u përditësua"</string>
+    <string msgid="8038224059926963133" name="group_edit_field_hint_text">"Etiketa"</string>
+    <string msgid="7624523157537700160" name="group_name_dialog_hint">"Emri i etiketës"</string>
+    <string msgid="2668452090427027941" name="group_name_dialog_insert_title">"Krijo etiketë"</string>
+    <string msgid="6328021162869677383" name="group_name_dialog_update_title">"Riemërto etiketën"</string>
+    <string msgid="7000816729542098972" name="groupsLabel">"Emërtimet"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"Email"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Krijo një kontakt të ri"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Ngjarje"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"IM"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Emri"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Pseudonimi"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Shënim"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Organizata"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Telefoni"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Lidhja"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Uebsajti"</string>
+    <string msgid="7128627979899070325" name="hint_findContacts">"Kërko kontakte"</string>
+    <string msgid="3898238486262614027" name="imLabelsGroup">"Mesazh i çastit"</string>
+    <string msgid="6912071635295799131" name="import_from_sim">"Karta SIM"</string>
+    <string msgid="5169032449686348118" name="import_from_sim_summary_fmt">"SIM <ns1:g id="SIM_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8662528435646418203" name="import_from_vcf_file">"skedari .vcf"</string>
+    <string msgid="967723361108008345" name="import_from_vcf_file_confirmation_message">"Të importohen kontaktet nga vCard?"</string>
+    <string msgid="3345258302998021066" name="importing_sim_failed_message">"Kontaktet nga karta SIM nuk mund të importoheshin"</string>
+    <string msgid="39706901030537985" name="importing_sim_failed_title">"Importimi dështoi"</string>
+    <string msgid="5196369441294050721" name="importing_sim_finished_title">"Importimi i kartës SIM përfundoi"</string>
+    <string msgid="3638299581276676109" name="importing_sim_in_progress_title">"Karta SIM po importohet"</string>
+    <string msgid="2147475978165599336" name="importing_vcard_canceled_title">"Importimi i <ns1:g id="FILENAME">%s</ns1:g> u anulua"</string>
+    <string msgid="4245275224298571351" name="importing_vcard_description">"Po importon <ns1:g id="NAME">%s</ns1:g>"</string>
+    <string msgid="3341541727268747967" name="importing_vcard_finished_title">"Importimi i <ns1:g id="FILENAME">%s</ns1:g> të vCard përfundoi"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Numri postës zanore është i panjohur."</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Kontakti nuk ekziston."</string>
+    <string msgid="8262614843581924365" name="joinConfirmation">"Dëshiron t\'i ruash ndryshimet që ke bërë tashmë dhe t\'i lidhësh me kontaktin e zgjedhur?"</string>
+    <string msgid="4573092849769149516" name="joinConfirmation_positive_button">"Ruaj dhe lidh"</string>
+    <string msgid="1994056912242214426" name="label_custom_field">"E personalizuar"</string>
+    <string msgid="1276051790427638142" name="label_name_dialog_hint">"Emri i etiketës"</string>
+    <string msgid="8337354953278341042" name="label_notes">"Shënimet"</string>
+    <string msgid="7252153678613978127" name="label_sip_address">"SIP"</string>
+    <string msgid="4277114551206032979" name="leave_customize_confirmation_dialog_message">"Të hiqen personalizimet?"</string>
+    <string msgid="1840624396582117590" name="listCustomView">"Pamje e personalizuar"</string>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Nuk ka asnjë kontakt"</string>
+    <string msgid="8908683398914322369" name="list_filter_all_accounts">"Të gjitha kontaktet"</string>
+    <string msgid="5031734941601931356" name="list_filter_all_starred">"Me yll"</string>
+    <string msgid="4789963356004169321" name="list_filter_customize">"Personalizo"</string>
+    <string msgid="735313795643493365" name="list_filter_phones">"Të gjitha kontaktet me numra telefoni"</string>
+    <string msgid="1470173699551475015" name="list_filter_phones_work">"Kontaktet e profilit të punës"</string>
+    <string msgid="5871400283515893087" name="list_filter_single">"Kontakti"</string>
+    <string msgid="6046691709127661065" name="local_invisible_directory">"Tjetër"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Profili im lokal"</string>
+    <string msgid="2551177578246113614" name="local_search_label">"Të gjitha kontaktet"</string>
+    <string msgid="8761800628069473526" name="map_custom">"Shiko adresën <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="1243547733423343982" name="map_home">"Shiko adresën e shtëpisë"</string>
+    <string msgid="3817820803587012641" name="map_other">"Shiko adresën"</string>
+    <string msgid="1360474076921878088" name="map_work">"Shiko adresën e punës"</string>
+    <string msgid="655196688840626483" name="menu_addContactsToGroup">"Shto kontakte"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Shto te të preferuarat"</string>
+    <string msgid="3267409983764370041" name="menu_addToGroup">"Shto kontakt"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Shto te kontaktet"</string>
+    <string msgid="4465646512002163011" name="menu_add_contacts">"Shto"</string>
+    <string msgid="5760693735722052454" name="menu_assistant">"Sugjerime"</string>
+    <string msgid="3132884821616980034" name="menu_assistant_new_badge">"E re"</string>
+    <string msgid="5272951629083025995" name="menu_blocked_numbers">"Numrat e bllokuar"</string>
+    <string msgid="7769177631511496210" name="menu_change_photo">"Ndrysho fotografinë"</string>
+    <string msgid="2165153460860262501" name="menu_contacts_filter">"Kontakte për t\'u shfaqur"</string>
+    <string msgid="1663022219127343858" name="menu_create_contact_shortcut">"Krijo një shkurtore"</string>
+    <string msgid="2679793632208086460" name="menu_custom_filter_save">"Ruaj"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Fshi"</string>
+    <string msgid="1126469629233412249" name="menu_deleteGroup">"Fshi etiketën"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Redakto"</string>
+    <string msgid="6696843438454341063" name="menu_editGroup">"Hiq kontaktet"</string>
+    <string msgid="2658783911863503902" name="menu_export">"Eksporto"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Eksporto skedarët e bazës së të dhënave"</string>
+    <string msgid="1680178646764069976" name="menu_help">"Ndihmë dhe komente"</string>
+    <string msgid="6107961135813836467" name="menu_import">"Importo"</string>
+    <string msgid="3599512127797513606" name="menu_joinAggregate">"Lidh"</string>
+    <string msgid="400444389718855621" name="menu_linkedContacts">"Shiko kontaktet e lidhura"</string>
+    <string msgid="3127059073617415221" name="menu_new_group_action_bar">"Krijo një etiketë"</string>
+    <string msgid="83331924006712755" name="menu_redirect_calls_to_vm">"Drejto te posta zanore"</string>
+    <string msgid="6720354305399961978" name="menu_removeFromGroup">"Hiq nga etiketa"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Hiq nga të preferuarat"</string>
+    <string msgid="7169512355179757182" name="menu_renameGroup">"Riemërto etiketën"</string>
+    <string msgid="1727844363591825909" name="menu_save">"Ruaj"</string>
+    <string msgid="3999234528229376098" name="menu_selectForGroup">"Zgjidh kontaktet"</string>
+    <string msgid="5978319931321657780" name="menu_sendEmailOption">"Dërgo mail"</string>
+    <string msgid="8850168125274916426" name="menu_sendMessageOption">"Dërgo mesazh"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"Vendos zilen e preferuar"</string>
+    <string msgid="377929915873428211" name="menu_settings">"Cilësimet"</string>
+    <string msgid="943789700636542260" name="menu_share">"Shpërnda"</string>
+    <string msgid="2627252205317945563" name="menu_splitAggregate">"Anulo lidhjen"</string>
+    <string msgid="3266725887008450161" name="menu_sync_remove">"Hiq grupin e sinkronizimit"</string>
+    <string msgid="8210922220185114527" name="menu_title_filters">"Llogaritë"</string>
+    <string msgid="8356921831150278868" name="menu_title_groups">"Emërtimet"</string>
+    <string msgid="8725542534701811737" name="menu_unredirect_calls_to_vm">"Anulo drejtimin te posta zanore"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Nuk u gjet asnjë aplikacion për të menaxhuar këtë veprim"</string>
+    <string msgid="8745511583852904385" name="missing_name">"(Pa emër)"</string>
+    <string msgid="5865884842972833120" name="missing_required_permission">"Ke çaktivizuar një leje e cila është të detyrueshme."</string>
+    <string msgid="5235324124905653550" name="multipleContactDeleteConfirmation">"Fshirja e këtij kontakti do të fshijë detajet nga shumë llogari."</string>
+    <string msgid="2034640839640477827" name="nameLabelsGroup">"Emri"</string>
+    <string msgid="7466985689626017037" name="name_family">"Mbiemri"</string>
+    <string msgid="4280790853455320619" name="name_given">"Emri"</string>
+    <string msgid="8467433655992690326" name="name_middle">"Emri i dytë"</string>
+    <string msgid="4259595234312430484" name="name_phonetic">"Emri fonetik"</string>
+    <string msgid="2640133663656011626" name="name_phonetic_family">"Mbiemri fonetik"</string>
+    <string msgid="8723179018384187631" name="name_phonetic_given">"Emri fonetik"</string>
+    <string msgid="8643721493320405200" name="name_phonetic_middle">"Emri i dytë fonetik"</string>
+    <string msgid="59756378548779822" name="name_prefix">"Parashtesa e emrit"</string>
+    <string msgid="3855278445375651441" name="name_suffix">"Prapashtesa e emrit"</string>
+    <string msgid="4137416137011817930" name="navigation_drawer_close">"Mbyll sirtarin e navigimit"</string>
+    <string msgid="4154758025620107419" name="navigation_drawer_label">"Etiketa <ns1:g id="LABEL_NAME">%s</ns1:g>"</string>
+    <string msgid="1126498472143250642" name="navigation_drawer_open">"Hap sirtarin e navigimit"</string>
+    <string msgid="2823095213265993609" name="nfc_vcard_file_name">"Kontakt nëpërmjet NFC"</string>
+    <string msgid="2891682101053358010" name="nicknameLabelsGroup">"Pseudonimi"</string>
+    <string msgid="2228592924476426108" name="noContacts">"Lista e kontakteve të tua është bosh"</string>
+    <string msgid="5742815694687835125" name="no_button">"Jo"</string>
+    <string msgid="1276397530378323033" name="no_contact_to_share">"Nuk ka kontakte për të shpërndarë"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Shto te kontaktet"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Numri i telefonit"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Mbyll"</string>
+    <string msgid="1651921906873335656" name="nothing_to_import_message">"Nuk ka asgjë për të importuar"</string>
+    <string msgid="2478611760751832035" name="organizationLabelsGroup">"Organizata"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<ns1:g id="COMPANY_0">%2$s</ns1:g>, <ns1:g id="COMPANY_1">%1$s</ns1:g>"</string>
+    <string msgid="6468091477851199285" name="phoneLabelsGroup">"Telefon"</string>
+    <string msgid="2052542573853433204" name="photoPickerNotFoundText">"Nuk ka fotografi në dispozicion në pajisje."</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Zgjidh një fotografi të re"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Zgjidh një fotografi"</string>
+    <string msgid="1936544190231136729" name="pickerSelectContactsActivityTitle">"Zgjidh kontaktet"</string>
+    <string msgid="3487738141112589324" name="postalLabelsGroup">"Adresa"</string>
+    <string msgid="8765560217149624536" name="postal_address">"Adresa"</string>
+    <string msgid="6597491300084895548" name="postal_city">"Qyteti"</string>
+    <string msgid="7638264508416368690" name="postal_country">"Shteti"</string>
+    <string msgid="572136414136673751" name="postal_postcode">"Kodi ZIP"</string>
+    <string msgid="6045263193478437672" name="postal_region">"Shteti"</string>
+    <string msgid="8133143961580058972" name="postal_street">"Rruga"</string>
+    <string msgid="2311011466908220528" name="progress_notifier_message">"Po importon <ns1:g id="CURRENT_NUMBER">%1$s</ns1:g>/<ns1:g id="TOTAL_NUMBER">%2$s</ns1:g>: <ns1:g id="NAME">%3$s</ns1:g>"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Shto një email"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Shto një numër telefoni"</string>
+    <string msgid="8236954313106630862" name="quickcontact_suggestion_cancel_button">"ANULO"</string>
+    <string msgid="3244619714781727946" name="quickcontact_suggestion_link_button">"LIDH KONTAKTET"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Kliko për t\'u kthyer tek ekrani i mëparshëm"</string>
+    <string msgid="4717023505914239809" name="readOnlyContactDeleteConfirmation">"Llogaritë vetëm për lexim në këtë kontakt do të jenë të fshehura, por nuk do të fshihen."</string>
+    <string msgid="7514475664695089411" name="readOnlyContactWarning">"Ky kontakt është vetëm për lexim. Ai nuk mund të fshihet, por mund ta fshehësh."</string>
+    <string msgid="8914797212167683673" name="readOnlyContactWarning_positive_button">"Fshih kontaktin"</string>
+    <string msgid="4251647443358422855" name="reading_vcard_failed_title">"Të dhënat e vCard nuk mund të lexoheshin"</string>
+    <string msgid="1854373894284572781" name="relationLabelsGroup">"Marrëdhënia"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Hiqe fotografinë"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"Asnjë"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"Toni i ziles është i panjohur"</string>
+    <string msgid="2133152192716475939" name="savingDisplayGroups">"Po ruan opsionet e paraqitjes…"</string>
+    <string msgid="8482945356247760701" name="searchHint">"Kërko për kontakte"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Kërko"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Po kërkon..."</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Emrat e kontakteve të tua"</string>
+    <string msgid="5478489655696599219" name="select_account_dialog_title">"Llogaria"</string>
+    <string msgid="7740295432834590737" name="send_and_call_button">"DËRGO DHE TELEFONO"</string>
+    <string msgid="2251339182881603540" name="send_to_selection">"Dërgo"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Të gjitha kontaktet"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Kontaktet e sugjeruara"</string>
+    <string msgid="4417505153468300351" name="set_default">"Vendos të parazgjedhurën"</string>
+    <string msgid="4311613760725609801" name="set_default_account">"Përdore gjithmonë për telefonatat"</string>
+    <string msgid="7370213843590143771" name="set_up_profile">"Konfiguro profilin"</string>
+    <string msgid="7014388749752042863" name="setting_about">"Rreth kontakteve"</string>
+    <string msgid="350219740670774576" name="settings_accounts">"Llogaritë"</string>
+    <string msgid="1534272456405343119" name="settings_my_info_title">"Informacioni im"</string>
+    <string msgid="8109287987498711664" name="share_contacts">"Ndaj të gjitha kontaktet"</string>
+    <string msgid="1216431977330560559" name="share_contacts_failure">"Ndarja e kontakteve dështoi."</string>
+    <string msgid="948429331673358107" name="share_error">"Ky kontakt nuk mund të shpërndahet"</string>
+    <string msgid="4280926751003081042" name="share_favorite_contacts">"Ndaj kontaktet e preferuara"</string>
+    <string msgid="1504383567778497348" name="shortcutActivityTitle">"Zgjidh një kontakt"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Kontakti"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Telefonatë e drejtpërdrejtë"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Mesazh i drejtpërdrejtë"</string>
+    <string msgid="7476283631356909204" name="shortcut_add_contact">"Shto një kontakt"</string>
+    <string msgid="4277410425912984722" name="show_more_content_description">"Shfaq më shumë"</string>
+    <string msgid="4270841592496619317" name="sim_import_button_text">"Importo"</string>
+    <string msgid="1619832410253424452" name="sim_import_cancel_content_description">"Anulo"</string>
+    <string msgid="1503743663717316732" name="sim_import_contact_exists_toast">"Kontakti ekziston tashmë në listën tënde"</string>
+    <string msgid="7743815244380189651" name="sim_import_empty_message">"S\'ka kontakte në kartën SIM"</string>
+    <string msgid="5559267299793622705" name="sim_import_failed_toast">"Importimi i kontakteve të kartës SIM dështoi"</string>
+    <string msgid="2511154832820812822" name="sim_import_title">"Importo nga karta SIM"</string>
+    <string msgid="6910517331401970693" name="sim_import_title_none_selected">"Zgjidh kontaktet"</string>
+    <string msgid="3106905986948679720" name="single_delete_confirmation">"Të fshihet ky kontakt?"</string>
+    <string msgid="6985770499439371497" name="single_sim_display_label">"SIM"</string>
+    <string msgid="1756857139634224222" name="sms">"Mesazhi me tekst"</string>
+    <string msgid="2773424339923116234" name="sms_assistant">"Dërgo mesazh te <ns1:g id="ASSISTANT">%s</ns1:g>"</string>
+    <string msgid="7741770672976099517" name="sms_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (Mesazh)"</string>
+    <string msgid="5004824430094288752" name="sms_callback">"Dërgo mesazh te numri i kthimit të telefonatave"</string>
+    <string msgid="7444227058437359641" name="sms_car">"Dërgo mesazh te numri i makinës"</string>
+    <string msgid="118970873419678087" name="sms_company_main">"Dërgo mesazh te numri kryesor i kompanisë"</string>
+    <string msgid="415060214233647603" name="sms_custom">"Dërgo mesazh me tekst te <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="9204042076306809634" name="sms_fax_home">"Dërgo mesazh te faksi i shtëpisë"</string>
+    <string msgid="8028189067816907075" name="sms_fax_work">"Dërgo mesazh te faksi i punës"</string>
+    <string msgid="7524332261493162995" name="sms_home">"Dërgo mesazh te numri i shtëpisë"</string>
+    <string msgid="8153785037515047845" name="sms_isdn">"Dërgo mesazh te numri ISDN"</string>
+    <string msgid="8621625784504541679" name="sms_main">"Dërgo mesazh te numri kryesor"</string>
+    <string msgid="4069352461380762677" name="sms_mms">"Dërgo mesazh te numri i MMS-së"</string>
+    <string msgid="5200107250451030769" name="sms_mobile">"Dërgo mesazh te numri celular"</string>
+    <string msgid="806127844607642331" name="sms_other">"Tekst"</string>
+    <string msgid="3888842199855843152" name="sms_other_fax">"Dërgo mesazh te faksi"</string>
+    <string msgid="7730404569637015192" name="sms_pager">"Dërgo mesazh te biperi"</string>
+    <string msgid="3329166673433967820" name="sms_radio">"Dërgo mesazh te numri i radios"</string>
+    <string msgid="9034802430065267848" name="sms_telex">"Dërgo mesazh te numri i telefaksit"</string>
+    <string msgid="6782284969132531532" name="sms_tty_tdd">"Dërgo mesazh te numri TTY/TDD"</string>
+    <string msgid="2269624156655267740" name="sms_work">"Dërgo mesazh te numri i punës"</string>
+    <string msgid="2459939960512702560" name="sms_work_mobile">"Dërgo mesazh te numri i celularit"</string>
+    <string msgid="5566924423316960597" name="sms_work_pager">"Dërgo mesazh te numri i biperit"</string>
+    <string msgid="7342030840130187290" name="splitConfirmation">"Të shkëputet ky kontakt në shumë kontakte të ndara?"</string>
+    <string msgid="7719062163511895696" name="splitConfirmationWithPendingChanges">"Dëshiron t\'i ruash ndryshimet që ke bërë tashmë dhe ta shkëputësh këtë kontakt në shumë kontakte të ndara?"</string>
+    <string msgid="9073444264887244032" name="splitConfirmationWithPendingChanges_positive_button">"Ruaj dhe shkëput"</string>
+    <string msgid="9129409098807939699" name="splitConfirmation_positive_button">"Shkëput"</string>
+    <string msgid="5586870015822828392" name="status_available">"I gatshëm"</string>
+    <string msgid="1838861100379804730" name="status_away">"I larguar"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9147992455450257136" name="status_busy">"I zënë"</string>
+    <string msgid="9107788743178980902" name="suggestion_card_duplicates_title">"Dublikatat e mundshme"</string>
+    <string msgid="4474061044387181093" name="suggestion_card_help_message">"Këto kontakte mund të jenë i njëjti person. Mund t\'i lidhësh së bashku si një kontakt të vetëm."</string>
+    <string msgid="3039457405374454914" name="suggestion_card_this_contact_title">"Ky kontakt"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"Bëj një fotografi të re"</string>
+    <string msgid="7496128293167402354" name="take_photo">"Bëj një fotografi"</string>
+    <string msgid="6825255752748313944" name="titleJoinContactDataWith">"Lidh kontaktet"</string>
+    <string msgid="8602752287270586734" name="title_edit_group">"Hiq kontaktet"</string>
+    <string msgid="4664084747121207202" name="title_from_google">"Nga Google"</string>
+    <string msgid="8307885412426754288" name="title_from_other_accounts">"Nga <ns1:g id="ACCOUNT">%s</ns1:g>"</string>
+    <string msgid="1215465657839085613" name="toast_join_with_empty_contact">"Shkruaj emrin e kontaktit para se ta lidhësh me një tjetër."</string>
+    <string msgid="288549957278065542" name="toast_making_personal_copy">"Po krijon një kopje personale..."</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Teksti u kopjua"</string>
+    <string msgid="4882485525268469736" name="touch_to_share_contacts">"Trokit për të ndarë kontaktet."</string>
+    <string msgid="5025336917533693997" name="turn_auto_sync_on_dialog_body">"Ndryshimet që bën në të gjitha aplikacionet dhe llogaritë, jo vetëm \"Kontaktet e Google\", do të përditësohen mes uebit dhe pajisjeve të tua."</string>
+    <string msgid="1070332014838295599" name="turn_auto_sync_on_dialog_confirm_btn">"Aktivizo"</string>
+    <string msgid="333965456829670541" name="turn_auto_sync_on_dialog_title">"Të aktivizohet sinkronizimi automatik?"</string>
+    <string msgid="1425165101664071422" name="undo">"Zhbëj"</string>
+    <string msgid="452592089815420457" name="url_open_error_toast">"Dështoi në hapjen e url-së."</string>
+    <string msgid="2844874826431327531" name="vcard_export_request_rejected_message">"Kërkesa e eksportimit të vCard u refuzua. Provo përsëri më vonë."</string>
+    <string msgid="5223531255894842406" name="vcard_import_failed">"vCard nuk mund të eksportohej."</string>
+    <string msgid="2890471184508516011" name="vcard_import_request_rejected_message">"Kërkesa e importit të vCard u refuzua. Provo përsëri më vonë."</string>
+    <string msgid="2804911199145873396" name="vcard_import_will_start_message">"<ns1:g id="FILENAME">%s</ns1:g> do të importohet së shpejti."</string>
+    <string msgid="1022969530654129470" name="vcard_import_will_start_message_with_default_name">"Skedari do të importohet së shpejti."</string>
+    <string msgid="7171709890959915954" name="vcard_unknown_filename">"kontakti"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Biseda me video"</string>
+    <string msgid="1782685984905600034" name="view_updates_from_group">"Shiko përditësimet"</string>
+    <string msgid="4202998982804009261" name="websiteLabelsGroup">"Faqja e internetit"</string>
+    <string msgid="1268479086848288060" name="yes_button">"Po"</string>
+</resources>

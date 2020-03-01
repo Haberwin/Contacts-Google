@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/levi/AndroidStudioProjects/Contacts-Google/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw600dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "33,30,24,27,21,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1546,1385,1116,1255,1000,880",
+                        "endColumns": "70,69,64,60,55,64",
+                        "endOffsets": "1612,1450,1176,1311,1051,940"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,196,261,322,378",
+                        "endColumns": "70,69,64,60,55,64",
+                        "endOffsets": "121,191,256,317,373,438"
+                    }
+                },
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw600dp-land/integers.xml",
+                    "from": {
+                        "startLines": "21,18,27,24,30",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "988,793,1256,1118,1422",
+                        "endColumns": "63,64,71,69,63",
+                        "endOffsets": "1047,853,1323,1183,1481"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "443,507,572,644,714",
+                        "endColumns": "63,64,71,69,63",
+                        "endOffsets": "502,567,639,709,773"
+                    }
+                }
+            ]
+        }
+    ]
+}

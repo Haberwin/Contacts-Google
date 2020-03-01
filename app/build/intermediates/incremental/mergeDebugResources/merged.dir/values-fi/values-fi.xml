@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="8696793457340503668" name="contacts_count">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> yhteystietoa</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> yhteystieto</item>
+    </plurals>
+    <plurals formatted="false" msgid="7402583111980220575" name="contacts_count_with_account">
+      <item quantity="other"><ns1:g id="COUNT_2">%1$d</ns1:g> yhteystietoa, <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">%1$d</ns1:g> yhteystieto, <ns1:g id="ACCOUNT_1">%2$s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="1477708624197262295" name="contacts_deleted_toast">
+      <item quantity="other">Yhteystiedot poistettu</item>
+      <item quantity="one">Yhteystieto poistettu</item>
+    </plurals>
+    <plurals formatted="false" msgid="5821095773211149295" name="import_from_sim_secondary_contact_count_fmt">
+      <item quantity="other">%1$d yhteystietoa</item>
+      <item quantity="one">1 yhteystieto</item>
+    </plurals>
+    <plurals formatted="false" msgid="2484832025802907060" name="import_from_sim_secondary_template">
+      <item quantity="other"><ns1:g id="COUNT_2">^1</ns1:g> yhteystietoa • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">^1</ns1:g> yhteystieto • <ns1:g id="PHONE_NUMBER_1">^2</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="8572156521110906443" name="sim_import_success_toast_fmt">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> SIM-yhteystietoa tuotiin.</item>
+      <item quantity="one">Yksi SIM-yhteystieto tuotiin.</item>
+    </plurals>
+    <plurals formatted="false" msgid="5886112726191455415" name="title_share_via">
+      <item quantity="other">Jaa yhteystiedot sovelluksella</item>
+      <item quantity="one">Jaa yhteystieto sovelluksella</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Lisäasetukset"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"POIS PÄÄLTÄ"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"PÄÄLLÄ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Vaihto+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"välilyönti"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Valikko+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Haku…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Hakukysely"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Jaa…"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Jaa: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Tiivistä"</string>
+    <string msgid="1765533099416999801" name="about_build_version">"Koontiversio"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"Tietoja"</string>
+    <string msgid="6479990452352919641" name="about_open_source_licenses">"Avoimen lähdekoodin käyttöluvat"</string>
+    <string msgid="57418386931763994" name="about_open_source_licenses_summary">"Avoimen lähdekoodin ohjelmiston käyttöluvan tiedot"</string>
+    <string msgid="3705518622499152626" name="about_privacy_policy">"Tietosuojakäytäntö"</string>
+    <string msgid="4642400812150296723" name="about_terms_of_service">"Käyttöehdot"</string>
+    <string msgid="6696859503887762213" name="account_filter_view_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g>, valittu"</string>
+    <string msgid="2248684521205038389" name="account_filter_view_not_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g>, ei valittu"</string>
+    <string msgid="7128032778471187553" name="account_phone">"Laite"</string>
+    <string msgid="6519016427905087952" name="account_sim">"SIM-kortti"</string>
+    <string msgid="7646143254066243924" name="account_sync_off">"Tilin synkronointi ei ole käytössä. Ota toiminto käyttöön napauttamalla."</string>
+    <string msgid="718948015590343010" name="account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g>-osoite"</string>
+    <string msgid="5506832825256203208" name="action_menu_add_new_contact_button">"Luo uusi yhteystieto"</string>
+    <string msgid="6435476408621731420" name="action_menu_back_from_edit_select">"sulje"</string>
+    <string msgid="8793348588949233348" name="action_menu_back_from_search">"lopeta haku"</string>
+    <string msgid="8275542497615516969" name="activity_title_contacts_filter">"Näytettävät yhteystiedot"</string>
+    <string msgid="5467767062737708066" name="activity_title_licenses">"Avoimen lähdekoodin käyttöluvat"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Asetukset"</string>
+    <string msgid="8201790677994503186" name="add_account">"Lisää tili"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"Lisätäänkö <ns1:g id="EMAIL">%s</ns1:g> yhteystietoihin?"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Lisää uusi tili"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Haluatko muokata valittuja yhteystietoja? Antamasi tiedot kopioidaan."</string>
+    <string msgid="6414231530177338704" name="announce_collapsed_fields">"Tiivistetty"</string>
+    <string msgid="1075947220478530622" name="announce_expanded_fields">"Laajennettu"</string>
+    <string msgid="3906689777043645443" name="applicationLabel">"Yhteystiedot"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"Yhteyshenkilön valokuva"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Äänikeskustelu"</string>
+    <string msgid="2180147284456026587" name="auto_sync_off">"Automaattinen synkronointi ei ole käytössä. Ota toiminto käyttöön napauttamalla."</string>
+    <string msgid="4355362760545735065" name="back_arrow_content_description">"Takaisin"</string>
+    <string msgid="3984346060324014108" name="batch_delete_confirmation">"Poistetaanko valitut yhteystiedot?"</string>
+    <string msgid="8207205649127030030" name="batch_delete_multiple_accounts_confirmation">"Poistettavat yhteystiedot sisältävät tietoja useilta tileiltä. Vain luku -tilassa olevien tilien tiedot piilotetaan, eikä niitä poisteta."</string>
+    <string msgid="8411117621035639964" name="batch_delete_read_only_contact_confirmation">"Vain luku -tilassa olevien tiliesi yhteystietoja ei voida poistaa, mutta ne voidaan piilottaa."</string>
+    <string msgid="5864256698061641841" name="blurbJoinContactDataWith">"Valitse yhteystieto, jonka haluat yhdistää yhteystietoon <ns1:g id="NAME">%s</ns1:g>:"</string>
+    <string msgid="4926308675041506756" name="caching_vcard_message">"Lisätään vCard-tietojen välimuistiversiot paikalliseen väliaikaistallennustilaan. Tuonti alkaa pian."</string>
+    <string msgid="1226272312940516605" name="caching_vcard_title">"Vie välimuistiin"</string>
+    <string msgid="437630601519502587" name="callEnded_pulled">"Puhelu siirrettiin toiselle laitteelle."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"Puheluja ei voi soittaa eston ollessa käytössä."</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Verkko varattu"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"Puhelu päättyi, koska mobiilidata poistettiin käytöstä."</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"Dataraja saavutettu. Puhelu päättyi."</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"Puhelu päättyi, koska mobiilidatan käyttöraja saavutettiin."</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"Vaihdettu toiseen numeroon"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"Vaihdettu videopuheluksi"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"Puhelu vaihdettu SS-pyynnöksi"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"Puhelu vaihdettu USSD-pyynnöksi"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"Vaihdettu tavalliseksi puheluksi"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"Vaihdettu toiseen numeroon"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"Videopuhelu vaihdettu SS-pyynnöksi"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"Videopuhelu vaihdettu USSD-pyynnöksi"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Käyttörajoitus rajoittaa puheluita."</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Käyttörajoitus rajoittaa hätäpuheluita."</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Käyttörajoitus rajoittaa normaaleja puheluita."</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Sallitut numerot rajoittavat soitettavia puheluita."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Virheellinen käyttäjänimi tai salasana"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"ACM-raja ylitetty"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"Kaikki linjat ovat käytössä. Jos haluat soittaa, sulje jokin puhelu tällä tai jollain muulla laitteellasi."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"Ei signaalia"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"Numeroon ei saada yhteyttä"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Matkapuhelinverkko ei ole käytettävissä"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Puhelu verkon ulkopuolelta"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Radio pois käytöstä"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Palvelinvirhe. Yritä myöhemmin uudelleen."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Palvelimeen ei saada yhteyttä"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"Ei SIM-korttia tai SIM-korttivirhe"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"Ei vastausta, aikakatkaistiin"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"Virheellinen numero"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Linja varattu"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"Videopuhelujen soittaminen ei onnistu, kun TTY on käytössä."</string>
+    <string msgid="670941612175068337" name="call_assistant">"Soita: <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="2566802538698913124" name="call_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (soita)"</string>
+    <string msgid="1910165691349426858" name="call_callback">"Soita takaisinsoittonumeroon"</string>
+    <string msgid="3280537320306436445" name="call_car">"Soita autopuhelimeen"</string>
+    <string msgid="6105120947138711257" name="call_company_main">"Soita yrityksen ensisijaiseen numeroon"</string>
+    <string msgid="6385303130912713318" name="call_custom">"Soita: <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8342175628887571876" name="call_fax_home">"Soita faksinumeroon (koti)"</string>
+    <string msgid="7467763592359059243" name="call_fax_work">"Soita faksinumeroon (työ)"</string>
+    <string msgid="1990519474420545392" name="call_home">"Soita kotinumeroon"</string>
+    <string msgid="1541590690193403411" name="call_isdn">"Soita ISDN-numeroon"</string>
+    <string msgid="6082900571803441339" name="call_main">"Soita ensisijaiseen numeroon"</string>
+    <string msgid="6274041545876221437" name="call_mms">"Soita MMS-numeroon"</string>
+    <string msgid="7502236805487609178" name="call_mobile">"Soita matkapuhelimeen"</string>
+    <string msgid="8563753966926932052" name="call_other">"Soita"</string>
+    <string msgid="5745314124619636674" name="call_other_fax">"Soita faksinumeroon"</string>
+    <string msgid="9003902812293983281" name="call_pager">"Soita hakulaitteeseen"</string>
+    <string msgid="8296755876398357063" name="call_radio">"Soita radiopuhelimeen"</string>
+    <string msgid="3043028982108363572" name="call_subject_hint">"Kirjoita muistiinpano, joka lähetetään puhelun yhteydessä…"</string>
+    <string msgid="4545212901205397669" name="call_subject_limit">"<ns1:g id="COUNT">%1$s</ns1:g>/<ns1:g id="LIMIT">%2$s</ns1:g>"</string>
+    <string msgid="7667188212129152558" name="call_subject_type_and_number">"<ns1:g id="TYPE">%1$s</ns1:g> • <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2223170774548648114" name="call_telex">"Soita teleksinumeroon"</string>
+    <string msgid="8951266948204379604" name="call_tty_tdd">"Soita tekstipuhelimeen"</string>
+    <string msgid="8389827628360791676" name="call_with_a_note">"Soita ja lähetä muistiinpano"</string>
+    <string msgid="5328785911463744028" name="call_work">"Soita työnumeroon"</string>
+    <string msgid="8707874281430105394" name="call_work_mobile">"Soita matkapuhelimeen (työ)"</string>
+    <string msgid="3419348514157949008" name="call_work_pager">"Soita hakulaitteeseen (työ)"</string>
+    <string msgid="1288652456274531846" name="cancel_button_content_description">"Peruuta"</string>
+    <string msgid="3057023972074640671" name="cancel_confirmation_dialog_cancel_editing_button">"Hylkää"</string>
+    <string msgid="3316573928085916146" name="cancel_confirmation_dialog_keep_editing_button">"Peruuta"</string>
+    <string msgid="9008214737653278989" name="cancel_confirmation_dialog_message">"Hylätäänkö muutokset?"</string>
+    <string msgid="1995462401949262638" name="cancel_export_confirmation_message">"Peruuta kohteen <ns1:g id="FILENAME">%s</ns1:g> vienti?"</string>
+    <string msgid="3929951040347726757" name="cancel_import_confirmation_message">"Peruuta kohteen <ns1:g id="FILENAME">%s</ns1:g> tuonti?"</string>
+    <string msgid="6139900383366166706" name="cancel_vcard_import_or_export_failed">"vCardin tuonnin/viennin peruutus epäonn."</string>
+    <string msgid="9025361898797412245" name="chat">"Pikaviesti"</string>
+    <string msgid="2588492205291249142" name="chat_aim">"Keskustele AIM:n avulla"</string>
+    <string msgid="981575737258117697" name="chat_gtalk">"Keskustele Google Talkin avulla"</string>
+    <string msgid="8438405386153745775" name="chat_icq">"Keskustele ICQ:n avulla"</string>
+    <string msgid="7561444230307829609" name="chat_jabber">"Keskustele Jabberin avulla"</string>
+    <string msgid="8041633440091073484" name="chat_msn">"Keskustele Windows Liven avulla"</string>
+    <string msgid="4294637812847719693" name="chat_qq">"Keskustele QQ:n avulla"</string>
+    <string msgid="1210045020427480566" name="chat_skype">"Keskustele Skypen avulla"</string>
+    <string msgid="6629211142719943666" name="chat_yahoo">"Keskustele Yahoon avulla"</string>
+    <string msgid="2270554975938265734" name="clearFrequentsConfirmation">"Toiminto tyhjentää Yhteystiedot- ja Puhelin-sovellusten usein käytettyjen yhteystietojen luettelon. Lisäksi sähköpostisovellukset pakotetaan opettelemaan osoiteasetuksesi uudestaan."</string>
+    <string msgid="766292372438450432" name="clearFrequentsConfirmation_title">"Tyhjennetäänkö usein käytetyt?"</string>
+    <string msgid="5157001637482794212" name="clearFrequentsProgress_title">"Tyhjennetään usein käytetyt..."</string>
+    <string msgid="7193185801596678067" name="clear_default">"Poista oletus"</string>
+    <string msgid="1884143625854637874" name="collapse_fields_description">"Kutista"</string>
+    <string msgid="4757877385895561556" name="collapse_name_fields_description">"Tiivistä nimikentät"</string>
+    <string msgid="1765944280846236723" name="composer_failed_to_get_database_infomation">"Tietokannan tietojen hakeminen epäonnistui."</string>
+    <string msgid="5712531702823346549" name="composer_has_no_exportable_contact">"Vietäviä yhteystietoja ei ole."</string>
+    <string msgid="2321648986367005254" name="composer_not_initialized">"vCard-luonti ei käynnistynyt oikein."</string>
+    <string msgid="7046408921529247089" name="connection_error_message">"Ei yhteyttä"</string>
+    <string msgid="3885457515665783976" name="contactGenericErrorToast">"Virhe tallennettaessa yhteystietoa"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Lisää yhteystietoon"</string>
+    <string msgid="5735129234573327701" name="contactJoinErrorToast">"Yhteystietojen yhdistäminen epäonnistui."</string>
+    <string msgid="6860883564984042194" name="contactPhotoSavedErrorToast">"Yhteystietojen kuvien muutosten tallentaminen epäonnistui."</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Valitse yhteystieto"</string>
+    <string msgid="4827033473908688031" name="contactSavedErrorToast">"Ei voitu tallentaa yhteystietojen muutoksia."</string>
+    <string msgid="895136068894549611" name="contactSavedNamedToast">"<ns1:g id="DISPLAY_NAME">%s</ns1:g> tallennettiin."</string>
+    <string msgid="9171862279493213075" name="contactSavedToast">"Yhteystieto tallennettu"</string>
+    <string msgid="2706297508166952431" name="contactUnlinkErrorToast">"Yhteystietojen linkityksen poisto epäonnistui."</string>
+    <string msgid="7122823195786012553" name="contactUnlinkedToast">"Yhteystietojen linkitys on poistettu."</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"Hakemisto <ns1:g id="TYPE">%1$s</ns1:g>"</string>
+    <string msgid="426142748048816297" name="contact_editor_add_linked_contact">"Lisää"</string>
+    <string msgid="4618465940423857694" name="contact_editor_pick_linked_contact_dialog_title">"Linkitetyt yhteystiedot"</string>
+    <string msgid="4186699385645902152" name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Valitse muokattava yhteystieto"</string>
+    <string msgid="8565761674283473549" name="contact_editor_prompt_multiple_accounts">"Valitse uusien yhteystietojen oletustili:"</string>
+    <string msgid="3087691056345099310" name="contact_editor_prompt_one_account">"Uudet yhteystiedot tallennetaan tilille <ns1:g id="ACCOUNT_NAME">%1$s</ns1:g>."</string>
+    <string msgid="6648376557574360096" name="contact_editor_prompt_zero_accounts">"Lisää Google-tili, jolle yhteystiedot voidaan varmuuskopioida. Se vie vain hetken."</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Muokkaa kontaktia"</string>
+    <string msgid="3042788718983070111" name="contact_editor_title_new_contact">"Luo uusi yhteystieto"</string>
+    <string msgid="2443496574528842237" name="contact_editor_title_read_only_contact">"Vain lukuoikeus"</string>
+    <string msgid="4525214336177236653" name="contact_editor_unlink_contacts">"Poista linkitys"</string>
+    <string msgid="752179367353018597" name="contact_status_update_attribution">"lähteestä: <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="7358045508107825068" name="contact_status_update_attribution_with_date">"<ns1:g id="DATE">%1$s</ns1:g> lähteestä: <ns1:g id="SOURCE">%2$s</ns1:g>"</string>
+    <string msgid="8417039765586853670" name="contactsFavoritesLabel">"Suosikit"</string>
+    <string msgid="3343535986195643136" name="contactsJoinedMessage">"Yhteystiedot on linkitetty"</string>
+    <string msgid="1299418263439579455" name="contactsJoinedNamedMessage">"<ns1:g id="NAME">%s</ns1:g> liitetty"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Yhteystiedot"</string>
+    <string msgid="4754058700611188581" name="contacts_default_notification_channel">"Ilmoitukset"</string>
+    <string msgid="7731565342428031249" name="contacts_deleted_many_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g>, <ns1:g id="NAME_1">%2$s</ns1:g>, <ns1:g id="NAME_2">%3$s</ns1:g>… poistettu."</string>
+    <string msgid="2252551736301363193" name="contacts_deleted_one_named_toast">"<ns1:g id="NAME">%1$s</ns1:g> poistettu."</string>
+    <string msgid="3642082931473111791" name="contacts_deleted_two_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g> ja <ns1:g id="NAME_1">%2$s</ns1:g> poistettu."</string>
+    <string msgid="8538705791417534431" name="contacts_export_will_start_message">"Yhteystiedot viedään hetken kuluttua."</string>
+    <string msgid="2846494347384549277" name="contacts_linking_progress_bar">"Linkitetään."</string>
+    <string msgid="4347232421410561500" name="contacts_unavailable_add_account">"Lisää tili"</string>
+    <string msgid="3182801738595937144" name="contacts_unavailable_import_contacts">"Tuo"</string>
+    <string msgid="5989310198163726929" name="contacts_unlinking_progress_bar">"Linkkiä poistetaan."</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"reittiohjeet sijaintiin"</string>
+    <string msgid="3257145021583508761" name="copy_text">"Kopioi leikepöydälle"</string>
+    <string msgid="953651153238790069" name="createContactShortcutSuccessful">"<ns1:g id="NAME">%s</ns1:g> lisättiin aloitusnäytölle."</string>
+    <string msgid="8831303345367275472" name="createContactShortcutSuccessful_NoName">"Yhteystieto lisättiin aloitusnäytölle."</string>
+    <string msgid="3263064599743742865" name="create_group_item_label">"Luo uusi…"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Oman luokituksen nimi"</string>
+    <string msgid="9048525797111024204" name="custom_list_filter">"Näkymän muokkaaminen"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Käytä"</string>
+    <string msgid="7122002148518724139" name="date_year_toggle">"Näytä vuosi"</string>
+    <string msgid="699591683362420991" name="default_editor_account">"Uusien yhteystietojen oletustili"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Oletusääni (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="3512271779086656043" name="deleteConfirmation">"Poistetaanko yhteystieto?"</string>
+    <string msgid="7857888845028586365" name="deleteConfirmation_positive_button">"Poista"</string>
+    <string msgid="335713829185261371" name="delete_group_dialog_message">"Poistetaanko tunniste <ns1:g id="GROUP_LABEL">%1$s</ns1:g>? (Yhteystietoja ei poisteta.)"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"Lisätty suosikkeihin"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"Poistettu suosikeista"</string>
+    <string msgid="688023606766232904" name="description_clear_search">"Tyhjennä haku"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"askelpalautin"</string>
+    <string msgid="53835657343783663" name="description_delete_contact">"Poista"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"Siirry takaisin"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Lisäasetukset"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"plus"</string>
+    <string msgid="6908099247930477551" name="description_minus_button">"poista"</string>
+    <string msgid="8884991311595943271" name="description_no_name_header">"Ellipsi"</string>
+    <string msgid="6737516415168327789" name="description_quick_contact_for">"Pikayhteys henkilöön <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5841525580339803272" name="description_search_video_call">"Soita videopuhelu"</string>
+    <string msgid="7120921378651700947" name="description_video_call">"Soita videopuhelu"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"puhelinvastaaja"</string>
+    <string msgid="1628001095187741417" name="dialog_export">"Vie yhteystiedot"</string>
+    <string msgid="2423592905927819672" name="dialog_import">"Tuo yhteystiedot lähteestä"</string>
+    <string msgid="4969619718062454756" name="dialog_new_contact_account">"Tallenna tuodut yhteystiedot kohteeseen"</string>
+    <string msgid="3451312333591556651" name="dialog_new_group_account">"Valitse tili"</string>
+    <string msgid="8267045393119375803" name="dialog_sync_add">"Lisää synkronointiryhmä"</string>
+    <string msgid="1887759056597975053" name="directory_search_label">"Hakemisto"</string>
+    <string msgid="8618292129829443176" name="directory_search_label_work">"Työhakemisto"</string>
+    <string msgid="8941131776605093596" name="dismiss_sync_alert">"Hylkää"</string>
+    <string msgid="2031647544742889505" name="display_all_contacts">"Kaikki yhteystiedot"</string>
+    <string msgid="2682547080423434170" name="display_more_groups">"Lisää ryhmiä…"</string>
+    <string msgid="3771577099236534776" name="display_options_phonetic_name_fields">"Nimen ääntämistapa"</string>
+    <string msgid="2684905041926954793" name="display_options_sort_by_family_name">"Sukunimi"</string>
+    <string msgid="2778421332815687873" name="display_options_sort_by_given_name">"Etunimi"</string>
+    <string msgid="7028809117272018712" name="display_options_sort_list_by">"Lajitteluperuste"</string>
+    <string msgid="956445100777296467" name="display_options_view_family_name_first">"Sukunimi ensin"</string>
+    <string msgid="3616004640258761473" name="display_options_view_given_name_first">"Etunimi ensin"</string>
+    <string msgid="6514632499276563482" name="display_options_view_names_as">"Nimen muoto"</string>
+    <string msgid="6885954210243119591" name="display_ungrouped">"Kaikki muut yhteystiedot"</string>
+    <string msgid="8872290721676651414" name="display_warn_remove_ungrouped">"Ryhmän <ns1:g id="GROUP">%s</ns1:g> poistaminen synkronoinnista lopettaa myös ryhmittelemättömien yhteystietojen synkronoinnin."</string>
+    <string msgid="6845645831837615899" name="dynamic_shortcut_contact_removed_message">"Yhteystieto poistettiin"</string>
+    <string msgid="249939425761315252" name="dynamic_shortcut_disabled_message">"Pikakuvake on poistettu käytöstä"</string>
+    <string msgid="4137969650184457126" name="editor_account_selector_read_only_title">"Tilin <ns1:g id="ACCOUNT">%s</ns1:g> yhteystietoja ei voi muokata."</string>
+    <string msgid="4426337993307015833" name="editor_account_selector_title">"Tallennetaan tilille"</string>
+    <string msgid="4194479313465418120" name="editor_add_photo_content_description">"Lisää yhteystiedon valokuva"</string>
+    <string msgid="820879708069864340" name="editor_change_photo_content_description">"Vaihda yhteystiedon valokuvaa"</string>
+    <string msgid="8571975622926162369" name="editor_contact_photo_content_description">"Yhteystiedon valokuva"</string>
+    <string msgid="8583095381562991959" name="editor_delete_view_description">"Poista <ns1:g id="DATA_TYPE">%1$s </ns1:g><ns1:g id="DATA_KIND">%2$s</ns1:g>"</string>
+    <string msgid="7335518371270844912" name="editor_delete_view_description_short">"Poista <ns1:g id="DATA_KIND">%s</ns1:g>"</string>
+    <string msgid="1623639078580475818" name="editor_failed_to_load">"Muokkausnäkymän avaaminen epäonnistui."</string>
+    <string msgid="3630987771304393421" name="editor_more_fields">"Lisää kenttiä"</string>
+    <string msgid="7253911385818398903" name="editor_options_always_show_phonetic_names">"Näytä aina"</string>
+    <string msgid="2672008764795671104" name="editor_options_hide_phonetic_names_if_empty">"Piilota, jos tyhjä"</string>
+    <string msgid="5668400997660065897" name="email">"Sähköposti"</string>
+    <string msgid="8389931313045344406" name="emailLabelsGroup">"Sähköposti"</string>
+    <string msgid="5536404237099078802" name="email_custom">"Lähetä sähköpostia: <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8573740658148184279" name="email_home">"Lähetä sähköpostia kotiosoitteeseen"</string>
+    <string msgid="2042889209787989814" name="email_mobile">"Lähetä sähköpostia mobiiliosoitteeseen"</string>
+    <string msgid="3454004077967657109" name="email_other">"Sähköposti"</string>
+    <string msgid="2807430017302722689" name="email_work">"Lähetä sähköpostia työosoitteeseen"</string>
+    <string msgid="6873962901497975964" name="emptyAccount">"Tällä tilillä ei ole yhteystietoja."</string>
+    <string msgid="5102411903247859575" name="emptyGroup">"Tässä tunnisteessa ei ole yhteystietoja."</string>
+    <string msgid="2772242747899664460" name="emptyMainList">"Yhteystietoluettelo on tyhjä."</string>
+    <string msgid="4594274696120278368" name="enter_contact_name">"Hae yhteystiedoista"</string>
+    <string msgid="7960408705307831289" name="eventLabelsGroup">"Erityispäivämäärä"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Päivämäärä"</string>
+    <string msgid="8129294181216760037" name="expand_fields_description">"Laajenna"</string>
+    <string msgid="6948274252874552543" name="expand_name_fields_description">"Näytä lisää nimikenttiä"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Näytä vähemmän"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Näytä enemmän"</string>
+    <string msgid="4407527157056120858" name="export_to_vcf_file">"Vie .vcf-tiedostoon"</string>
+    <string msgid="4938527850142003141" name="exporting_contact_failed_message">"Yhteystietoja ei viety.\nSyy: \"<ns1:g id="FAIL_REASON">%s</ns1:g>\""</string>
+    <string msgid="4892358112409576342" name="exporting_contact_failed_title">"Vieminen epäonnistui"</string>
+    <string msgid="3367949209642931952" name="exporting_contact_list_message">"Yhteystietoja viedään."</string>
+    <string msgid="9072240631534457415" name="exporting_contact_list_title">"Viedään yhteystietoja"</string>
+    <string msgid="2652222370493306887" name="exporting_vcard_canceled_title">"Kohteen <ns1:g id="FILENAME">%s</ns1:g> vienti peruutettu."</string>
+    <string msgid="4767045779458185251" name="exporting_vcard_finished_title">"Kohteen <ns1:g id="FILENAME">%s</ns1:g> vienti valmis."</string>
+    <string msgid="6060472638008218274" name="exporting_vcard_finished_title_fallback">"Yhteystiedot vietiin"</string>
+    <string msgid="1739055986856453882" name="exporting_vcard_finished_toast">"Yhteystiedot vietiin. Jaa yhteystiedot klikkaamalla ilmoitusta."</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Oma <ns1:g id="EXTERNAL_SOURCE">%1$s</ns1:g>-profiili"</string>
+    <string msgid="707260459259688510" name="fail_reason_could_not_initialize_exporter">"Vientiohjelman käynnistys epäonnistui: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\""</string>
+    <string msgid="2067725459821997463" name="fail_reason_could_not_open_file">"Tiedostoa \"<ns1:g id="FILE_NAME">%1$s</ns1:g>\" ei voi avata: <ns1:g id="EXACT_REASON">%2$s</ns1:g>"</string>
+    <string msgid="3018855323913649063" name="fail_reason_error_occurred_during_export">"Virhe viennin aikana: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\"."</string>
+    <string msgid="6748358842976073255" name="fail_reason_io_error">"I/O-virhe"</string>
+    <string msgid="875222757734882898" name="fail_reason_low_memory_during_import">"Muisti ei riitä. Tiedosto voi olla liian suuri."</string>
+    <string msgid="8728506011371262065" name="fail_reason_no_exportable_contact">"Ei vietäviä yhteystietoja."</string>
+    <string msgid="8219562769267148825" name="fail_reason_not_supported">"Muotoa ei tueta."</string>
+    <string msgid="1714092345030570863" name="fail_reason_unknown">"Tuntematon virhe."</string>
+    <string msgid="5414421120553765775" name="ghostData_company">"Yritys"</string>
+    <string msgid="7496735200318496110" name="ghostData_title">"Nimi"</string>
+    <string msgid="5283997303922067997" name="google_account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g>-tili"</string>
+    <string msgid="4359093891863474299" name="groupCreateFailedToast">"Tunnisteen luominen ei onnistu."</string>
+    <string msgid="1924195126172834870" name="groupCreatedToast">"Tunniste luotiin."</string>
+    <string msgid="520896687873262027" name="groupDeletedToast">"Tunniste poistettiin."</string>
+    <string msgid="5196811283836946189" name="groupExistsErrorMessage">"Tunniste on jo olemassa."</string>
+    <string msgid="7536267148196064554" name="groupLoadErrorToast">"Tunnisteen lataus epäonnistui."</string>
+    <string msgid="1431750793695262522" name="groupMemberPickerActivityTitle">"Valitse"</string>
+    <string msgid="4824834898718972768" name="groupMembersAddedToast">"Lisätty tunnisteeseen"</string>
+    <string msgid="3510563559799376603" name="groupMembersRemovedToast">"Poistettu tunnisteesta"</string>
+    <string msgid="2355891714292740162" name="groupSavedErrorToast">"Tunnisteen muutosten tallennus epäonnistui."</string>
+    <string msgid="8211161470235548732" name="groupSomeContactsNoEmailsToast">"Joiltain yhteistiedoilta puuttuu sähköpostiosoite."</string>
+    <string msgid="5530760834827530509" name="groupSomeContactsNoPhonesToast">"Joiltain yhteistiedoilta puuttuu puhelinnumero."</string>
+    <string msgid="3667977658676267687" name="groupUpdatedToast">"Tunniste päivitettiin."</string>
+    <string msgid="8038224059926963133" name="group_edit_field_hint_text">"Tunniste"</string>
+    <string msgid="7624523157537700160" name="group_name_dialog_hint">"Tunnisteen nimi"</string>
+    <string msgid="2668452090427027941" name="group_name_dialog_insert_title">"Luo tunniste"</string>
+    <string msgid="6328021162869677383" name="group_name_dialog_update_title">"Nimeä tunniste uudelleen"</string>
+    <string msgid="7000816729542098972" name="groupsLabel">"Tunnisteet"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"Sähköposti"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Luo uusi yhteystieto"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Tapahtuma"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"Pikaviesti"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Nimi"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Lempinimi"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Muistiinpano"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Organisaatio"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Puhelin"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Suhde"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Sivusto"</string>
+    <string msgid="7128627979899070325" name="hint_findContacts">"Hae yhteystietoja"</string>
+    <string msgid="3898238486262614027" name="imLabelsGroup">"Pikaviestitili"</string>
+    <string msgid="6912071635295799131" name="import_from_sim">"SIM-kortti"</string>
+    <string msgid="5169032449686348118" name="import_from_sim_summary_fmt">"SIM-kortti <ns1:g id="SIM_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8662528435646418203" name="import_from_vcf_file">".vcf-tiedosto"</string>
+    <string msgid="967723361108008345" name="import_from_vcf_file_confirmation_message">"Tuodaanko yhteystiedot vCard-tiedostosta?"</string>
+    <string msgid="3345258302998021066" name="importing_sim_failed_message">"Yhteystietojen tuominen SIM-kortilta epäonnistui."</string>
+    <string msgid="39706901030537985" name="importing_sim_failed_title">"Tuonti epäonnistui."</string>
+    <string msgid="5196369441294050721" name="importing_sim_finished_title">"SIM-kortin tuominen valmis"</string>
+    <string msgid="3638299581276676109" name="importing_sim_in_progress_title">"Tuodaan SIM-kortin yhteystietoja"</string>
+    <string msgid="2147475978165599336" name="importing_vcard_canceled_title">"Kohteen <ns1:g id="FILENAME">%s</ns1:g> tuonti peruttu"</string>
+    <string msgid="4245275224298571351" name="importing_vcard_description">"Tuodaan <ns1:g id="NAME">%s</ns1:g>"</string>
+    <string msgid="3341541727268747967" name="importing_vcard_finished_title">"vCardin <ns1:g id="FILENAME">%s</ns1:g> tuonti valmis"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Puhelinvastaajan numero on tuntematon"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Yhteystietoa ei ole olemassa."</string>
+    <string msgid="8262614843581924365" name="joinConfirmation">"Haluatko tallentaa jo tekemäsi muutokset ja linkittää valitun yhteystiedon?"</string>
+    <string msgid="4573092849769149516" name="joinConfirmation_positive_button">"Tallenna ja linkitä"</string>
+    <string msgid="1994056912242214426" name="label_custom_field">"Muokattu"</string>
+    <string msgid="1276051790427638142" name="label_name_dialog_hint">"Tunnisteen nimi"</string>
+    <string msgid="8337354953278341042" name="label_notes">"Muistiinpanot"</string>
+    <string msgid="7252153678613978127" name="label_sip_address">"SIP"</string>
+    <string msgid="4277114551206032979" name="leave_customize_confirmation_dialog_message">"Hylätäänkö muokkaukset?"</string>
+    <string msgid="1840624396582117590" name="listCustomView">"Muokattu näkymä"</string>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Ei yhteystietoja"</string>
+    <string msgid="8908683398914322369" name="list_filter_all_accounts">"Kaikki yhteystiedot"</string>
+    <string msgid="5031734941601931356" name="list_filter_all_starred">"Tähdelliset"</string>
+    <string msgid="4789963356004169321" name="list_filter_customize">"Muokkaa"</string>
+    <string msgid="735313795643493365" name="list_filter_phones">"Kaikki kontaktit puhelinnumeroineen"</string>
+    <string msgid="1470173699551475015" name="list_filter_phones_work">"Työprofiilin yhteystiedot"</string>
+    <string msgid="5871400283515893087" name="list_filter_single">"Yhteystiedot"</string>
+    <string msgid="6046691709127661065" name="local_invisible_directory">"Muu"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Oma paikallinen profiili"</string>
+    <string msgid="2551177578246113614" name="local_search_label">"Kaikki yhteystiedot"</string>
+    <string msgid="8761800628069473526" name="map_custom">"Näytä osoite: <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="1243547733423343982" name="map_home">"Näytä kotiosoite"</string>
+    <string msgid="3817820803587012641" name="map_other">"Näytä osoite"</string>
+    <string msgid="1360474076921878088" name="map_work">"Näytä työosoite"</string>
+    <string msgid="655196688840626483" name="menu_addContactsToGroup">"Lisää yhteystietoja"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Lisää suosikkeihin"</string>
+    <string msgid="3267409983764370041" name="menu_addToGroup">"Lisää yhteystieto"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Lisää yhteystietoihin"</string>
+    <string msgid="4465646512002163011" name="menu_add_contacts">"Lisää"</string>
+    <string msgid="5760693735722052454" name="menu_assistant">"Ehdotukset"</string>
+    <string msgid="3132884821616980034" name="menu_assistant_new_badge">"Uusi"</string>
+    <string msgid="5272951629083025995" name="menu_blocked_numbers">"Estetyt numerot"</string>
+    <string msgid="7769177631511496210" name="menu_change_photo">"Vaihda kuva"</string>
+    <string msgid="2165153460860262501" name="menu_contacts_filter">"Näytettävät yhteystiedot"</string>
+    <string msgid="1663022219127343858" name="menu_create_contact_shortcut">"Luo pikakuvake"</string>
+    <string msgid="2679793632208086460" name="menu_custom_filter_save">"Tallenna"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Poista"</string>
+    <string msgid="1126469629233412249" name="menu_deleteGroup">"Poista tunniste"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Muokkaa"</string>
+    <string msgid="6696843438454341063" name="menu_editGroup">"Poista yhteystiedot"</string>
+    <string msgid="2658783911863503902" name="menu_export">"Vie"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Vie tietokantatiedostot"</string>
+    <string msgid="1680178646764069976" name="menu_help">"Ohje ja palaute"</string>
+    <string msgid="6107961135813836467" name="menu_import">"Tuo"</string>
+    <string msgid="3599512127797513606" name="menu_joinAggregate">"Linkitä"</string>
+    <string msgid="400444389718855621" name="menu_linkedContacts">"Näytä linkitetyt yhteystiedot"</string>
+    <string msgid="3127059073617415221" name="menu_new_group_action_bar">"Luo tunniste"</string>
+    <string msgid="83331924006712755" name="menu_redirect_calls_to_vm">"Ohjaa suoraan vastaajaan"</string>
+    <string msgid="6720354305399961978" name="menu_removeFromGroup">"Poista tunnisteesta"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Poista suosikeista"</string>
+    <string msgid="7169512355179757182" name="menu_renameGroup">"Nimeä tunniste uudelleen"</string>
+    <string msgid="1727844363591825909" name="menu_save">"Tallenna"</string>
+    <string msgid="3999234528229376098" name="menu_selectForGroup">"Kontaktien valitseminen"</string>
+    <string msgid="5978319931321657780" name="menu_sendEmailOption">"Lähetä sähköpostia"</string>
+    <string msgid="8850168125274916426" name="menu_sendMessageOption">"Lähetä viesti"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"Aseta soittoääni"</string>
+    <string msgid="377929915873428211" name="menu_settings">"Asetukset"</string>
+    <string msgid="943789700636542260" name="menu_share">"Jaa"</string>
+    <string msgid="2627252205317945563" name="menu_splitAggregate">"Poista linkitys"</string>
+    <string msgid="3266725887008450161" name="menu_sync_remove">"Poista synkronointiryhmä"</string>
+    <string msgid="8210922220185114527" name="menu_title_filters">"Tilit"</string>
+    <string msgid="8356921831150278868" name="menu_title_groups">"Tunnisteet"</string>
+    <string msgid="8725542534701811737" name="menu_unredirect_calls_to_vm">"Kumoa vastaajaan ohjaaminen"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Tätä toimintoa käsittelevää sovellusta ei löydy."</string>
+    <string msgid="8745511583852904385" name="missing_name">"(Ei nimeä)"</string>
+    <string msgid="5865884842972833120" name="missing_required_permission">"Olet poistanut käytöstä tarvittavan käyttöoikeuden."</string>
+    <string msgid="5235324124905653550" name="multipleContactDeleteConfirmation">"Jos poistat tämän yhteystiedon, tietoja poistetaan useilta tileiltä."</string>
+    <string msgid="2034640839640477827" name="nameLabelsGroup">"Nimi"</string>
+    <string msgid="7466985689626017037" name="name_family">"Sukunimi"</string>
+    <string msgid="4280790853455320619" name="name_given">"Etunimi"</string>
+    <string msgid="8467433655992690326" name="name_middle">"Toinen nimi"</string>
+    <string msgid="4259595234312430484" name="name_phonetic">"Nimen ääntämistapa"</string>
+    <string msgid="2640133663656011626" name="name_phonetic_family">"Sukunimen ääntämistapa"</string>
+    <string msgid="8723179018384187631" name="name_phonetic_given">"Etunimen ääntämistapa"</string>
+    <string msgid="8643721493320405200" name="name_phonetic_middle">"Toisen nimen ääntämistapa"</string>
+    <string msgid="59756378548779822" name="name_prefix">"Nimen etuliite"</string>
+    <string msgid="3855278445375651441" name="name_suffix">"Nimen jälkiliite"</string>
+    <string msgid="4137416137011817930" name="navigation_drawer_close">"Sulje navigoinnin vetopaneeli"</string>
+    <string msgid="4154758025620107419" name="navigation_drawer_label">"Tunniste <ns1:g id="LABEL_NAME">%s</ns1:g>"</string>
+    <string msgid="1126498472143250642" name="navigation_drawer_open">"Avaa navigoinnin vetopaneeli"</string>
+    <string msgid="2823095213265993609" name="nfc_vcard_file_name">"Kontakti saatu (NFC)"</string>
+    <string msgid="2891682101053358010" name="nicknameLabelsGroup">"Lempinimi"</string>
+    <string msgid="2228592924476426108" name="noContacts">"Yhteystietoluettelo on tyhjä."</string>
+    <string msgid="5742815694687835125" name="no_button">"Ei"</string>
+    <string msgid="1276397530378323033" name="no_contact_to_share">"Jaettavia yhteystietoja ei ole."</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Lisää yhteystietoihin"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Puhelinnumero"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Sulje"</string>
+    <string msgid="1651921906873335656" name="nothing_to_import_message">"Ei tuotavia tietoja"</string>
+    <string msgid="2478611760751832035" name="organizationLabelsGroup">"Organisaatio"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<ns1:g id="COMPANY_0">%2$s</ns1:g>, <ns1:g id="COMPANY_1">%1$s</ns1:g>"</string>
+    <string msgid="6468091477851199285" name="phoneLabelsGroup">"Puhelin"</string>
+    <string msgid="2052542573853433204" name="photoPickerNotFoundText">"Laitteella ei ole kuvia."</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Valitse uusi valokuva"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Valitse valokuva"</string>
+    <string msgid="1936544190231136729" name="pickerSelectContactsActivityTitle">"Valitse yhteystiedot"</string>
+    <string msgid="3487738141112589324" name="postalLabelsGroup">"Osoite"</string>
+    <string msgid="8765560217149624536" name="postal_address">"Osoite"</string>
+    <string msgid="6597491300084895548" name="postal_city">"Kaupunki"</string>
+    <string msgid="7638264508416368690" name="postal_country">"Maa"</string>
+    <string msgid="572136414136673751" name="postal_postcode">"Postinumero"</string>
+    <string msgid="6045263193478437672" name="postal_region">"Lääni"</string>
+    <string msgid="8133143961580058972" name="postal_street">"Katuosoite"</string>
+    <string msgid="2311011466908220528" name="progress_notifier_message">"Tuodaan <ns1:g id="CURRENT_NUMBER">%1$s</ns1:g>/<ns1:g id="TOTAL_NUMBER">%2$s</ns1:g>: <ns1:g id="NAME">%3$s</ns1:g>"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Lisää sähköposti"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Lisää puhelinnumero"</string>
+    <string msgid="8236954313106630862" name="quickcontact_suggestion_cancel_button">"PERUUTA"</string>
+    <string msgid="3244619714781727946" name="quickcontact_suggestion_link_button">"LINKITÄ YHTEYSTIEDOT"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Palaa edelliseen näyttöön klikkaamalla"</string>
+    <string msgid="4717023505914239809" name="readOnlyContactDeleteConfirmation">"Yhteystiedon vain luku ‑tilassa olevat tilit piilotetaan, ei poisteta."</string>
+    <string msgid="7514475664695089411" name="readOnlyContactWarning">"Yhteystieto on vain luku ‑tilassa. Sitä ei voi poistaa, mutta voit piilottaa sen."</string>
+    <string msgid="8914797212167683673" name="readOnlyContactWarning_positive_button">"Piilota yhteystieto"</string>
+    <string msgid="4251647443358422855" name="reading_vcard_failed_title">"vCard-tietojen luku epäonnistui."</string>
+    <string msgid="1854373894284572781" name="relationLabelsGroup">"Suhde"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Poista kuva"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"Ei mitään"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"Tuntematon soittoääni"</string>
+    <string msgid="2133152192716475939" name="savingDisplayGroups">"Tallennetaan näyttövalintoja…"</string>
+    <string msgid="8482945356247760701" name="searchHint">"Hae yhteystiedoista"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Haku"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Haetaan..."</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Yhteystietojen nimet"</string>
+    <string msgid="5478489655696599219" name="select_account_dialog_title">"Tili"</string>
+    <string msgid="7740295432834590737" name="send_and_call_button">"LÄHETÄ ja SOITA"</string>
+    <string msgid="2251339182881603540" name="send_to_selection">"Lähetä"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Kaikki yhteystiedot"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Ehdotetut yhteystiedot"</string>
+    <string msgid="4417505153468300351" name="set_default">"Aseta oletukseksi"</string>
+    <string msgid="4311613760725609801" name="set_default_account">"Käytä kaikille puheluille"</string>
+    <string msgid="7370213843590143771" name="set_up_profile">"Luo profiili"</string>
+    <string msgid="7014388749752042863" name="setting_about">"Tietoja yhteystiedoista"</string>
+    <string msgid="350219740670774576" name="settings_accounts">"Tilit"</string>
+    <string msgid="1534272456405343119" name="settings_my_info_title">"Omat tiedot"</string>
+    <string msgid="8109287987498711664" name="share_contacts">"Jaa kaikki yhteystiedot"</string>
+    <string msgid="1216431977330560559" name="share_contacts_failure">"Yhteystietojen jakaminen epäonnistui."</string>
+    <string msgid="948429331673358107" name="share_error">"Yhteystieto ei jaettavissa"</string>
+    <string msgid="4280926751003081042" name="share_favorite_contacts">"Jaa suosikkiyhteystiedot"</string>
+    <string msgid="1504383567778497348" name="shortcutActivityTitle">"Yhteystiedon valitseminen"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Yhteystieto"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Puhelu"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Tekstiviesti"</string>
+    <string msgid="7476283631356909204" name="shortcut_add_contact">"Lisää yhteystieto"</string>
+    <string msgid="4277410425912984722" name="show_more_content_description">"Näytä lisää"</string>
+    <string msgid="4270841592496619317" name="sim_import_button_text">"Tuo"</string>
+    <string msgid="1619832410253424452" name="sim_import_cancel_content_description">"Peruuta"</string>
+    <string msgid="1503743663717316732" name="sim_import_contact_exists_toast">"Yhteystieto on jo luettelossasi."</string>
+    <string msgid="7743815244380189651" name="sim_import_empty_message">"SIM-kortilla ei ole yhteystietoja."</string>
+    <string msgid="5559267299793622705" name="sim_import_failed_toast">"SIM-yhteystietojen tuonti epäonnistui."</string>
+    <string msgid="2511154832820812822" name="sim_import_title">"Tuo SIM-kortilta"</string>
+    <string msgid="6910517331401970693" name="sim_import_title_none_selected">"Valitse yhteystiedot"</string>
+    <string msgid="3106905986948679720" name="single_delete_confirmation">"Poistetaanko yhteystieto?"</string>
+    <string msgid="6985770499439371497" name="single_sim_display_label">"SIM-kortti"</string>
+    <string msgid="1756857139634224222" name="sms">"Tekstiviesti"</string>
+    <string msgid="2773424339923116234" name="sms_assistant">"Lähetä tekstiviesti: <ns1:g id="ASSISTANT">%s</ns1:g>"</string>
+    <string msgid="7741770672976099517" name="sms_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (lähetä viesti)"</string>
+    <string msgid="5004824430094288752" name="sms_callback">"Lähetä tekstiviesti takaisinsoittonumeroon"</string>
+    <string msgid="7444227058437359641" name="sms_car">"Lähetä tekstiviesti autopuhelimeen"</string>
+    <string msgid="118970873419678087" name="sms_company_main">"Lähetä tekstiviesti yrityksen ensisijaiseen numeroon"</string>
+    <string msgid="415060214233647603" name="sms_custom">"Lähetä tekstiviesti: <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="9204042076306809634" name="sms_fax_home">"Lähetä tekstiviesti faksinumeroon (koti)"</string>
+    <string msgid="8028189067816907075" name="sms_fax_work">"Lähetä tekstiviesti faksinumeroon (työ)"</string>
+    <string msgid="7524332261493162995" name="sms_home">"Lähetä tekstiviesti kotinumeroon"</string>
+    <string msgid="8153785037515047845" name="sms_isdn">"Lähetä tekstiviesti ISDN-numeroon"</string>
+    <string msgid="8621625784504541679" name="sms_main">"Lähetä tekstiviesti ensisijaiseen numeroon"</string>
+    <string msgid="4069352461380762677" name="sms_mms">"Lähetä tekstiviesti MMS-numeroon"</string>
+    <string msgid="5200107250451030769" name="sms_mobile">"Lähetä tekstiviesti matkapuhelimeen"</string>
+    <string msgid="806127844607642331" name="sms_other">"Tekstiviesti"</string>
+    <string msgid="3888842199855843152" name="sms_other_fax">"Lähetä tekstiviesti faksinumeroon"</string>
+    <string msgid="7730404569637015192" name="sms_pager">"Lähetä tekstiviesti hakulaitteeseen"</string>
+    <string msgid="3329166673433967820" name="sms_radio">"Lähetä tekstiviesti radiopuhelimeen"</string>
+    <string msgid="9034802430065267848" name="sms_telex">"Lähetä tekstiviesti teleksinumeroon"</string>
+    <string msgid="6782284969132531532" name="sms_tty_tdd">"Lähetä tekstiviesti tekstipuhelimeen"</string>
+    <string msgid="2269624156655267740" name="sms_work">"Lähetä tekstiviesti työnumeroon"</string>
+    <string msgid="2459939960512702560" name="sms_work_mobile">"Lähetä tekstiviesti matkapuhelimeen (työ)"</string>
+    <string msgid="5566924423316960597" name="sms_work_pager">"Lähetä tekstiviesti hakulaitteeseen (työ)"</string>
+    <string msgid="7342030840130187290" name="splitConfirmation">"Poistetaanko tämän yhteystiedon linkitys useisiin yhteystietoihin?"</string>
+    <string msgid="7719062163511895696" name="splitConfirmationWithPendingChanges">"Haluatko tallentaa jo tekemäsi muutokset ja poistaa tämän yhteystiedon linkityksen useisiin yhteystietoihin?"</string>
+    <string msgid="9073444264887244032" name="splitConfirmationWithPendingChanges_positive_button">"Tallenna muutokset ja poista linkitys"</string>
+    <string msgid="9129409098807939699" name="splitConfirmation_positive_button">"Poista linkitys"</string>
+    <string msgid="5586870015822828392" name="status_available">"Tavoitettavissa"</string>
+    <string msgid="1838861100379804730" name="status_away">"Poissa"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9147992455450257136" name="status_busy">"Varattu"</string>
+    <string msgid="9107788743178980902" name="suggestion_card_duplicates_title">"Mahdolliset kaksoiskappaleet"</string>
+    <string msgid="4474061044387181093" name="suggestion_card_help_message">"Nämä yhteystiedot saattavat kuulua samalle henkilölle. Voit linkittää ne yhdeksi yhteystiedoksi."</string>
+    <string msgid="3039457405374454914" name="suggestion_card_this_contact_title">"Tämä kontakti"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"Ota uusi kuva"</string>
+    <string msgid="7496128293167402354" name="take_photo">"Ota valokuva"</string>
+    <string msgid="6825255752748313944" name="titleJoinContactDataWith">"Linkitä yhteystiedot"</string>
+    <string msgid="8602752287270586734" name="title_edit_group">"Poista yhteystiedot"</string>
+    <string msgid="4664084747121207202" name="title_from_google">"Googlelta"</string>
+    <string msgid="8307885412426754288" name="title_from_other_accounts">"Tililtä <ns1:g id="ACCOUNT">%s</ns1:g>"</string>
+    <string msgid="1215465657839085613" name="toast_join_with_empty_contact">"Kirjoita kontaktin nimi ennen kuin yhdistät sen toiseen."</string>
+    <string msgid="288549957278065542" name="toast_making_personal_copy">"Luodaan kopio..."</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Teksti kopioitu"</string>
+    <string msgid="4882485525268469736" name="touch_to_share_contacts">"Jaa yhteystiedot napauttamalla."</string>
+    <string msgid="5025336917533693997" name="turn_auto_sync_on_dialog_body">"Yhteystietoihin ja kaikkiin muihin sovelluksiin ja tileihin tekemäsi muutokset synkronoidaan verkon ja laitteidesi välillä."</string>
+    <string msgid="1070332014838295599" name="turn_auto_sync_on_dialog_confirm_btn">"Ota käyttöön"</string>
+    <string msgid="333965456829670541" name="turn_auto_sync_on_dialog_title">"Otetaanko automaattinen synkronointi käyttöön?"</string>
+    <string msgid="1425165101664071422" name="undo">"Kumoa"</string>
+    <string msgid="452592089815420457" name="url_open_error_toast">"URL-osoitteen avaus epäonnistui."</string>
+    <string msgid="2844874826431327531" name="vcard_export_request_rejected_message">"vCard-vientipyyntö hylättiin. Yritä myöhemmin uudelleen."</string>
+    <string msgid="5223531255894842406" name="vcard_import_failed">"vCard-tietojen tuominen epäonnistui."</string>
+    <string msgid="2890471184508516011" name="vcard_import_request_rejected_message">"vCard-tuontipyyntö hylättiin. Yritä myöhemmin uudelleen."</string>
+    <string msgid="2804911199145873396" name="vcard_import_will_start_message">"<ns1:g id="FILENAME">%s</ns1:g> tuodaan pian."</string>
+    <string msgid="1022969530654129470" name="vcard_import_will_start_message_with_default_name">"Tiedosto tuodaan pian."</string>
+    <string msgid="7171709890959915954" name="vcard_unknown_filename">"yhteystieto"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Videokeskustelu"</string>
+    <string msgid="1782685984905600034" name="view_updates_from_group">"Näytä päivitykset"</string>
+    <string msgid="4202998982804009261" name="websiteLabelsGroup">"Sivusto"</string>
+    <string msgid="1268479086848288060" name="yes_button">"Kyllä"</string>
+</resources>

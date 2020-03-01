@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="8696793457340503668" name="contacts_count">
+      <item quantity="other">ទំនាក់ទំនង <ns1:g id="COUNT_1">%d</ns1:g></item>
+      <item quantity="one">ទំនាក់ទំនង <ns1:g id="COUNT_0">%d</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="7402583111980220575" name="contacts_count_with_account">
+      <item quantity="other">ទំនាក់ទំនង <ns1:g id="COUNT_2">%1$d</ns1:g> · <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+      <item quantity="one">ទំនាក់ទំនង <ns1:g id="COUNT_0">%1$d</ns1:g> · <ns1:g id="ACCOUNT_1">%2$s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="1477708624197262295" name="contacts_deleted_toast">
+      <item quantity="other">បានលុបទំនាក់ទំនង</item>
+      <item quantity="one">បានលុបទំនាក់ទំនង</item>
+    </plurals>
+    <plurals formatted="false" msgid="5821095773211149295" name="import_from_sim_secondary_contact_count_fmt">
+      <item quantity="other">ទំនាក់ទំនង %1$d</item>
+      <item quantity="one">ទំនាក់ទំនង 1</item>
+    </plurals>
+    <plurals formatted="false" msgid="2484832025802907060" name="import_from_sim_secondary_template">
+      <item quantity="other">ទំនាក់ទំនង <ns1:g id="COUNT_2">^1</ns1:g> • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+      <item quantity="one">ទំនាក់ទំនង <ns1:g id="COUNT_0">^1</ns1:g> • <ns1:g id="PHONE_NUMBER_1">^2</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="8572156521110906443" name="sim_import_success_toast_fmt">
+      <item quantity="other">បាន​នាំចូល​ទំនាក់ទំនង SIM <ns1:g id="COUNT">%d</ns1:g></item>
+      <item quantity="one">បាន​នាំចូល​ទំនាក់ទំនង SIM 1</item>
+    </plurals>
+    <plurals formatted="false" msgid="5886112726191455415" name="title_share_via">
+      <item quantity="other">ចែករំលែក​ទំនាក់ទំនង​តាម</item>
+      <item quantity="one">ចែករំលែក​ទំនាក់ទំនង​តាម</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"​ទៅទំព័រដើម"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"រំកិលឡើងលើ"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ជម្រើសច្រើនទៀត"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"រួចរាល់"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"មើលទាំងអស់"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ជ្រើសរើស​កម្មវិធី​​"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"បិទ"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"បើក"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"លុប"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"ស្វែងរក…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"សម្អាត​សំណួរ"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"ស្វែងរកសំណួរ​"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"ស្វែងរក"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ដាក់បញ្ជូន​សំណួរ"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"ស្វែងរក​តាម​សំឡេង"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"ចែករំលែក​ជា​មួយ"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"ចែក​រំលែក​ជា​មួយ <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"បង្រួម"</string>
+    <string msgid="1765533099416999801" name="about_build_version">"កំណែបង្កើត"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"អំពី"</string>
+    <string msgid="6479990452352919641" name="about_open_source_licenses">"អាជ្ញាប័ណ្ណ​ប្រភព​កូដ​ចំហ"</string>
+    <string msgid="57418386931763994" name="about_open_source_licenses_summary">"សេចក្ដីលម្អិតអាជ្ញាប័ណ្ណសម្រាប់កម្មវិធីប្រភពកូដ​ចំហ"</string>
+    <string msgid="3705518622499152626" name="about_privacy_policy">"គោលការណ៍​​ឯកជនភាព"</string>
+    <string msgid="4642400812150296723" name="about_terms_of_service">"លក្ខខណ្ឌ​ប្រើប្រាស់"</string>
+    <string msgid="6696859503887762213" name="account_filter_view_checked">"បានពិនិត្យ <ns1:g id="ACCOUNT_INFO">%s</ns1:g>"</string>
+    <string msgid="2248684521205038389" name="account_filter_view_not_checked">"មិនបានពិនិត្យ <ns1:g id="ACCOUNT_INFO">%s</ns1:g>"</string>
+    <string msgid="7128032778471187553" name="account_phone">"ឧបករណ៍"</string>
+    <string msgid="6519016427905087952" name="account_sim">"SIM"</string>
+    <string msgid="7646143254066243924" name="account_sync_off">"ការ​ធ្វើ​សមកាលកម្ម​គណនី​ត្រូវ​បាន​បិទ។ ចុច ដើម្បី​បើក។"</string>
+    <string msgid="718948015590343010" name="account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g> ទំនាក់ទំនង"</string>
+    <string msgid="5506832825256203208" name="action_menu_add_new_contact_button">"បង្កើត​ទំនាក់ទំនង​ថ្មី"</string>
+    <string msgid="6435476408621731420" name="action_menu_back_from_edit_select">"បិទ"</string>
+    <string msgid="8793348588949233348" name="action_menu_back_from_search">"បញ្ឈប់​ការ​ស្វែងរក"</string>
+    <string msgid="8275542497615516969" name="activity_title_contacts_filter">"ទំនាក់ទំនង​ដែល​ត្រូវ​បង្ហាញ"</string>
+    <string msgid="5467767062737708066" name="activity_title_licenses">"អាជ្ញាប័ណ្ណ​ប្រភព​កូដ​ចំហ"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"ការ​កំណត់"</string>
+    <string msgid="8201790677994503186" name="add_account">"បញ្ចូល​​គណនី"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"បញ្ចូល \"<ns1:g id="EMAIL">%s</ns1:g>\" ទៅ​ក្នុង​ទំនាក់ទំនង?"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"បន្ថែម​គណនី​ថ្មី"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"ប្ដូរ​ដើម្បី​កែ​ទំនាក់ទំនង​ដែល​បាន​ជ្រើស? ព័ត៌មាន​ដែល​អ្នក​បញ្ចូល​នឹង​បាន​ចម្លង។"</string>
+    <string msgid="6414231530177338704" name="announce_collapsed_fields">"បានលាក់"</string>
+    <string msgid="1075947220478530622" name="announce_expanded_fields">"បានពង្រីក"</string>
+    <string msgid="3906689777043645443" name="applicationLabel">"ទំនាក់ទំនង"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"រូបថត​ទំនាក់ទំនង"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"ជជែក​ជា​សំឡេង"</string>
+    <string msgid="2180147284456026587" name="auto_sync_off">"ការធ្វើសមកាលស្វ័យប្រវត្តិ​ត្រូវ​បានបិទ។ ចុច ដើម្បីបើក។"</string>
+    <string msgid="4355362760545735065" name="back_arrow_content_description">"ថយក្រោយ"</string>
+    <string msgid="3984346060324014108" name="batch_delete_confirmation">"លុបទំនាក់ទំនងដែលបានជ្រើសឬ?"</string>
+    <string msgid="8207205649127030030" name="batch_delete_multiple_accounts_confirmation">"ទំនាក់ទំនងដែលនឹងត្រូវលុបមានព័ត៌មានលម្អិតពីគណនីច្រើន។ ព័ត៌មានលម្អិតពីគណនីសម្រាប់តែអានប៉ុណ្ណោះនឹងត្រូវបានលាក់ ប៉ុន្តែវានឹងមិនត្រូវបានលុបនោះទេ។"</string>
+    <string msgid="8411117621035639964" name="batch_delete_read_only_contact_confirmation">"ព័ត៌មានលម្អិតពីគណនីសម្រាប់តែអានប៉ុណ្ណោះមិនអាចលុបបានទេ ប៉ុន្តែអាចលាក់បាន។"</string>
+    <string msgid="5864256698061641841" name="blurbJoinContactDataWith">"ជ្រើសរើសទំនាក់ទំនងដែលអ្នកចង់តភ្ជាប់ជាមួយ <ns1:g id="NAME">%s</ns1:g>៖"</string>
+    <string msgid="4926308675041506756" name="caching_vcard_message">"ការ​ផ្ទុក vCard(s​) ទៅកាន់​ឧបករណ៍​ផ្ទុក​ប​បណ្ដោះអាសន្ន​មូលដ្ឋាន។ ការ​នាំចូល​ពិតប្រាកដ​នឹង​ចាប់ផ្ដើម​ម​ឆាប់ៗ។"</string>
+    <string msgid="1226272312940516605" name="caching_vcard_title">"ការ​ផ្ទុក​ក្នុង​ឃ្លាំង​សម្ងាត់"</string>
+    <string msgid="437630601519502587" name="callEnded_pulled">"បាន​បញ្ជូន​បន្ត​ការហៅ​ទៅ​ឧបករណ៍​ផ្សេង។"</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"មិនអាចធ្វើការហៅចេញបានទេ ខណៈពេលដែលរបានៃការហៅបើក។"</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"បណ្ដាញ​ជាប់​រវល់"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"ការហៅ​​បាន​បញ្ចប់ ព្រោះ​ទិន្នន័យ​ទូរសព្ទ​ចល័ត​ត្រូវ​បាន​បិទ។"</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"បាន​ដល់​កម្រិត​កំណត់​ទិន្នន័យ។ ការ​ហៅ​ទូរសព្ទ​បាន​បញ្ចប់។"</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"ការហៅ​ទូរសព្ទ​​បាន​បញ្ចប់ ព្រោះ​​​បាន​ដល់​កម្រិត​កំណត់​ទិន្នន័យ​ទូរសព្ទ​ចល័ត​ហើយ។"</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"បាន​ប្ដូរ​ទៅ​លេខ​ផ្សេង"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"បាន​ប្ដូរ​ទៅ​ការហៅ​ជា​វីដេអូ"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"ការហៅ​ទូរសព្ទ​បាន​ប្ដូរ​ទៅ​សំណើ SS"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"ការហៅ​ទូរសព្ទ​បាន​ប្ដូរ​ទៅ​សំណើ USSD"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"បាន​ប្ដូរ​ទៅ​ការហៅ​ជាប្រចាំ"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"បាន​ប្ដូរ​ទៅ​លេខ​ផ្សេង"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"ការហៅ​ជា​វីដេអូ​បាន​ប្ដូរ​ទៅ​សំណើ SS"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"ការហៅ​ជា​វីដេអូ​បាន​ប្ដូរ​ទៅ​សំណើ USSD"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"រឹតបណ្តឹងការហៅដោយការគ្រប់គ្រងការចូលប្រើ។"</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"ការហៅពេលមានអាសន្នត្រូវបានរឹតបណ្តឹងដោយការគ្រប់គ្រងការចូលប្រើ។"</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"ការហៅធម្មតាត្រូវបានរឹតបណ្តឹងដោយការគ្រប់គ្រងការចូលប្រើ។"</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"បាន​កំណត់​​កម្រិត​ការ​ហៅ​ចេញ​តាម FDN ។"</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"ឈ្មោះ​អ្នក​ប្រើ​ ឬ​ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"បាន​លើស​ដែន​កំណត់ ACM"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"ខ្សែ​ទូរសព្ទ​ដែល​ទំនេរ​ទាំងអស់​កំពុង​តែ​ប្រើប្រាស់។ ដើម្បី​​ធ្វើការ​ហៅ សូម​ផ្ដាច់​ការ​ហៅ​មួយ​នៅ​លើ​ឧបករណ៍​នេះ ឬ​​នៅ​លើ​ឧបករណ៍​ផ្សេង​មួយ​របស់​អ្នក។"</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"គ្មាន​សញ្ញា"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"​លេខ​ដែល​មិន​អាច​ហៅ​ចូល"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"បណ្តាញចល័តមិនមានទេ។"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"ការហៅទៅក្រៅបណ្តាញ"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"បិទ​វិទ្យុ"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"កំហុស​ម៉ាស៊ីន​មេ។ ព្យាយាម​ម្ដងទៀត​ពេលក្រោយ។"</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"ម៉ាស៊ីន​មេ​មិន​អាច​ទៅ​ដល់"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"គ្មាន​ស៊ីមកាត ឬ​កំហុស​ស៊ីមកាត"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"គ្មាន​ចម្លើយ​​តប អស់​ពេល"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"លេខ​មិន​ត្រឹមត្រូវ"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"បណ្ដាញ​ជាប់​រវល់"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"មិនអាចធ្វើការហៅជាវីដេអូនៅពេលបើកដំណើរការ TTY ទេ។"</string>
+    <string msgid="670941612175068337" name="call_assistant">"ការ​ហៅទូរសព្ទ​ទៅ​ <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="2566802538698913124" name="call_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (ហៅ)"</string>
+    <string msgid="1910165691349426858" name="call_callback">"ហៅ​ទៅ​លេខ​ហៅ​ទៅវិញ"</string>
+    <string msgid="3280537320306436445" name="call_car">"ហៅ​ទៅ​ទូរស័ព្ទ​រថយន្ត"</string>
+    <string msgid="6105120947138711257" name="call_company_main">"ហៅ​ទៅ​លេខ​សំខាន់​របស់​ក្រុមហ៊ុន"</string>
+    <string msgid="6385303130912713318" name="call_custom">"ការ​ហៅទូរសព្ទ​ទៅ​ <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8342175628887571876" name="call_fax_home">"ហៅ​ទៅ​លេខ​ទូរសារ​ផ្ទះ"</string>
+    <string msgid="7467763592359059243" name="call_fax_work">"ហៅ​ទៅ​លេខ​ទូរសារ​កន្លែង​ធ្វើការ"</string>
+    <string msgid="1990519474420545392" name="call_home">"ហៅ​ទៅ​ផ្ទះ"</string>
+    <string msgid="1541590690193403411" name="call_isdn">"ហៅ​ទៅ ISDN"</string>
+    <string msgid="6082900571803441339" name="call_main">"ហៅ​ទៅ​លេខ​សំខាន់"</string>
+    <string msgid="6274041545876221437" name="call_mms">"ហៅ MMS"</string>
+    <string msgid="7502236805487609178" name="call_mobile">"ហៅ​ទៅ​ទូរស័ព្ទ​ចល័ត"</string>
+    <string msgid="8563753966926932052" name="call_other">"ហៅ"</string>
+    <string msgid="5745314124619636674" name="call_other_fax">"ហៅ​ទៅ​ទូរសារ"</string>
+    <string msgid="9003902812293983281" name="call_pager">"ហៅ​ទៅ​លេខ​ភេយ័រ"</string>
+    <string msgid="8296755876398357063" name="call_radio">"ហៅ​ទៅ​លេខ​វិទ្យុ"</string>
+    <string msgid="3043028982108363572" name="call_subject_hint">"បញ្ចូលចំណាំដែលត្រូវផ្ញើជាមួយការហៅទូរសព្ទ..."</string>
+    <string msgid="4545212901205397669" name="call_subject_limit">"<ns1:g id="COUNT">%1$s</ns1:g> / <ns1:g id="LIMIT">%2$s</ns1:g>"</string>
+    <string msgid="7667188212129152558" name="call_subject_type_and_number">"<ns1:g id="TYPE">%1$s</ns1:g> • <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2223170774548648114" name="call_telex">"ហៅ​ទៅ telex"</string>
+    <string msgid="8951266948204379604" name="call_tty_tdd">"ហៅ​ទៅ TTY/TDD"</string>
+    <string msgid="8389827628360791676" name="call_with_a_note">"ការហៅព្រមជាមួយចំណាំ"</string>
+    <string msgid="5328785911463744028" name="call_work">"ហៅ​ទៅ​កន្លែង​ធ្វើការ"</string>
+    <string msgid="8707874281430105394" name="call_work_mobile">"ហៅ​ទៅ​ទូរស័ព្ទ​ចល័ត​កន្លែង​ធ្វើការ"</string>
+    <string msgid="3419348514157949008" name="call_work_pager">"ហៅ​ទៅ​លេខ​ភេយ័រ​កន្លែង​ធ្វើការ"</string>
+    <string msgid="1288652456274531846" name="cancel_button_content_description">"បោះបង់"</string>
+    <string msgid="3057023972074640671" name="cancel_confirmation_dialog_cancel_editing_button">"បោះបង់"</string>
+    <string msgid="3316573928085916146" name="cancel_confirmation_dialog_keep_editing_button">"បោះ​បង់​"</string>
+    <string msgid="9008214737653278989" name="cancel_confirmation_dialog_message">"បោះបង់ការផ្លាស់ប្ដូរមែន​ទេ?"</string>
+    <string msgid="1995462401949262638" name="cancel_export_confirmation_message">"បោះបង់​ការ​នាំចេញ <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="3929951040347726757" name="cancel_import_confirmation_message">"បោះបង់​ការ​នាំចូល <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="6139900383366166706" name="cancel_vcard_import_or_export_failed">"មិន​អាច​បោះបង់​ការ​នាំចេញ/នាំចូល vCard"</string>
+    <string msgid="9025361898797412245" name="chat">"ជជែក"</string>
+    <string msgid="2588492205291249142" name="chat_aim">"ជជែក​ដោយ​ប្រើ AIM"</string>
+    <string msgid="981575737258117697" name="chat_gtalk">"ជជែក​ដោយ​ប្រើ Google Talk"</string>
+    <string msgid="8438405386153745775" name="chat_icq">"ជជែក​ដោយ​ប្រើ ICQ"</string>
+    <string msgid="7561444230307829609" name="chat_jabber">"ជជែក​ដោយ​ប្រើ Jabber"</string>
+    <string msgid="8041633440091073484" name="chat_msn">"ជជែក​ដោយ​ប្រើ Windows Live"</string>
+    <string msgid="4294637812847719693" name="chat_qq">"ជជែក​ដោយ​ប្រើ QQ"</string>
+    <string msgid="1210045020427480566" name="chat_skype">"ជជែក​ដោយ​ប្រើ Skype"</string>
+    <string msgid="6629211142719943666" name="chat_yahoo">"ជជែក​ដោយ​ប្រើ Yahoo"</string>
+    <string msgid="2270554975938265734" name="clearFrequentsConfirmation">"អ្នកនឹងជម្រះបញ្ជីដែលអ្នកទាក់ទងជាញឹកញាប់នៅក្នុងកម្មវិធីទូរស័ព្ទ និងទំនាក់ទំនង ហើយបង្ខំឲ្យកម្មវិធីអ៊ីមែលស្វែងយល់ពីចំណូលចិត្តទំនាក់ទំនងរបស់អ្នកតាំងពីដំបូង។"</string>
+    <string msgid="766292372438450432" name="clearFrequentsConfirmation_title">"សម្អាត​ទំនាក់ទំនង​ញឹកញាប់?"</string>
+    <string msgid="5157001637482794212" name="clearFrequentsProgress_title">"កំពុង​សម្អាត​ទំនាក់ទំនង​ញឹកញាប់..."</string>
+    <string msgid="7193185801596678067" name="clear_default">"សម្អាត​លំនាំដើម"</string>
+    <string msgid="1884143625854637874" name="collapse_fields_description">"លាក់"</string>
+    <string msgid="4757877385895561556" name="collapse_name_fields_description">"លាក់​​វាល​ឈ្មោះ"</string>
+    <string msgid="1765944280846236723" name="composer_failed_to_get_database_infomation">"មិន​អាច​យក​ព័ត៌មាន​មូលដ្ឋាន​ទិន្នន័យ។"</string>
+    <string msgid="5712531702823346549" name="composer_has_no_exportable_contact">"មិន​មាន​ទំនាក់ទំនង​ដែល​អាច​នាំចេញ​ទេ។"</string>
+    <string msgid="2321648986367005254" name="composer_not_initialized">"មិន​បាន​ចាប់ផ្ដើម​កម្មវិធី​តែង vCard ដោយ​​ត្រឹមត្រូវ។"</string>
+    <string msgid="7046408921529247089" name="connection_error_message">"គ្មាន​ការ​តភ្ជាប់"</string>
+    <string msgid="3885457515665783976" name="contactGenericErrorToast">"មាន​បញ្ហា​រក្សាទុក​ទំនាក់ទំនង"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"បញ្ចូល​​ទៅ​ទំនាក់ទំនង"</string>
+    <string msgid="5735129234573327701" name="contactJoinErrorToast">"មិនអាចតភ្ជាប់ទំនាក់ទំនងបានទេ"</string>
+    <string msgid="6860883564984042194" name="contactPhotoSavedErrorToast">"មិនអាចរក្សាទុកការប្ដូររូបថតទំនាក់ទំនង​បាន​ទេ"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"ជ្រើសរើស​ទំនាក់ទំនង"</string>
+    <string msgid="4827033473908688031" name="contactSavedErrorToast">"មិន​អាច​រក្សាទុក​ការ​ប្ដូរ​ទំនាក់ទំនង​បាន​ទេ"</string>
+    <string msgid="895136068894549611" name="contactSavedNamedToast">"បាន​រក្សាទុក <ns1:g id="DISPLAY_NAME">%s</ns1:g>"</string>
+    <string msgid="9171862279493213075" name="contactSavedToast">"បាន​រក្សាទុក​ទំនាក់ទំនង"</string>
+    <string msgid="2706297508166952431" name="contactUnlinkErrorToast">"មិនអាចផ្តាច់ទំនាក់ទំនងបានទេ"</string>
+    <string msgid="7122823195786012553" name="contactUnlinkedToast">"ទំនាក់ទំនងដែលមិនបានតភ្ជាប់"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"ថត <ns1:g id="TYPE">%1$s</ns1:g>"</string>
+    <string msgid="426142748048816297" name="contact_editor_add_linked_contact">"បញ្ចូល"</string>
+    <string msgid="4618465940423857694" name="contact_editor_pick_linked_contact_dialog_title">"ទំនាក់ទំនងដែលបានតភ្ជាប់"</string>
+    <string msgid="4186699385645902152" name="contact_editor_pick_raw_contact_to_edit_dialog_title">"ជ្រើសរើស​ទំនាក់ទំនង​ត្រូវ​កែសម្រួល"</string>
+    <string msgid="8565761674283473549" name="contact_editor_prompt_multiple_accounts">"ជ្រើសគណនីលំនាំដើមសម្រាប់ទំនាក់ទំនងថ្មី៖"</string>
+    <string msgid="3087691056345099310" name="contact_editor_prompt_one_account">"ទំនាក់ទំនងថ្មីនឹងត្រូវបានរក្សាទុកទៅក្នុង <ns1:g id="ACCOUNT_NAME">%1$s</ns1:g>"</string>
+    <string msgid="6648376557574360096" name="contact_editor_prompt_zero_accounts">"ចំណាយ​ពេល​មួយ​​ភ្លែត​ ដើម្បី​បញ្ចូល​​គណនី​ដែល​នឹង​បម្រុងទុក​ទំនាក់ទំនងរបស់អ្នក​​ទៅក្នុង Google។"</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"កែ​ទំនាក់ទំនង"</string>
+    <string msgid="3042788718983070111" name="contact_editor_title_new_contact">"បង្កើត​ទំនាក់ទំនង​ថ្មី"</string>
+    <string msgid="2443496574528842237" name="contact_editor_title_read_only_contact">"បានតែ​មើល"</string>
+    <string msgid="4525214336177236653" name="contact_editor_unlink_contacts">"ផ្តាច់"</string>
+    <string msgid="752179367353018597" name="contact_status_update_attribution">"តាម​រយៈ <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="7358045508107825068" name="contact_status_update_attribution_with_date">"<ns1:g id="DATE">%1$s</ns1:g> តាម​រយៈ <ns1:g id="SOURCE">%2$s</ns1:g>"</string>
+    <string msgid="8417039765586853670" name="contactsFavoritesLabel">"សំណព្វ"</string>
+    <string msgid="3343535986195643136" name="contactsJoinedMessage">"បានតភ្ជាប់ទំនាក់ទំនង"</string>
+    <string msgid="1299418263439579455" name="contactsJoinedNamedMessage">"បាន​ចូលចិត្ត <ns1:g id="NAME">%s</ns1:g>"</string>
+    <string msgid="8661624236494819731" name="contactsList">"ទំនាក់ទំនង"</string>
+    <string msgid="4754058700611188581" name="contacts_default_notification_channel">"ការ​ជូនដំណឹង"</string>
+    <string msgid="7731565342428031249" name="contacts_deleted_many_named_toast">"បានលុប <ns1:g id="NAME_0">%1$s</ns1:g>, <ns1:g id="NAME_1">%2$s</ns1:g>, <ns1:g id="NAME_2">%3$s</ns1:g>..."</string>
+    <string msgid="2252551736301363193" name="contacts_deleted_one_named_toast">"បាន​លុប <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="3642082931473111791" name="contacts_deleted_two_named_toast">"បាន​លុប <ns1:g id="NAME_0">%1$s</ns1:g> និង <ns1:g id="NAME_1">%2$s</ns1:g>"</string>
+    <string msgid="8538705791417534431" name="contacts_export_will_start_message">"ទំនាក់ទំនងនឹងត្រូវបាននាំចេញក្នុងពេលបន្តិចទៀតនេះ។"</string>
+    <string msgid="2846494347384549277" name="contacts_linking_progress_bar">"កំពុង​តភ្ជាប់"</string>
+    <string msgid="4347232421410561500" name="contacts_unavailable_add_account">"បញ្ចូលគណនី"</string>
+    <string msgid="3182801738595937144" name="contacts_unavailable_import_contacts">"នាំចូល"</string>
+    <string msgid="5989310198163726929" name="contacts_unlinking_progress_bar">"កំពុង​ផ្ដាច់"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"ទិសដៅ​ទៅ​ទីតាំង"</string>
+    <string msgid="3257145021583508761" name="copy_text">"ចម្លង​ទៅអង្គចងចាំ"</string>
+    <string msgid="953651153238790069" name="createContactShortcutSuccessful">"បានបញ្ចូល​ <ns1:g id="NAME">%s</ns1:g> ទៅអេក្រង់ដើម"</string>
+    <string msgid="8831303345367275472" name="createContactShortcutSuccessful_NoName">"បានបញ្ចូល​ទំនាក់ទំនងទៅអេក្រង់ដើម"</string>
+    <string msgid="3263064599743742865" name="create_group_item_label">"បង្កើត​ថ្មី..."</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"ឈ្មោះ​ស្លាក​ផ្ទាល់ខ្លួន"</string>
+    <string msgid="9048525797111024204" name="custom_list_filter">"ប្ដូរ​ការ​មើល​តាមបំណង"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"កំណត់"</string>
+    <string msgid="7122002148518724139" name="date_year_toggle">"រួមបញ្ចូលឆ្នាំ"</string>
+    <string msgid="699591683362420991" name="default_editor_account">"គណនីលំនាំដើមសម្រាប់ទំនាក់ទំនងថ្មី"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"សំឡេង​លំនាំដើម (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="3512271779086656043" name="deleteConfirmation">"លុបទំនាក់ទំនងនេះ?"</string>
+    <string msgid="7857888845028586365" name="deleteConfirmation_positive_button">"លុប"</string>
+    <string msgid="335713829185261371" name="delete_group_dialog_message">"លុប​​ស្លាក \"<ns1:g id="GROUP_LABEL">%1$s</ns1:g>\"? (ទំនាក់ទំនង​​នឹង​មិន​​លុប​ទេ)"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"បន្ថែម​ទៅ​និយម​ប្រើ"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"បាន​លុប​ចេញ​​និយម​ប្រើ"</string>
+    <string msgid="688023606766232904" name="description_clear_search">"សម្អាត​ការ​ស្វែងរក"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"លុប​ថយក្រោយ"</string>
+    <string msgid="53835657343783663" name="description_delete_contact">"លុប"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"រក​មើលថយ​ក្រោយ​វិញ"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"ជម្រើស​ច្រើន​ទៀត"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"plus"</string>
+    <string msgid="6908099247930477551" name="description_minus_button">"លុប​"</string>
+    <string msgid="8884991311595943271" name="description_no_name_header">"សញ្ញា​ចុចបី"</string>
+    <string msgid="6737516415168327789" name="description_quick_contact_for">"ទំនាក់ទំនង​រហ័ស​សម្រាប់ <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5841525580339803272" name="description_search_video_call">"ធ្វើការហៅជាវីដេអូ"</string>
+    <string msgid="7120921378651700947" name="description_video_call">"ហៅ​ជា​វីដេអូ"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"សារ​ជា​សំឡេង"</string>
+    <string msgid="1628001095187741417" name="dialog_export">"នាំចេញ​ទំនាក់ទំនង"</string>
+    <string msgid="2423592905927819672" name="dialog_import">"នាំចូល​ទំនាក់ទំនង​ពី"</string>
+    <string msgid="4969619718062454756" name="dialog_new_contact_account">"រក្សាទំនាក់ទំនងដែលបាននាំចូលទៅ៖"</string>
+    <string msgid="3451312333591556651" name="dialog_new_group_account">"ជ្រើសគណនី"</string>
+    <string msgid="8267045393119375803" name="dialog_sync_add">"បន្ថែម​ក្រុម​សមកាលកម្ម"</string>
+    <string msgid="1887759056597975053" name="directory_search_label">"ថត"</string>
+    <string msgid="8618292129829443176" name="directory_search_label_work">"ថតកន្លែងការងារ"</string>
+    <string msgid="8941131776605093596" name="dismiss_sync_alert">"បោះបង់"</string>
+    <string msgid="2031647544742889505" name="display_all_contacts">"ទំនាក់ទំនង​ទាំងអស់"</string>
+    <string msgid="2682547080423434170" name="display_more_groups">"ក្រុម​ច្រើន​ទៀត..."</string>
+    <string msgid="3771577099236534776" name="display_options_phonetic_name_fields">"ឈ្មោះ​តាម​សូរស័ព្ទ"</string>
+    <string msgid="2684905041926954793" name="display_options_sort_by_family_name">"នាម​ត្រកូល"</string>
+    <string msgid="2778421332815687873" name="display_options_sort_by_given_name">"នាម​ខ្លួន"</string>
+    <string msgid="7028809117272018712" name="display_options_sort_list_by">"តម្រៀបតាម"</string>
+    <string msgid="956445100777296467" name="display_options_view_family_name_first">"នាមត្រកូល​មុន"</string>
+    <string msgid="3616004640258761473" name="display_options_view_given_name_first">"នាម​ខ្លួន​មុន"</string>
+    <string msgid="6514632499276563482" name="display_options_view_names_as">"ទម្រង់​ឈ្មោះ"</string>
+    <string msgid="6885954210243119591" name="display_ungrouped">"ទំនាក់ទំនង​ទាំងអស់​ផ្សេងទៀត"</string>
+    <string msgid="8872290721676651414" name="display_warn_remove_ungrouped">"ការ​លុប \"<ns1:g id="GROUP">%s</ns1:g>\" ចេញពី​សមកាលកម្ម​វា​ក៏​នឹង​លុប​ទំនាក់ទំនង​ដែល​មិន​នៅ​ក្នុង​ក្រុម​ចេញពី​សមកាលកម្ម​ផង​ដែរ។"</string>
+    <string msgid="6845645831837615899" name="dynamic_shortcut_contact_removed_message">"ទំនាក់ទំនងត្រូវបាន​លុប​ចេញ"</string>
+    <string msgid="249939425761315252" name="dynamic_shortcut_disabled_message">"ផ្លូវកាត់នេះត្រូវបានបិទ"</string>
+    <string msgid="4137969650184457126" name="editor_account_selector_read_only_title">"ព័ត៌មាន​អំពី​ទំនាក់ទំនង​ពី <ns1:g id="ACCOUNT">%s</ns1:g> មិន​អាច​កែ​សម្រួល​បាន​ទេ"</string>
+    <string msgid="4426337993307015833" name="editor_account_selector_title">"រក្សាទុកទៅ"</string>
+    <string msgid="4194479313465418120" name="editor_add_photo_content_description">"បញ្ចូល​រូបថត​ទំនាក់ទំនង"</string>
+    <string msgid="820879708069864340" name="editor_change_photo_content_description">"ផ្លាស់ប្ដូរ​រូបថត​ទំនាក់ទំនង"</string>
+    <string msgid="8571975622926162369" name="editor_contact_photo_content_description">"រូបថត​ទំនាក់ទំនង"</string>
+    <string msgid="8583095381562991959" name="editor_delete_view_description">"លុប <ns1:g id="DATA_TYPE">%1$s </ns1:g><ns1:g id="DATA_KIND">%2$s</ns1:g>"</string>
+    <string msgid="7335518371270844912" name="editor_delete_view_description_short">"លុប <ns1:g id="DATA_KIND">%s</ns1:g>"</string>
+    <string msgid="1623639078580475818" name="editor_failed_to_load">"មិន​អាច​បើក​កម្មវិធី​កែសម្រួល​បាន​ទេ។"</string>
+    <string msgid="3630987771304393421" name="editor_more_fields">"ប្រអប់​បន្ថែម"</string>
+    <string msgid="7253911385818398903" name="editor_options_always_show_phonetic_names">"បង្ហាញ​ជា​និច្ច"</string>
+    <string msgid="2672008764795671104" name="editor_options_hide_phonetic_names_if_empty">"លាក់ បើ​ទទេ"</string>
+    <string msgid="5668400997660065897" name="email">"អ៊ីមែល"</string>
+    <string msgid="8389931313045344406" name="emailLabelsGroup">"អ៊ីមែល"</string>
+    <string msgid="5536404237099078802" name="email_custom">"ផ្ញើ​អ៊ីមែល​ទៅ <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8573740658148184279" name="email_home">"អ៊ីមែល​ទៅ​ផ្ទះ"</string>
+    <string msgid="2042889209787989814" name="email_mobile">"អ៊ីមែល​ទៅ​ទូរស័ព្ទ​ចល័ត"</string>
+    <string msgid="3454004077967657109" name="email_other">"អ៊ីមែល"</string>
+    <string msgid="2807430017302722689" name="email_work">"អ៊ីមែល​ទៅ​កន្លែង​ធ្វើការ"</string>
+    <string msgid="6873962901497975964" name="emptyAccount">"មិនមានទំនាក់ទំនង​នៅ​ក្នុងគណនីនេះ​ទេ"</string>
+    <string msgid="5102411903247859575" name="emptyGroup">"មិន​មាន​ទំនាក់ទំនង​ដែល​មាន​ស្លាក​នេះ"</string>
+    <string msgid="2772242747899664460" name="emptyMainList">"បញ្ជីទំនាក់ទំនងរបស់អ្នកគឺទទេ"</string>
+    <string msgid="4594274696120278368" name="enter_contact_name">"ស្វែងរក​ទំនាក់ទំនង"</string>
+    <string msgid="7960408705307831289" name="eventLabelsGroup">"កាលបរិច្ឆេទពិសេស"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"កាលបរិច្ឆេទ"</string>
+    <string msgid="8129294181216760037" name="expand_fields_description">"ពង្រីក"</string>
+    <string msgid="6948274252874552543" name="expand_name_fields_description">"បង្ហាញ​​ប្រអប់​ឈ្មោះ​បន្ថែម"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"​មើល​តិច​ជាង"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"​មើល​​ច្រើន​ជាង"</string>
+    <string msgid="4407527157056120858" name="export_to_vcf_file">"នាំចេញទៅឯកសារ .vcf"</string>
+    <string msgid="4938527850142003141" name="exporting_contact_failed_message">"មិន​បាន​នាំចេញ​ទិន្នន័យ​ទំនាក់ទំនង។\nមូលហេតុ៖ \"<ns1:g id="FAIL_REASON">%s</ns1:g>\""</string>
+    <string msgid="4892358112409576342" name="exporting_contact_failed_title">"មិន​អាច​នាំចេញ"</string>
+    <string msgid="3367949209642931952" name="exporting_contact_list_message">"ទិន្នន័យចំណាំកំពុងត្រូវបាននាំចេញ"</string>
+    <string msgid="9072240631534457415" name="exporting_contact_list_title">"កំពុង​នាំចេញ​ព័ត៌មាន​ទំនាក់ទំនង"</string>
+    <string msgid="2652222370493306887" name="exporting_vcard_canceled_title">"បាន​បោះបង់​ការ​នាំចេញ <ns1:g id="FILENAME">%s</ns1:g> ។"</string>
+    <string msgid="4767045779458185251" name="exporting_vcard_finished_title">"បាន​បញ្ចប់​ការ​នាំចេញ <ns1:g id="FILENAME">%s</ns1:g> ។"</string>
+    <string msgid="6060472638008218274" name="exporting_vcard_finished_title_fallback">"បានបញ្ចប់ការនាំចេញទំនាក់ទំនង។"</string>
+    <string msgid="1739055986856453882" name="exporting_vcard_finished_toast">"បានបញ្ចប់ការនាំចេញទំនាក់ទំនង សូមចុចលើការជូនដំណឹង ដើម្បីចែករំលែកទំនាក់ទំនង"</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"ប្រវត្តិរូប <ns1:g id="EXTERNAL_SOURCE">%1$s</ns1:g> របស់​ខ្ញុំ"</string>
+    <string msgid="707260459259688510" name="fail_reason_could_not_initialize_exporter">"មិន​អាច​ចាប់ផ្ដើម​ម​ការ​នាំចេញ​៖ \"<ns1:g id="EXACT_REASON">%s</ns1:g>\" ។"</string>
+    <string msgid="2067725459821997463" name="fail_reason_could_not_open_file">"មិន​អាច​បើក \"<ns1:g id="FILE_NAME">%1$s</ns1:g>\": <ns1:g id="EXACT_REASON">%2$s</ns1:g> ។"</string>
+    <string msgid="3018855323913649063" name="fail_reason_error_occurred_during_export">"មាន​កំហុស​កើត​ឡើង​ពេល​នាំចេញ៖ \"<ns1:g id="EXACT_REASON">%s</ns1:g>\" ។"</string>
+    <string msgid="6748358842976073255" name="fail_reason_io_error">"កំហុស I/O"</string>
+    <string msgid="875222757734882898" name="fail_reason_low_memory_during_import">"អង្គ​ចងចាំ​មិន​គ្រប់គ្រាន់។ ឯកសារ​ប្រហែលជា​ធំ​ពេក។"</string>
+    <string msgid="8728506011371262065" name="fail_reason_no_exportable_contact">"មិន​មាន​ទំនាក់ទំនង​ដើម្បី​នាំចេញ។"</string>
+    <string msgid="8219562769267148825" name="fail_reason_not_supported">"មិន​គាំទ្រ​ទ្រង់ទ្រាយ។"</string>
+    <string msgid="1714092345030570863" name="fail_reason_unknown">"មិន​ស្គាល់​កំហុស។"</string>
+    <string msgid="5414421120553765775" name="ghostData_company">"ក្រុមហ៊ុន"</string>
+    <string msgid="7496735200318496110" name="ghostData_title">"ចំណង​ជើង"</string>
+    <string msgid="5283997303922067997" name="google_account_type_format">"គណនី <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="4359093891863474299" name="groupCreateFailedToast">"មិនអាចបង្កើតស្លាក"</string>
+    <string msgid="1924195126172834870" name="groupCreatedToast">"បាន​បង្កើត​ស្លាក"</string>
+    <string msgid="520896687873262027" name="groupDeletedToast">"បានលុបស្លាក"</string>
+    <string msgid="5196811283836946189" name="groupExistsErrorMessage">"ស្លាក​នោះ​មាន​រួច​ហើយ"</string>
+    <string msgid="7536267148196064554" name="groupLoadErrorToast">"បាន​បរាជ័យ​ក្នុង​ការ​ផ្ទុក​ស្លាក"</string>
+    <string msgid="1431750793695262522" name="groupMemberPickerActivityTitle">"ជ្រើស"</string>
+    <string msgid="4824834898718972768" name="groupMembersAddedToast">"បាន​បន្ថែម​ទៅ​ស្លាក"</string>
+    <string msgid="3510563559799376603" name="groupMembersRemovedToast">"បាន​យក​ចេញ​ពី​ស្លាក"</string>
+    <string msgid="2355891714292740162" name="groupSavedErrorToast">"មិនអាចរក្សាទុកការផ្លាស់ប្តូរស្លាក​បាន​ទេ"</string>
+    <string msgid="8211161470235548732" name="groupSomeContactsNoEmailsToast">"ទំនាក់ទំនង​ខ្លះ​មិន​មាន​អ៊ីមែល​ទេ។"</string>
+    <string msgid="5530760834827530509" name="groupSomeContactsNoPhonesToast">"ទំនាក់ទំនង​ខ្លះ​មិន​មាន​លេខ​ទូរសព្ទ​ទេ។"</string>
+    <string msgid="3667977658676267687" name="groupUpdatedToast">"បាន​ធ្វើ​​បច្ចុប្បន្នភាព​ស្លាក"</string>
+    <string msgid="8038224059926963133" name="group_edit_field_hint_text">"ស្លាក"</string>
+    <string msgid="7624523157537700160" name="group_name_dialog_hint">"ឈ្មោះស្លាក"</string>
+    <string msgid="2668452090427027941" name="group_name_dialog_insert_title">"បង្កើតស្លាក"</string>
+    <string msgid="6328021162869677383" name="group_name_dialog_update_title">"ប្ដូរឈ្មោះស្លាក"</string>
+    <string msgid="7000816729542098972" name="groupsLabel">"ស្លាក"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"អ៊ីមែល"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"បង្កើត​ទំនាក់ទំនង​ថ្មី"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"ព្រឹត្តិការណ៍"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"IM"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"ឈ្មោះ"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"ឈ្មោះ​ហៅ​ក្រៅ"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"ចំណាំ"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"ស្ថាប័ន"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"ទូរសព្ទ"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"ទំនាក់ទំនង"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"គេហទំព័រ"</string>
+    <string msgid="7128627979899070325" name="hint_findContacts">"ស្វែងរកទំនាក់ទំនង"</string>
+    <string msgid="3898238486262614027" name="imLabelsGroup">"IM"</string>
+    <string msgid="6912071635295799131" name="import_from_sim">"ស៊ីមកាត"</string>
+    <string msgid="5169032449686348118" name="import_from_sim_summary_fmt">"SIM <ns1:g id="SIM_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8662528435646418203" name="import_from_vcf_file">"ឯកសារ .vcf"</string>
+    <string msgid="967723361108008345" name="import_from_vcf_file_confirmation_message">"នាំចូល​ទំនាក់ទំនង​ពី vCard ដែរ​ឬ​ទេ?"</string>
+    <string msgid="3345258302998021066" name="importing_sim_failed_message">"មិន​អាច​នាំចូល​ទំនាក់ទំនង​ពី​ស៊ីម​កាត​បាន​ទេ"</string>
+    <string msgid="39706901030537985" name="importing_sim_failed_title">"ការ​នាំចូល​មិន​បាន​សម្រេច"</string>
+    <string msgid="5196369441294050721" name="importing_sim_finished_title">"បាន​បញ្ចប់​នាំចូល​ទំនាក់ទំនង​ក្នុង​ស៊ីមកាត"</string>
+    <string msgid="3638299581276676109" name="importing_sim_in_progress_title">"កំពុង​នាំចូល​ទំនាក់ទំនង​​ពី SIM"</string>
+    <string msgid="2147475978165599336" name="importing_vcard_canceled_title">"បាន​បោះបង់​ការ​នាំ​ចូល <ns1:g id="FILENAME">%s</ns1:g>"</string>
+    <string msgid="4245275224298571351" name="importing_vcard_description">"ការ​នាំចូល <ns1:g id="NAME">%s</ns1:g>"</string>
+    <string msgid="3341541727268747967" name="importing_vcard_finished_title">"បាន​បញ្ចប់​ការ​នាំចូល vCard <ns1:g id="FILENAME">%s</ns1:g>"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"មិន​ស្គាល់​លេខ​សារ​ជា​សំឡេង។"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"មិន​មាន​ទំនាក់ទំនង។"</string>
+    <string msgid="8262614843581924365" name="joinConfirmation">"តើអ្នកចង់រក្សាទុកការផ្លាស់ប្តូរដែលអ្នកបានធ្វើឡើង និងតភ្ជាប់ជាមួយទំនាក់ទំនងដែលបានជ្រើសដែរឬទេ?"</string>
+    <string msgid="4573092849769149516" name="joinConfirmation_positive_button">"រក្សាទុក និងតភ្ជាប់"</string>
+    <string msgid="1994056912242214426" name="label_custom_field">"ផ្ទាល់ខ្លួន"</string>
+    <string msgid="1276051790427638142" name="label_name_dialog_hint">"ឈ្មោះស្លាក"</string>
+    <string msgid="8337354953278341042" name="label_notes">"ចំណាំ"</string>
+    <string msgid="7252153678613978127" name="label_sip_address">"SIP"</string>
+    <string msgid="4277114551206032979" name="leave_customize_confirmation_dialog_message">"បោះបង់ការប្ដូរតាមបំណងមែន​ទេ?"</string>
+    <string msgid="1840624396582117590" name="listCustomView">"ទិដ្ឋភាព​​ផ្ទាល់ខ្លួន"</string>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"មិន​មាន​ទំនាក់ទំនង"</string>
+    <string msgid="8908683398914322369" name="list_filter_all_accounts">"ទំនាក់ទំនង​ទាំងអស់"</string>
+    <string msgid="5031734941601931356" name="list_filter_all_starred">"បាន​ដាក់​ផ្កាយ"</string>
+    <string msgid="4789963356004169321" name="list_filter_customize">"ប្តូរតាមបំណង"</string>
+    <string msgid="735313795643493365" name="list_filter_phones">"ទំនាក់ទំនង​ទាំងអស់​ដែល​មាន​លេខ​ទូរស័ព្ទ"</string>
+    <string msgid="1470173699551475015" name="list_filter_phones_work">"ទំនាក់ទំនងប្រវត្តិរូបការងារ"</string>
+    <string msgid="5871400283515893087" name="list_filter_single">"ទំនាក់ទំនង"</string>
+    <string msgid="6046691709127661065" name="local_invisible_directory">"ផ្សេងៗ"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"ប្រវត្តិរូប​មូលដ្ឋាន​របស់​ខ្ញុំ"</string>
+    <string msgid="2551177578246113614" name="local_search_label">"ទំនាក់ទំនង​ទាំងអស់"</string>
+    <string msgid="8761800628069473526" name="map_custom">"មើល​អាសយដ្ឋាន <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="1243547733423343982" name="map_home">"មើល​អាសយដ្ឋាន​ផ្ទះ"</string>
+    <string msgid="3817820803587012641" name="map_other">"មើល​អាសយដ្ឋាន"</string>
+    <string msgid="1360474076921878088" name="map_work">"មើល​អាសយដ្ឋាន​ការងារ"</string>
+    <string msgid="655196688840626483" name="menu_addContactsToGroup">"បញ្ចូល​​ទំនាក់ទំនង"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"បន្ថែម​ទៅ​សំណព្វ"</string>
+    <string msgid="3267409983764370041" name="menu_addToGroup">"បញ្ចូល​ទំនាក់ទំនង"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"បញ្ចូល​ទៅក្នុងទំនាក់ទំនង"</string>
+    <string msgid="4465646512002163011" name="menu_add_contacts">"បន្ថែម"</string>
+    <string msgid="5760693735722052454" name="menu_assistant">"ការ​ណែនាំ"</string>
+    <string msgid="3132884821616980034" name="menu_assistant_new_badge">"ថ្មី"</string>
+    <string msgid="5272951629083025995" name="menu_blocked_numbers">"លេខដែលបានទប់ស្កាត់"</string>
+    <string msgid="7769177631511496210" name="menu_change_photo">"ប្ដូររូបថត"</string>
+    <string msgid="2165153460860262501" name="menu_contacts_filter">"ទំនាក់ទំនង​ដែល​ត្រូវ​បង្ហាញ"</string>
+    <string msgid="1663022219127343858" name="menu_create_contact_shortcut">"បង្កើត​ផ្លូវកាត់"</string>
+    <string msgid="2679793632208086460" name="menu_custom_filter_save">"រក្សាទុក"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"លុប"</string>
+    <string msgid="1126469629233412249" name="menu_deleteGroup">"លុបស្លាក"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"កែសម្រួល​"</string>
+    <string msgid="6696843438454341063" name="menu_editGroup">"ដក​​ទំនាក់ទំនង​ចេញ"</string>
+    <string msgid="2658783911863503902" name="menu_export">"នាំ​ចេញ"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"នាំចេញ​ឯកសារ​មូលដ្ឋាន​ទិន្នន័យ"</string>
+    <string msgid="1680178646764069976" name="menu_help">"ជំនួយ និង មតិស្ថាបនា"</string>
+    <string msgid="6107961135813836467" name="menu_import">"នាំចូល"</string>
+    <string msgid="3599512127797513606" name="menu_joinAggregate">"តភ្ជាប់"</string>
+    <string msgid="400444389718855621" name="menu_linkedContacts">"មើល​ទំនាក់ទំនង​ដែល​បាន​តភ្ជាប់"</string>
+    <string msgid="3127059073617415221" name="menu_new_group_action_bar">"បង្កើតស្លាក"</string>
+    <string msgid="83331924006712755" name="menu_redirect_calls_to_vm">"បញ្ជូន​ទៅ​សារ​ជា​សំឡេង"</string>
+    <string msgid="6720354305399961978" name="menu_removeFromGroup">"លុប​ចេញ​ពី​ស្លាក"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"លុប​ចេញពី​សំណព្វ"</string>
+    <string msgid="7169512355179757182" name="menu_renameGroup">"ប្ដូរឈ្មោះស្លាក"</string>
+    <string msgid="1727844363591825909" name="menu_save">"រក្សាទុក"</string>
+    <string msgid="3999234528229376098" name="menu_selectForGroup">"ជ្រើស​រើសទំនាក់ទំនង"</string>
+    <string msgid="5978319931321657780" name="menu_sendEmailOption">"ផ្ញើ​អ៊ីមែល"</string>
+    <string msgid="8850168125274916426" name="menu_sendMessageOption">"ផ្ញើ​សារ"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"កំណត់​សំឡេង​រោទ៍"</string>
+    <string msgid="377929915873428211" name="menu_settings">"ការ​កំណត់"</string>
+    <string msgid="943789700636542260" name="menu_share">"ចែករំលែក​"</string>
+    <string msgid="2627252205317945563" name="menu_splitAggregate">"ផ្តាច់"</string>
+    <string msgid="3266725887008450161" name="menu_sync_remove">"យក​ក្រុម​សមកាលកម្ម​ចេញ"</string>
+    <string msgid="8210922220185114527" name="menu_title_filters">"គណនី"</string>
+    <string msgid="8356921831150278868" name="menu_title_groups">"ស្លាក"</string>
+    <string msgid="8725542534701811737" name="menu_unredirect_calls_to_vm">"មិន​បញ្ជូន​ទៅ​សារ​ជា​សំឡេង"</string>
+    <string msgid="1466111003546611387" name="missing_app">"រក​មិន​ឃើញ​កម្មវិធី​ដើម្បី​គ្រប់គ្រង​សកម្មភាព​នេះ​ទេ។"</string>
+    <string msgid="8745511583852904385" name="missing_name">"(គ្មាន​ឈ្មោះ)"</string>
+    <string msgid="5865884842972833120" name="missing_required_permission">"អ្នកបានបិទសិទ្ធិអនុញ្ញាតដែលតម្រូវឲ្យមាន។"</string>
+    <string msgid="5235324124905653550" name="multipleContactDeleteConfirmation">"ការលុបទំនាក់ទំនងនេះនឹងលុបព័ត៌មានលម្អិតពីគណនីច្រើន"</string>
+    <string msgid="2034640839640477827" name="nameLabelsGroup">"ឈ្មោះ"</string>
+    <string msgid="7466985689626017037" name="name_family">"នាម​ត្រកូល"</string>
+    <string msgid="4280790853455320619" name="name_given">"នាម​ខ្លួន"</string>
+    <string msgid="8467433655992690326" name="name_middle">"ឈ្មោះ​កណ្ដាល"</string>
+    <string msgid="4259595234312430484" name="name_phonetic">"សូរស័ព្ទ​ឈ្មោះ​"</string>
+    <string msgid="2640133663656011626" name="name_phonetic_family">"នាមត្រកូល​តាម​សូរស័ព្ទ"</string>
+    <string msgid="8723179018384187631" name="name_phonetic_given">"នាម​ខ្លួន​តាម​សូរស័ព្ទ"</string>
+    <string msgid="8643721493320405200" name="name_phonetic_middle">"សូរស័ព្ទ​ឈ្មោះ​កណ្ដាល"</string>
+    <string msgid="59756378548779822" name="name_prefix">"បុព្វបទ​ឈ្មោះ"</string>
+    <string msgid="3855278445375651441" name="name_suffix">"បច្ច័យ​ឈ្មោះ"</string>
+    <string msgid="4137416137011817930" name="navigation_drawer_close">"បិទ​ផ្ទាំង​រុករក"</string>
+    <string msgid="4154758025620107419" name="navigation_drawer_label">"ស្លាក <ns1:g id="LABEL_NAME">%s</ns1:g>"</string>
+    <string msgid="1126498472143250642" name="navigation_drawer_open">"បើក​ផ្ទាំង​រុករក"</string>
+    <string msgid="2823095213265993609" name="nfc_vcard_file_name">"ទំនាក់ទំនង​ដែល​បាន​ទទួល​តាម NFC"</string>
+    <string msgid="2891682101053358010" name="nicknameLabelsGroup">"សម្មតិនាម"</string>
+    <string msgid="2228592924476426108" name="noContacts">"បញ្ជីទំនាក់ទំនងរបស់អ្នកគឺទទេ"</string>
+    <string msgid="5742815694687835125" name="no_button">"ទេ"</string>
+    <string msgid="1276397530378323033" name="no_contact_to_share">"មិនមានទំនាក់ទំនងដើម្បីចែករំលែកទេ។"</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"បញ្ចូល​ទៅក្នុងទំនាក់ទំនង"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"លេខទូរសព្ទ"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"បិទ​"</string>
+    <string msgid="1651921906873335656" name="nothing_to_import_message">"គ្មាន​អ្វី​ត្រូវ​នាំចូល"</string>
+    <string msgid="2478611760751832035" name="organizationLabelsGroup">"ស្ថាប័ន"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<ns1:g id="COMPANY_0">%2$s</ns1:g>, <ns1:g id="COMPANY_1">%1$s</ns1:g>"</string>
+    <string msgid="6468091477851199285" name="phoneLabelsGroup">"ទូរសព្ទ"</string>
+    <string msgid="2052542573853433204" name="photoPickerNotFoundText">"មិន​មាន​រូបភាព​នៅ​លើ​ឧបករណ៍​នេះ​ទេ។"</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"ជ្រើស​រូបថត​ថ្មី"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"ជ្រើសរើស​រូបថត"</string>
+    <string msgid="1936544190231136729" name="pickerSelectContactsActivityTitle">"ជ្រើសរើស​​ទំនាក់ទំនង"</string>
+    <string msgid="3487738141112589324" name="postalLabelsGroup">"អាសយដ្ឋាន"</string>
+    <string msgid="8765560217149624536" name="postal_address">"អាសយដ្ឋាន"</string>
+    <string msgid="6597491300084895548" name="postal_city">"ទីក្រុង"</string>
+    <string msgid="7638264508416368690" name="postal_country">"ប្រទេស"</string>
+    <string msgid="572136414136673751" name="postal_postcode">"លេខ​កូដ​តំបន់"</string>
+    <string msgid="6045263193478437672" name="postal_region">"រដ្ឋ"</string>
+    <string msgid="8133143961580058972" name="postal_street">"ផ្លូវ"</string>
+    <string msgid="2311011466908220528" name="progress_notifier_message">"កំពុង​នាំចូល <ns1:g id="CURRENT_NUMBER">%1$s</ns1:g>/<ns1:g id="TOTAL_NUMBER">%2$s</ns1:g>៖ <ns1:g id="NAME">%3$s</ns1:g>"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"បញ្ចូល​អ៊ីមែល"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"បញ្ចូល​លេខទូរសព្ទ"</string>
+    <string msgid="8236954313106630862" name="quickcontact_suggestion_cancel_button">"បោះបង់"</string>
+    <string msgid="3244619714781727946" name="quickcontact_suggestion_link_button">"ភ្ជាប់ទំនាក់ទំនង"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"ចុច ដើម្បី​ត្រឡប់ទៅ​អេក្រង់​មុន"</string>
+    <string msgid="4717023505914239809" name="readOnlyContactDeleteConfirmation">"គណនី​ដែល​បាន​តែ​អាន​នៅ​ក្នុង​ទំនាក់ទំនង​នេះ នឹង​ត្រូវ​បាន​លាក់ មិន​លុប​ចេញ​​ទេ។"</string>
+    <string msgid="7514475664695089411" name="readOnlyContactWarning">"ទំនាក់ទំនង​នេះ​បាន​តែ​អាន​ប៉ុណ្ណោះ។ វា​មិន​អាច​លុប​ចេញ​បាន​ទេ ប៉ុន្តែ​អ្នក​អាច​លាក់​វា​បាន។"</string>
+    <string msgid="8914797212167683673" name="readOnlyContactWarning_positive_button">"លាក់​ទំនាក់ទំនង"</string>
+    <string msgid="4251647443358422855" name="reading_vcard_failed_title">"មិន​អាច​អាន​ទិន្នន័យ vCard"</string>
+    <string msgid="1854373894284572781" name="relationLabelsGroup">"ចំណង​ទាក់ទង"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"លុប​រូបថត​ចេញ"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"គ្មាន"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"សំឡេង​រោទ៍​មិន​ស្គាល់"</string>
+    <string msgid="2133152192716475939" name="savingDisplayGroups">"កំពុង​រក្សាទុក​ជម្រើស​បង្ហាញ..."</string>
+    <string msgid="8482945356247760701" name="searchHint">"រក​ទំនាក់ទំនង"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"ស្វែងរក"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"កំពុង​រក..."</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"ឈ្មោះ​នៃ​ទំនាក់ទំនង​របស់​អ្នក"</string>
+    <string msgid="5478489655696599219" name="select_account_dialog_title">"គណនី"</string>
+    <string msgid="7740295432834590737" name="send_and_call_button">"ផ្ញើ &amp; ហៅទូរស័ព្ទ"</string>
+    <string msgid="2251339182881603540" name="send_to_selection">"ផ្ញើ"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"ទំនាក់ទំនង​ទាំងអស់"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"ទំនាក់ទំនង​ដែល​បាន​ស្នើ"</string>
+    <string msgid="4417505153468300351" name="set_default">"កំណត់​លំនាំដើម"</string>
+    <string msgid="4311613760725609801" name="set_default_account">"ប្រើ​វា​សម្រាប់​ការ​ហៅ​ជា​និច្ច"</string>
+    <string msgid="7370213843590143771" name="set_up_profile">"រៀបចំ​កម្រងព័ត៌មានរបស់​អ្នក"</string>
+    <string msgid="7014388749752042863" name="setting_about">"អំពីទំនាក់ទំនង"</string>
+    <string msgid="350219740670774576" name="settings_accounts">"គណនី"</string>
+    <string msgid="1534272456405343119" name="settings_my_info_title">"ព័ត៌មាន​របស់​ខ្ញុំ"</string>
+    <string msgid="8109287987498711664" name="share_contacts">"ចែករំលែកទំនាក់ទំនងទាំងអស់"</string>
+    <string msgid="1216431977330560559" name="share_contacts_failure">"ការចែករំលែកទំនាក់ទំនង​មិន​បាន​សម្រេច។"</string>
+    <string msgid="948429331673358107" name="share_error">"ទំនាក់ទំនង​នេះ​មិន​អាច​ចែករំលែក​បាន​ទេ។"</string>
+    <string msgid="4280926751003081042" name="share_favorite_contacts">"ចែករំលែកទំនាក់ទំនង​ដែល​ចូលចិត្ត"</string>
+    <string msgid="1504383567778497348" name="shortcutActivityTitle">"ជ្រើសរើស​ទំនាក់ទំនង"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"ទំនាក់ទំនង"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"ហៅ​ដោយ​ផ្ទាល់"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"ផ្ញើ​សារ​ដោយ​ផ្ទាល់"</string>
+    <string msgid="7476283631356909204" name="shortcut_add_contact">"បញ្ចូល​​ទំនាក់ទំនង"</string>
+    <string msgid="4277410425912984722" name="show_more_content_description">"បង្ហាញ​ជា​ច្រើន"</string>
+    <string msgid="4270841592496619317" name="sim_import_button_text">"នាំចូល"</string>
+    <string msgid="1619832410253424452" name="sim_import_cancel_content_description">"បោះបង់"</string>
+    <string msgid="1503743663717316732" name="sim_import_contact_exists_toast">"ទំនាក់ទំនង​មាន​រួច​ហើយ​នៅ​ក្នុង​បញ្ជី​របស់​អ្នក"</string>
+    <string msgid="7743815244380189651" name="sim_import_empty_message">"គ្មាន​ទំនាក់ទំនង​នៅ​ក្នុង​​ស៊ីមកាត​របស់​អ្នក​ទេ"</string>
+    <string msgid="5559267299793622705" name="sim_import_failed_toast">"មិន​អាច​នាំចូល​ទំនាក់ទំនង​ពី SIM បាន​ទេ"</string>
+    <string msgid="2511154832820812822" name="sim_import_title">"នាំចូល​ពី SIM"</string>
+    <string msgid="6910517331401970693" name="sim_import_title_none_selected">"ជ្រើស​រើសទំនាក់ទំនង"</string>
+    <string msgid="3106905986948679720" name="single_delete_confirmation">"លុបទំនាក់ទំនងនេះ?"</string>
+    <string msgid="6985770499439371497" name="single_sim_display_label">"SIM"</string>
+    <string msgid="1756857139634224222" name="sms">"សារ​អត្ថបទ"</string>
+    <string msgid="2773424339923116234" name="sms_assistant">"អត្ថបទ <ns1:g id="ASSISTANT">%s</ns1:g>"</string>
+    <string msgid="7741770672976099517" name="sms_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (សារ)"</string>
+    <string msgid="5004824430094288752" name="sms_callback">"អត្ថបទ​ហៅ​ទៅវិញ"</string>
+    <string msgid="7444227058437359641" name="sms_car">"អត្ថបទ​ទៅ​រថយន្ត"</string>
+    <string msgid="118970873419678087" name="sms_company_main">"អត្ថបទ​ចម្បង​របស់​ក្រុមហ៊ុន"</string>
+    <string msgid="415060214233647603" name="sms_custom">"ផ្ញើ​សារ​ជា​អក្សរ​​ទៅ <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="9204042076306809634" name="sms_fax_home">"អត្ថបទ​ទូរសារ​ផ្ទះ"</string>
+    <string msgid="8028189067816907075" name="sms_fax_work">"អត្ថបទ​ទូរសារ​ការងារ"</string>
+    <string msgid="7524332261493162995" name="sms_home">"អត្ថបទ​ផ្ទះ"</string>
+    <string msgid="8153785037515047845" name="sms_isdn">"អត្ថបទ ISDN"</string>
+    <string msgid="8621625784504541679" name="sms_main">"អត្ថបទ​ចម្បង"</string>
+    <string msgid="4069352461380762677" name="sms_mms">"អត្ថបទ MMS"</string>
+    <string msgid="5200107250451030769" name="sms_mobile">"អត្ថបទ​ទូរស័ព្ទ​ចល័ត"</string>
+    <string msgid="806127844607642331" name="sms_other">"ផ្ញើសារជាអក្សរ"</string>
+    <string msgid="3888842199855843152" name="sms_other_fax">"អត្ថបទ​ទូរសារ"</string>
+    <string msgid="7730404569637015192" name="sms_pager">"អត្ថបទ​ភេយ័រ"</string>
+    <string msgid="3329166673433967820" name="sms_radio">"អត្ថបទ​វិទ្យុ"</string>
+    <string msgid="9034802430065267848" name="sms_telex">"អត្ថបទ telex"</string>
+    <string msgid="6782284969132531532" name="sms_tty_tdd">"អត្ថបទ TTY/TDD"</string>
+    <string msgid="2269624156655267740" name="sms_work">"អត្ថបទ​ការងារ"</string>
+    <string msgid="2459939960512702560" name="sms_work_mobile">"អត្ថបទ​ទូរស័ព្ទ​ចល័ត​កន្លែង​ធ្វើការ"</string>
+    <string msgid="5566924423316960597" name="sms_work_pager">"អត្ថបទ​ភេ​យ័រ​កន្លែង​ធ្វើការ"</string>
+    <string msgid="7342030840130187290" name="splitConfirmation">"ផ្តាច់ទំនាក់ទំនងនេះទៅជាទំនាក់ទំនងច្រើន?"</string>
+    <string msgid="7719062163511895696" name="splitConfirmationWithPendingChanges">"តើអ្នកចង់រក្សាទុកការផ្លាស់ប្តូរដែលអ្នកបានធ្វើឡើង និងផ្តាច់ទំនាក់ទំនងនេះទៅជាទំនាក់ទំនងច្រើនដែរទេ?"</string>
+    <string msgid="9073444264887244032" name="splitConfirmationWithPendingChanges_positive_button">"រក្សាទុក និងផ្តាច់"</string>
+    <string msgid="9129409098807939699" name="splitConfirmation_positive_button">"ផ្តាច់"</string>
+    <string msgid="5586870015822828392" name="status_available">"ទំនេរ"</string>
+    <string msgid="1838861100379804730" name="status_away">"ចាក​ឆ្ងាយ"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9147992455450257136" name="status_busy">"រវល់"</string>
+    <string msgid="9107788743178980902" name="suggestion_card_duplicates_title">"អាចនឹងស្ទួន"</string>
+    <string msgid="4474061044387181093" name="suggestion_card_help_message">"ទំនាក់ទំនងទាំងនេះប្រហែលជាមនុស្សតែមួយ។ អ្នកអាចតភ្ជាប់ពួកគេជាមួយគ្នាឲ្យទៅជាទំនាក់ទំនងទោលបាន។"</string>
+    <string msgid="3039457405374454914" name="suggestion_card_this_contact_title">"ទំនាក់ទំនងនេះ"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"ថតរូប​ថ្មី"</string>
+    <string msgid="7496128293167402354" name="take_photo">"ថតរូប"</string>
+    <string msgid="6825255752748313944" name="titleJoinContactDataWith">"តភ្ជាប់ទំនាក់ទំនង"</string>
+    <string msgid="8602752287270586734" name="title_edit_group">"ដក​ទំនាក់ទំនង​ចេញ"</string>
+    <string msgid="4664084747121207202" name="title_from_google">"ពី Google"</string>
+    <string msgid="8307885412426754288" name="title_from_other_accounts">"ពី <ns1:g id="ACCOUNT">%s</ns1:g>"</string>
+    <string msgid="1215465657839085613" name="toast_join_with_empty_contact">"សូមបញ្ចូលឈ្មោះទំនាក់ទំនងមុនពេលតភ្ជាប់ជាមួយទំនាក់ទំនងផ្សេងទៀត។"</string>
+    <string msgid="288549957278065542" name="toast_making_personal_copy">"កំពុង​បង្កើត​ច្បាប់​ចម្លង​ផ្ទាល់​ខ្លួន..."</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"បាន​ចម្លង​អត្ថបទ"</string>
+    <string msgid="4882485525268469736" name="touch_to_share_contacts">"ប៉ះដើម្បីចែករំលែកទំនាក់ទំនង"</string>
+    <string msgid="5025336917533693997" name="turn_auto_sync_on_dialog_body">"ការ​ផ្លាស់ប្ដូរ​ដែល​អ្នក​​ធ្វើ​ចំពោះ​កម្មវិធី និង​គណនី​ទាំងអស់ មិន​គ្រាន់តែ Google ទំនាក់ទំនង​ទេ នឹង​រក្សា​បច្ចុប្បន្នភាព​រវាង​បណ្ដាញ និង​ឧបករណ៍​របស់​អ្នក។"</string>
+    <string msgid="1070332014838295599" name="turn_auto_sync_on_dialog_confirm_btn">"បើក"</string>
+    <string msgid="333965456829670541" name="turn_auto_sync_on_dialog_title">"បើក​ការ​ធ្វើ​សមកាលកម្ម​ស្វ័យប្រវត្តិ?"</string>
+    <string msgid="1425165101664071422" name="undo">"មិនធ្វើវិញ"</string>
+    <string msgid="452592089815420457" name="url_open_error_toast">"ការ​បើក URL មិន​បាន​សម្រេច។"</string>
+    <string msgid="2844874826431327531" name="vcard_export_request_rejected_message">"បាន​បដិសេធ​សំណើ​នាំចេញ vCard ។ សូម​ព្យាយាម​ម្ដងទៀត​នៅ​ពេល​ក្រោយ។"</string>
+    <string msgid="5223531255894842406" name="vcard_import_failed">"មិន​អាច​នាំចូល vCard ។"</string>
+    <string msgid="2890471184508516011" name="vcard_import_request_rejected_message">"បាន​បដិសេធ​សំណើ​នាំចូល vCard ។ សូម​ព្យាយាម​ម្ដងទៀត​នៅ​ពេល​ក្រោយ​។"</string>
+    <string msgid="2804911199145873396" name="vcard_import_will_start_message">"នឹង​នាំចូល <ns1:g id="FILENAME">%s</ns1:g> ក្នុង​ពេល​ឆាប់ៗ។"</string>
+    <string msgid="1022969530654129470" name="vcard_import_will_start_message_with_default_name">"នឹង​នាំចូល​ឯកសារ​ក្នុង​ពេល​ឆាប់ៗ។"</string>
+    <string msgid="7171709890959915954" name="vcard_unknown_filename">"ទំនាក់ទំនង"</string>
+    <string msgid="1872255818640336072" name="video_chat">"ជជែក​ជា​វីដេអូ"</string>
+    <string msgid="1782685984905600034" name="view_updates_from_group">"មើល​បច្ចុប្បន្នភាព"</string>
+    <string msgid="4202998982804009261" name="websiteLabelsGroup">"គេហទំព័រ"</string>
+    <string msgid="1268479086848288060" name="yes_button">"បាទ/ចាស"</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/levi/AndroidStudioProjects/Contacts-Google/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-land-v13/values-w500dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-w500dp-land/bools.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endColumns": "51",
+                        "endOffsets": "734"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

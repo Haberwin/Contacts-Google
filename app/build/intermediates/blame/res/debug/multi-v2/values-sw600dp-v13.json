@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/levi/AndroidStudioProjects/Contacts-Google/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw600dp/dimens.xml",
+                    "from": {
+                        "startLines": "55,56,51,52,23,24,22,59,58,49,25,67,37,20,43,40,46,64,62,34,32,29,30,31,18,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2702,2779,2466,2570,1121,1205,1054,2931,2861,2394,1292,3294,1849,946,2101,1963,2242,3170,3046,1736,1677,1509,1565,1622,880,1003",
+                        "endColumns": "76,80,103,72,83,86,66,57,69,70,64,50,52,56,66,64,60,67,66,67,57,55,56,54,64,50",
+                        "endOffsets": "2774,2855,2565,2638,1200,1287,1116,2984,2926,2460,1352,3340,1897,998,2163,2023,2298,3233,3108,1799,1730,1560,1617,1672,940,1049"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,688,769,873,946,1030,1117,1184,1242,1312,1945,2010,2061,2114,2171,2238,2303,2364,2432,2499,2567,2625,2681,2738,2793,2973",
+                        "endColumns": "76,80,103,72,83,86,66,57,69,70,64,50,52,56,66,64,60,67,66,67,57,55,56,54,64,50",
+                        "endOffsets": "683,764,868,941,1025,1112,1179,1237,1307,1378,2005,2056,2109,2166,2233,2298,2359,2427,2494,2562,2620,2676,2733,2788,2853,3019"
+                    }
+                },
+                {
+                    "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/59f1c8965db988c750f0f8bcdcf9cbfd/material-1.2.0-alpha05/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,28,44,45,47,50",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1383,1443,1513,1584,1656,1714,1772,1881,2858,2914,3024,3221",
+                        "endLines": "20,21,22,23,24,25,27,28,44,45,47,53",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "1438,1508,1579,1651,1709,1767,1876,1940,2909,2968,3082,3388"
+                    }
+                },
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw600dp/integers.xml",
+                    "from": {
+                        "startLines": "4,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "121,448",
+                        "endColumns": "69,63",
+                        "endOffsets": "186,507"
+                    },
+                    "to": {
+                        "startLines": "48,49",
+                        "startColumns": "4,4",
+                        "startOffsets": "3087,3157",
+                        "endColumns": "69,63",
+                        "endOffsets": "3152,3216"
+                    }
+                },
+                {
+                    "source": "/home/levi/.gradle/caches/transforms-2/files-2.1/fad12443e7c84dd7a33f8d710a860a0d/appcompat-1.2.0-alpha02/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        }
+    ]
+}

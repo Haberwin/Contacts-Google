@@ -1,0 +1,1122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2006 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.contacts"
+19    android:versionCode="10731"
+20    android:versionName="1.7.31" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="28"
+23-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="28" />
+24-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml
+25
+26    <original-package android:name="com.android.contacts" />
+26-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:25:5-60
+26-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:25:23-58
+27
+28    <!--
+29         Contacts permission listed first because order determines
+30         order that permissions are requested with some OEMs
+31    -->
+32    <uses-permission android:name="android.permission.READ_CONTACTS" />
+32-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:29:5-71
+32-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:29:22-69
+33    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+33-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:30:5-72
+33-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:30:22-70
+34    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+34-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:31:5-70
+34-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:31:22-68
+35    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
+35-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:32:5-81
+35-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:32:22-79
+36    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+36-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:33:5-73
+36-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:33:22-71
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:34:5-78
+37-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:34:22-76
+38    <uses-permission android:name="android.permission.CALL_PHONE" />
+38-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:35:5-68
+38-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:35:22-66
+39    <uses-permission android:name="android.permission.READ_PROFILE" />
+39-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:36:5-70
+39-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:36:22-68
+40    <uses-permission android:name="android.permission.WRITE_PROFILE" />
+40-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:37:5-71
+40-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:37:22-69
+41    <uses-permission android:name="android.permission.INTERNET" />
+41-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:38:5-66
+41-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:38:22-64
+42    <uses-permission android:name="android.permission.NFC" />
+42-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:39:5-61
+42-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:39:22-59
+43    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:40:5-74
+43-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:40:22-72
+44    <uses-permission android:name="android.permission.WAKE_LOCK" />
+44-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:41:5-67
+44-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:41:22-65
+45    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+45-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:42:5-72
+45-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:42:22-70
+46    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+46-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:43:5-73
+46-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:43:22-71
+47    <uses-permission android:name="android.permission.VIBRATE" />
+47-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:44:5-65
+47-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:44:22-63
+48    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+48-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:45:5-76
+48-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:45:22-74
+49    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+49-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:46:5-79
+49-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:46:22-77
+50    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+50-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:47:5-87
+50-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:47:22-85
+51    <!-- Following used for Contact metadata syncing -->
+52    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+52-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:49:5-77
+52-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:49:22-75
+53    <!-- Following used for getting the status of the contacts sync adapter -->
+54    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+54-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:51:5-73
+54-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:51:22-71
+55    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+55-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:52:5-80
+55-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:52:22-78
+56    <!-- Required in P to run Service.startForeground() -->
+57    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+57-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:54:5-76
+57-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:54:22-74
+58
+59    <uses-feature
+59-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:56:5-58:35
+60        android:name="android.hardware.telephony"
+60-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:57:9-50
+61        android:required="false" />
+61-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:58:9-33
+62
+63    <application
+63-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:60:5-599:19
+64        android:name="com.android.contacts.ContactsApplication"
+64-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:61:9-64
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.3.0-alpha01] /home/levi/.gradle/caches/transforms-2/files-2.1/ffb66abad4c251fa91912bdcea2c857b/core-1.3.0-alpha01/AndroidManifest.xml:24:18-86
+66        android:debuggable="true"
+67        android:hardwareAccelerated="true"
+67-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:62:9-43
+68        android:icon="@mipmap/ic_contacts_launcher"
+68-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:63:9-52
+69        android:label="@string/applicationLabel"
+69-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:64:9-49
+70        android:supportsRtl="true"
+70-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:65:9-35
+71        android:taskAffinity="android.task.contacts"
+71-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:66:9-53
+72        android:testOnly="true"
+73        android:usesCleartextTraffic="false" >
+73-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:67:9-45
+74
+75        <!-- The main Contacts activity with the contact list, favorites, and groups. -->
+76        <activity
+76-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:69:9-176:20
+77            android:name="com.android.contacts.activities.PeopleActivity"
+77-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:70:13-54
+78            android:alwaysRetainTaskState="true"
+78-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:71:13-49
+79            android:launchMode="singleTop"
+79-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:72:13-43
+80            android:resizeableActivity="true"
+80-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:73:13-46
+81            android:theme="@style/LaunchScreenTheme"
+81-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:74:13-53
+82            android:visibleToInstantApps="true" >
+82-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:75:13-48
+83            <intent-filter>
+83-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:77:13-84:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:78:17-68
+84-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:78:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+86-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:81:17-76
+87-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:81:27-74
+88                <category android:name="android.intent.category.BROWSABLE" />
+88-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:17-77
+88-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:27-75
+89                <category android:name="android.intent.category.APP_CONTACTS" />
+89-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:83:17-80
+89-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:83:27-78
+90            </intent-filter>
+91            <intent-filter>
+91-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:85:13-90:29
+92                <action android:name="com.android.contacts.action.LIST_DEFAULT" />
+92-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:86:17-82
+92-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:86:25-80
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+94-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+95                <category android:name="android.intent.category.TAB" />
+95-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+95-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+96            </intent-filter>
+97            <intent-filter>
+97-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:92:13-97:29
+98                <action android:name="com.android.contacts.action.LIST_CONTACTS" />
+98-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:93:17-83
+98-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:93:25-81
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+100-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+101                <category android:name="android.intent.category.TAB" />
+101-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+101-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+102            </intent-filter>
+103            <intent-filter>
+103-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:99:13-104:29
+104                <action android:name="com.android.contacts.action.LIST_ALL_CONTACTS" />
+104-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:100:17-87
+104-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:100:25-85
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+106-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+107                <category android:name="android.intent.category.TAB" />
+107-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+107-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+108            </intent-filter>
+109            <intent-filter>
+109-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:106:13-111:29
+110                <action android:name="com.android.contacts.action.LIST_CONTACTS_WITH_PHONES" />
+110-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:107:17-95
+110-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:107:25-93
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+112-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+113                <category android:name="android.intent.category.TAB" />
+113-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+113-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+114            </intent-filter>
+115            <intent-filter>
+115-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:113:13-118:29
+116                <action android:name="com.android.contacts.action.LIST_STARRED" />
+116-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:114:17-82
+116-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:114:25-80
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+118-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+119                <category android:name="android.intent.category.TAB" />
+119-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+119-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+120            </intent-filter>
+121            <intent-filter>
+121-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:120:13-125:29
+122                <action android:name="com.android.contacts.action.LIST_FREQUENT" />
+122-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:121:17-83
+122-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:121:25-81
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+124-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+125                <category android:name="android.intent.category.TAB" />
+125-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+125-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+126            </intent-filter>
+127            <intent-filter>
+127-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:127:13-132:29
+128                <action android:name="com.android.contacts.action.LIST_STREQUENT" />
+128-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:128:17-84
+128-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:128:25-82
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+130-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+131                <category android:name="android.intent.category.TAB" />
+131-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:17-71
+131-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:89:27-69
+132            </intent-filter>
+133            <intent-filter>
+133-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:134:13-138:29
+134                <action android:name="android.intent.action.SEARCH" />
+134-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:135:17-70
+134-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:135:25-68
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+136-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+137
+138                <data android:mimeType="vnd.android.cursor.dir/contact" />
+138-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+138-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+139            </intent-filter>
+140            <intent-filter>
+140-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:140:13-143:29
+141                <action android:name="android.intent.action.SEARCH" />
+141-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:135:17-70
+141-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:135:25-68
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+143-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+144            </intent-filter>
+145            <intent-filter>
+145-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:145:13-152:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:17-68
+146-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:25-66
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+148-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+149
+150                <data android:mimeType="vnd.android.cursor.dir/person" />
+150-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+150-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+151                <data android:mimeType="vnd.android.cursor.dir/contact" />
+151-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+151-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+152                <data android:mimeType="vnd.android.cursor.item/group" />
+152-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+152-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+153            </intent-filter>
+154            <intent-filter>
+154-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:154:13-158:29
+155                <action android:name="android.intent.action.EDIT" />
+155-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:155:17-68
+155-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:155:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+157-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+158
+159                <data android:mimeType="vnd.android.cursor.item/group" />
+159-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+159-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+160            </intent-filter>
+161            <intent-filter>
+161-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:160:13-164:29
+162                <action android:name="android.intent.action.INSERT" />
+162-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:161:17-70
+162-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:161:25-68
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+164-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+165
+166                <data android:mimeType="vnd.android.cursor.dir/group" />
+166-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+166-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+167            </intent-filter>
+168
+169            <meta-data
+169-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:166:13-169:19
+170                android:name="android.app.searchable"
+170-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:167:17-54
+171                android:resource="@xml/searchable" />
+171-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:168:17-51
+172            <meta-data
+172-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:171:13-174:19
+173                android:name="android.app.shortcuts"
+173-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:172:17-53
+174                android:resource="@xml/shortcuts" />
+174-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:173:17-50
+175        </activity> <!-- Backwards compatibility: "Contacts" from Gingerbread and earlier -->
+176        <activity-alias
+176-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:243:9-247:15
+177            android:name="com.android.contacts.DialtactsContactsEntryActivity"
+177-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:244:13-58
+178            android:exported="true"
+178-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:245:13-36
+179            android:targetActivity="com.android.contacts.activities.PeopleActivity" /> <!-- Backwards compatibility: "Contacts" from Honeycomb -->
+179-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:246:13-64
+180        <activity-alias
+180-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:236:9-240:15
+181            android:name="com.android.contacts.activities.ContactsFrontDoor"
+181-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:237:13-57
+182            android:exported="true"
+182-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:238:13-36
+183            android:targetActivity="com.android.contacts.activities.PeopleActivity" /> <!-- Backwards compatibility: somebody may have hard coded this activity name -->
+183-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:239:13-64
+184        <activity-alias
+184-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:230:9-233:15
+185            android:name="com.android.contacts.ContactsListActivity"
+185-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:231:13-48
+186            android:targetActivity="com.android.contacts.activities.PeopleActivity" />
+186-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:232:13-64
+187
+188        <activity
+188-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:178:9-227:20
+189            android:name="com.android.contacts.activities.ContactSelectionActivity"
+189-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:179:13-64
+190            android:clearTaskOnLaunch="true"
+190-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:180:13-45
+191            android:launchMode="singleTop"
+191-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:181:13-43
+192            android:theme="@style/ContactPickerTheme"
+192-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:182:13-54
+193            android:uiOptions="splitActionBarWhenNarrow"
+193-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:183:13-57
+194            android:visibleToInstantApps="true"
+194-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:185:13-48
+195            android:windowSoftInputMode="adjustResize" >
+195-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:184:13-55
+196            <meta-data
+196-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:186:13-187:40
+197                android:name="android.app.shortcuts.new_config"
+197-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:186:24-71
+198                android:value="true" />
+198-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:187:17-37
+199
+200            <intent-filter>
+200-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:188:13-195:29
+201                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+201-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:189:17-78
+201-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:189:25-76
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+203-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+204
+205                <data android:mimeType="vnd.android.cursor.item/person" />
+205-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+205-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+206                <data android:mimeType="vnd.android.cursor.item/contact" />
+206-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+206-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+207                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+207-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+207-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+208            </intent-filter>
+209            <intent-filter>
+209-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:197:13-209:29
+210                <action android:name="android.intent.action.PICK" />
+210-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:198:17-68
+210-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:198:25-66
+211
+212                <category android:name="android.intent.category.DEFAULT" />
+212-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+212-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+213
+214                <data android:mimeType="vnd.android.cursor.dir/contact" />
+214-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+214-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+215                <data android:mimeType="vnd.android.cursor.dir/person" />
+215-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+215-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+216                <data android:mimeType="vnd.android.cursor.dir/phone_v2" />
+216-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+216-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+217                <data android:mimeType="vnd.android.cursor.dir/phone" />
+217-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+217-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+218                <data android:mimeType="vnd.android.cursor.dir/postal-address_v2" />
+218-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+218-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+219                <data android:mimeType="vnd.android.cursor.dir/postal-address" />
+219-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+219-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+220                <data android:mimeType="vnd.android.cursor.dir/email_v2" />
+220-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+220-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+221                <data android:mimeType="vnd.android.cursor.dir/group" />
+221-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+221-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+222            </intent-filter>
+223            <intent-filter>
+223-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:211:13-221:29
+224                <action android:name="android.intent.action.GET_CONTENT" />
+224-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:212:17-75
+224-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:212:25-73
+225
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+226-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+227
+228                <data android:mimeType="vnd.android.cursor.item/contact" />
+228-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+228-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+229                <data android:mimeType="vnd.android.cursor.item/person" />
+229-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+229-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+230                <data android:mimeType="vnd.android.cursor.item/phone_v2" />
+230-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+230-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+231                <data android:mimeType="vnd.android.cursor.item/phone" />
+231-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+231-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+232                <data android:mimeType="vnd.android.cursor.item/postal-address_v2" />
+232-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+232-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+233                <data android:mimeType="vnd.android.cursor.item/postal-address" />
+233-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+233-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+234            </intent-filter>
+235            <intent-filter>
+235-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:223:13-226:29
+236                <action android:name="com.android.contacts.action.JOIN_CONTACT" />
+236-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:224:17-82
+236-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:224:25-80
+237
+238                <category android:name="android.intent.category.DEFAULT" />
+238-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+238-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+239            </intent-filter>
+240        </activity>
+241
+242        <activity-alias
+242-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:367:9-378:26
+243            android:name="alias.MessageShortcut"
+243-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:368:13-49
+244            android:icon="@drawable/logo_quick_contacts_mail_color_44in48dp"
+244-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:369:13-77
+245            android:label="@string/shortcutMessageContact"
+245-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:370:13-59
+246            android:targetActivity="com.android.contacts.activities.ContactSelectionActivity" >
+246-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:371:13-74
+247            <intent-filter>
+247-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:345:13-348:29
+248                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+248-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:346:17-79
+248-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:346:25-77
+249
+250                <category android:name="android.intent.category.DEFAULT" />
+250-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+250-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+251            </intent-filter>
+252        </activity-alias>
+253        <activity-alias
+253-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:352:9-365:26
+254            android:name="alias.DialShortcut"
+254-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:353:13-46
+255            android:icon="@drawable/logo_quick_contacts_dialer_color_44in48dp"
+255-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:354:13-79
+256            android:label="@string/shortcutDialContact"
+256-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:355:13-56
+257            android:targetActivity="com.android.contacts.activities.ContactSelectionActivity" >
+257-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:356:13-74
+258            <intent-filter>
+258-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:358:13-363:29
+259                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+259-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:346:17-79
+259-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:346:25-77
+260
+261                <category android:name="android.intent.category.DEFAULT" />
+261-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+261-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+262                <category android:name="android.intent.category.CAR_MODE" />
+262-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:362:17-76
+262-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:362:27-74
+263            </intent-filter>
+264        </activity-alias>
+265        <activity-alias
+265-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:339:9-350:26
+266            android:name="com.android.contacts.ContactShortcut"
+266-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:340:13-43
+267            android:icon="@drawable/logo_quick_contacts_color_44in48dp"
+267-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:341:13-72
+268            android:label="@string/shortcutContact"
+268-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:342:13-52
+269            android:targetActivity="com.android.contacts.activities.ContactSelectionActivity" >
+269-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:343:13-74
+270            <intent-filter>
+270-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:345:13-348:29
+271                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+271-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:346:17-79
+271-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:346:25-77
+272
+273                <category android:name="android.intent.category.DEFAULT" />
+273-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+273-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+274            </intent-filter>
+275        </activity-alias>
+276
+277        <!-- Used to set options -->
+278        <activity
+278-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:250:9-255:62
+279            android:name="com.android.contacts.preference.ContactsPreferenceActivity"
+279-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:251:13-66
+280            android:exported="false"
+280-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:252:13-37
+281            android:label="@string/activity_title_settings"
+281-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:253:13-60
+282            android:launchMode="singleTop"
+282-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:254:13-43
+283            android:theme="@style/ContactsPreferencesTheme" />
+283-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:255:13-60
+284        <activity
+284-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:257:9-261:62
+285            android:name="com.android.contacts.activities.LicenseActivity"
+285-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:258:13-55
+286            android:exported="true"
+286-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:259:13-36
+287            android:label="@string/activity_title_licenses"
+287-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:260:13-60
+288            android:theme="@style/ContactsPreferencesTheme" />
+288-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:261:13-60
+289
+290        <!-- Used to filter contacts list by account -->
+291        <activity
+291-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:264:9-267:60
+292            android:name="com.android.contacts.list.AccountFilterActivity"
+292-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:265:13-55
+293            android:label="@string/activity_title_contacts_filter"
+293-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:266:13-67
+294            android:theme="@style/ContactListFilterTheme" />
+294-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:267:13-58
+295
+296        <!-- Used to select display and sync groups -->
+297        <activity
+297-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:270:9-273:60
+298            android:name="com.android.contacts.list.CustomContactListFilterActivity"
+298-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:271:13-65
+299            android:label="@string/custom_list_filter"
+299-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:272:13-55
+300            android:theme="@style/ContactListFilterTheme" />
+300-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:273:13-58
+301        <activity
+301-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:275:9-278:49
+302            android:name="com.android.contacts.activities.RequestPermissionsActivity"
+302-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:276:13-66
+303            android:exported="false"
+303-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:277:13-37
+304            android:theme="@style/PeopleTheme" />
+304-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:278:13-47
+305        <activity
+305-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:280:9-283:49
+306            android:name="com.android.contacts.activities.RequestImportVCardPermissionsActivity"
+306-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:281:13-77
+307            android:exported="false"
+307-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:282:13-37
+308            android:theme="@style/PeopleTheme" />
+308-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:283:13-47
+309        <activity
+309-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:285:9-296:20
+310            android:name="com.android.contacts.activities.ShowOrCreateActivity"
+310-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:286:13-60
+311            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar" >
+311-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:287:13-83
+312            <intent-filter>
+312-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:289:13-295:29
+313                <action android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT" />
+313-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:290:17-92
+313-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:290:25-90
+314
+315                <category android:name="android.intent.category.DEFAULT" />
+315-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+315-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+316
+317                <data android:scheme="mailto" />
+317-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+317-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:293:23-46
+318                <data android:scheme="tel" />
+318-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+318-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:293:23-46
+319            </intent-filter>
+320        </activity>
+321        <activity
+321-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:298:9-324:20
+322            android:name="com.android.contacts.quickcontact.QuickContactActivity"
+322-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:299:13-62
+323            android:excludeFromRecents="true"
+323-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:300:13-46
+324            android:launchMode="singleTop"
+324-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:301:13-43
+325            android:taskAffinity=""
+325-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:302:13-36
+326            android:theme="@style/Theme.QuickContact"
+326-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:303:13-54
+327            android:windowSoftInputMode="stateUnchanged" >
+327-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:304:13-57
+328            <intent-filter>
+328-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:306:13-314:29
+329                <action android:name="com.android.contacts.action.QUICK_CONTACT" />
+329-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:307:17-83
+329-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:307:25-81
+330                <action android:name="android.provider.action.QUICK_CONTACT" />
+330-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:308:17-79
+330-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:308:25-77
+331
+332                <category android:name="android.intent.category.DEFAULT" />
+332-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+332-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+333
+334                <data android:mimeType="vnd.android.cursor.item/contact" />
+334-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+334-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+335                <data android:mimeType="vnd.android.cursor.item/person" />
+335-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+335-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+336            </intent-filter>
+337            <intent-filter>
+337-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:316:13-323:29
+338                <action android:name="android.intent.action.VIEW" />
+338-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:17-68
+338-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:25-66
+339
+340                <category android:name="android.intent.category.DEFAULT" />
+340-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+340-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+341
+342                <data android:mimeType="vnd.android.cursor.item/person" />
+342-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+342-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+343                <data android:mimeType="vnd.android.cursor.item/contact" />
+343-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+343-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+344                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+344-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+344-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+345            </intent-filter>
+346        </activity>
+347
+348        <receiver
+348-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:326:9-328:39
+349            android:name="com.android.contacts.quickcontact.QuickContactBroadcastReceiver"
+349-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:327:13-71
+350            android:exported="false" />
+350-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:328:13-37
+351
+352        <!--
+353        Responsible for creating notification channels when boot is completed or when app is
+354        re-installed
+355        -->
+356        <receiver android:name="com.android.contacts.interactions.OnBootOrUpgradeReceiver" >
+356-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:332:9-337:20
+356-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:332:19-71
+357            <intent-filter>
+357-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:333:13-336:29
+358                <action android:name="android.intent.action.BOOT_COMPLETED" />
+358-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:334:17-79
+358-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:334:25-76
+359                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+359-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:335:17-84
+359-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:335:25-81
+360            </intent-filter>
+361        </receiver>
+362
+363        <!-- Accounts changed prompt that can appear when creating a new contact. -->
+364        <activity
+364-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:381:9-385:57
+365            android:name="com.android.contacts.activities.ContactEditorAccountsChangedActivity"
+365-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:382:13-76
+366            android:exported="false"
+366-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:383:13-37
+367            android:theme="@style/ContactEditorAccountsChangedActivityTheme"
+367-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:384:13-77
+368            android:windowSoftInputMode="adjustResize" />
+368-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:385:13-55
+369
+370        <!-- Edit or create a contact with only the most important fields displayed initially. -->
+371        <activity
+371-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:388:9-400:20
+372            android:name="com.android.contacts.activities.ContactEditorActivity"
+372-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:389:13-61
+373            android:theme="@style/EditorActivityTheme" >
+373-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:390:13-55
+374            <intent-filter>
+374-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:392:13-399:29
+375                <action android:name="android.intent.action.INSERT" />
+375-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:161:17-70
+375-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:161:25-68
+376
+377                <category android:name="android.intent.category.DEFAULT" />
+377-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+377-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+378
+379                <data android:mimeType="vnd.android.cursor.dir/person" />
+379-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+379-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+380                <data android:mimeType="vnd.android.cursor.dir/contact" />
+380-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+380-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+381                <data android:mimeType="vnd.android.cursor.dir/raw_contact" />
+381-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+381-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+382            </intent-filter>
+383        </activity> <!-- Keep support for apps that expect the Compact editor -->
+384        <activity-alias
+384-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:403:9-415:26
+385            android:name="com.android.contacts.activities.CompactContactEditorActivity"
+385-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:404:13-88
+386            android:exported="true"
+386-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:405:13-36
+387            android:targetActivity="com.android.contacts.activities.ContactEditorActivity" >
+387-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:406:13-71
+388            <intent-filter android:priority="-1" >
+388-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:392:13-399:29
+388-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:407:28-49
+389                <action android:name="android.intent.action.INSERT" />
+389-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:161:17-70
+389-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:161:25-68
+390
+391                <category android:name="android.intent.category.DEFAULT" />
+391-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+391-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+392
+393                <data android:mimeType="vnd.android.cursor.dir/person" />
+393-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+393-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+394                <data android:mimeType="vnd.android.cursor.dir/contact" />
+394-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+394-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+395                <data android:mimeType="vnd.android.cursor.dir/raw_contact" />
+395-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+395-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+396            </intent-filter>
+397        </activity-alias>
+398
+399        <activity
+399-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:417:9-429:20
+400            android:name="com.android.contacts.activities.ContactEditorSpringBoardActivity"
+400-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:418:13-72
+401            android:theme="@style/TransparentThemeAppCompat" >
+401-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:419:13-61
+402            <intent-filter>
+402-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:421:13-428:29
+403                <action android:name="android.intent.action.EDIT" />
+403-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:155:17-68
+403-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:155:25-66
+404
+405                <category android:name="android.intent.category.DEFAULT" />
+405-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+405-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+406
+407                <data android:mimeType="vnd.android.cursor.item/person" />
+407-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+407-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+408                <data android:mimeType="vnd.android.cursor.item/contact" />
+408-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+408-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+409                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+409-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+409-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+410            </intent-filter>
+411        </activity>
+412        <activity android:name="com.android.contacts.test.FragmentTestActivity" >
+412-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:431:9-435:20
+412-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:431:19-60
+413            <intent-filter>
+413-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:432:13-434:29
+414                <category android:name="android.intent.category.TEST" />
+414-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:433:17-72
+414-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:433:27-70
+415            </intent-filter>
+416        </activity>
+417
+418        <!--
+419             Stub service used to keep our process alive long enough for
+420             background threads to finish their operations.
+421        -->
+422        <service
+422-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:439:9-441:39
+423            android:name="com.android.contacts.util.EmptyService"
+423-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:440:13-46
+424            android:exported="false" />
+424-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:441:13-37
+425
+426        <!-- Service to save a contact -->
+427        <service
+427-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:444:9-446:39
+428            android:name="com.android.contacts.ContactSaveService"
+428-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:445:13-47
+429            android:exported="false" />
+429-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:446:13-37
+430
+431        <!-- Service to import contacts from the SIM card -->
+432        <service
+432-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:449:9-451:39
+433            android:name="com.android.contacts.SimImportService"
+433-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:450:13-45
+434            android:exported="false" />
+434-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:451:13-37
+435
+436        <!-- Attaches a photo to a contact. Started from external applications -->
+437        <activity
+437-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:454:9-463:20
+438            android:name="com.android.contacts.activities.AttachPhotoActivity"
+438-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:455:13-59
+439            android:label="@string/attach_photo_dialog_title"
+439-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:456:13-62
+440            android:taskAffinity="" >
+440-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:457:13-36
+441            <intent-filter>
+441-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:458:13-462:29
+442                <action android:name="android.intent.action.ATTACH_DATA" />
+442-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:459:17-75
+442-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:459:25-73
+443
+444                <data android:mimeType="image/*" />
+444-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+444-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+445
+446                <category android:name="android.intent.category.DEFAULT" />
+446-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+446-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+447            </intent-filter>
+448        </activity>
+449
+450        <!-- vCard related -->
+451        <activity
+451-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:466:9-479:20
+452            android:name="com.android.contacts.vcard.ImportVCardActivity"
+452-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:467:13-54
+453            android:configChanges="orientation|screenSize|keyboardHidden"
+453-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:468:13-74
+454            android:theme="@style/BackgroundOnlyTheme" >
+454-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:469:13-55
+455            <intent-filter>
+455-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:470:13-478:29
+456                <action android:name="android.intent.action.VIEW" />
+456-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:17-68
+456-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:25-66
+457
+458                <data android:mimeType="text/directory" />
+458-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+458-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+459                <data android:mimeType="text/vcard" />
+459-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+459-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+460                <data android:mimeType="text/x-vcard" />
+460-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+460-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+461
+462                <category android:name="android.intent.category.DEFAULT" />
+462-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+462-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+463            </intent-filter>
+464        </activity>
+465        <activity
+465-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:481:9-493:20
+466            android:name="com.android.contacts.vcard.NfcImportVCardActivity"
+466-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:482:13-57
+467            android:configChanges="orientation|screenSize|keyboardHidden"
+467-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:483:13-74
+468            android:theme="@style/BackgroundOnlyTheme" >
+468-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:484:13-55
+469            <intent-filter>
+469-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:485:13-492:29
+470                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+470-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:486:17-76
+470-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:486:25-74
+471
+472                <data android:mimeType="text/vcard" />
+472-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+472-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+473                <data android:mimeType="text/x-vcard" />
+473-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+473-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+474
+475                <category android:name="android.intent.category.DEFAULT" />
+475-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+475-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+476            </intent-filter>
+477        </activity>
+478        <activity
+478-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:495:9-497:57
+479            android:name="com.android.contacts.vcard.CancelActivity"
+479-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:496:13-49
+480            android:theme="@style/BackgroundOnlyTheme" />
+480-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:497:13-55
+481        <activity
+481-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:499:9-501:57
+482            android:name="com.android.contacts.vcard.SelectAccountActivity"
+482-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:500:13-56
+483            android:theme="@style/BackgroundOnlyTheme" />
+483-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:501:13-55
+484        <activity
+484-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:503:9-505:57
+485            android:name="com.android.contacts.vcard.ExportVCardActivity"
+485-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:504:13-54
+486            android:theme="@style/BackgroundOnlyTheme" />
+486-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:505:13-55
+487        <activity
+487-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:507:9-509:57
+488            android:name="com.android.contacts.vcard.ShareVCardActivity"
+488-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:508:13-53
+489            android:theme="@style/BackgroundOnlyTheme" />
+489-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:509:13-55
+490        <activity
+490-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:511:9-514:93
+491            android:name="com.android.contacts.activities.SimImportActivity"
+491-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:512:13-57
+492            android:label="@string/sim_import_title"
+492-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:513:13-53
+493            android:theme="@style/PeopleThemeAppCompat.FullScreenDialog.SimImportActivity" />
+493-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:514:13-91
+494
+495        <service
+495-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:517:9-519:39
+496            android:name="com.android.contacts.vcard.VCardService"
+496-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:518:13-47
+497            android:exported="false" />
+497-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:519:13-37
+498        <!-- end vCard related -->
+499
+500
+501        <!--
+502             Intercept Dialer Intents for devices without a phone.
+503             This activity should have the same intent filters as the DialtactsActivity,
+504             so that its capturing the same events. Omit android.intent.category.LAUNCHER, because
+505             we don't want this to show up in the Launcher. The priorities of the intent-filters
+506             are set lower, so that the user does not see a disambig dialog
+507        -->
+508        <activity
+508-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:527:9-552:20
+509            android:name="com.android.contacts.NonPhoneActivity"
+509-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:528:13-65
+510            android:theme="@style/NonPhoneActivityTheme" >
+510-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:529:13-57
+511            <intent-filter android:priority="-1" >
+511-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:530:13-535:29
+511-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:530:28-49
+512                <action android:name="android.intent.action.MAIN" />
+512-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:78:17-68
+512-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:78:25-66
+513
+514                <category android:name="android.intent.category.DEFAULT" />
+514-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+514-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+515                <category android:name="android.intent.category.BROWSABLE" />
+515-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:17-77
+515-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:27-75
+516            </intent-filter>
+517            <intent-filter android:priority="-1" >
+517-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:536:13-543:29
+517-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:536:28-49
+518                <action android:name="android.intent.action.VIEW" />
+518-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:17-68
+518-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:25-66
+519
+520                <category android:name="android.intent.category.DEFAULT" />
+520-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+520-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+521                <category android:name="android.intent.category.BROWSABLE" />
+521-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:17-77
+521-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:27-75
+522
+523                <data android:scheme="tel" />
+523-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+523-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:293:23-46
+524            </intent-filter>
+525            <intent-filter android:priority="-1" >
+525-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:544:13-551:29
+525-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:544:28-49
+526                <action android:name="android.intent.action.VIEW" />
+526-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:17-68
+526-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:25-66
+527
+528                <category android:name="android.intent.category.DEFAULT" />
+528-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:17-75
+528-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:80:27-73
+529                <category android:name="android.intent.category.BROWSABLE" />
+529-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:17-77
+529-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:82:27-75
+530
+531                <data android:mimeType="vnd.android.cursor.dir/calls" />
+531-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+531-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+532            </intent-filter>
+533        </activity>
+534        <activity
+534-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:554:9-561:20
+535            android:name="com.android.contacts.dialog.CallSubjectDialog"
+535-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:555:13-73
+536            android:theme="@style/Theme.CallSubjectDialogTheme"
+536-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:556:13-64
+537            android:windowSoftInputMode="stateVisible|adjustResize" >
+537-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:557:13-68
+538            <intent-filter>
+538-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:558:13-560:29
+539                <action android:name="android.intent.action.VIEW" />
+539-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:17-68
+539-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:146:25-66
+540            </intent-filter>
+541        </activity>
+542
+543        <!--
+544             Service that is exclusively for the Phone application that sends out a view
+545             notification. This service might be removed in future versions of the app.
+546
+547             This is called explicitly by the phone app via package name and class.
+548             (PhoneUtils.sendViewNotificationAsync()).  If this service moves, then phone
+549             needs to be changed as well.
+550        -->
+551        <service
+551-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:570:9-578:19
+552            android:name="com.android.contacts.ViewNotificationService"
+552-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:571:13-52
+553            android:exported="true"
+553-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:572:13-36
+554            android:permission="android.permission.WRITE_CONTACTS" >
+554-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:573:13-67
+555            <intent-filter>
+555-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:574:13-577:29
+556                <action android:name="com.android.contacts.VIEW_NOTIFICATION" />
+556-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:575:17-80
+556-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:575:25-78
+557
+558                <data android:mimeType="vnd.android.cursor.item/contact" />
+558-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:17-74
+558-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:137:23-72
+559            </intent-filter>
+560        </service>
+561
+562        <!-- Service used to run JobScheduler jobs -->
+563        <service
+563-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:581:9-583:71
+564            android:name="com.android.contacts.ContactsJobService"
+564-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:582:13-67
+565            android:permission="android.permission.BIND_JOB_SERVICE" />
+565-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:583:13-69
+566
+567        <provider
+567-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:585:9-593:20
+568            android:name="androidx.core.content.FileProvider"
+568-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:586:13-62
+569            android:authorities="@string/contacts_file_provider_authority"
+569-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:587:13-75
+570            android:exported="false"
+570-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:588:13-37
+571            android:grantUriPermissions="true" >
+571-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:589:13-47
+572            <meta-data
+572-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:590:13-592:53
+573                android:name="android.support.FILE_PROVIDER_PATHS"
+573-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:591:17-67
+574                android:resource="@xml/file_paths" />
+574-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:592:17-51
+575        </provider>
+576
+577        <meta-data
+577-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:595:9-597:35
+578            android:name="android.nfc.disable_beam_default"
+578-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:596:13-60
+579            android:value="true" />
+579-->/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/AndroidManifest.xml:597:13-33
+580    </application>
+581
+582</manifest>

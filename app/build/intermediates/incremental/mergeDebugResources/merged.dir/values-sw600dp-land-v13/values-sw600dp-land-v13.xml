@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contacts_no_account_empty_image_offset">175dp</dimen>
+    <dimen name="contacts_no_account_empty_image_width">180dp</dimen>
+    <dimen name="empty_group_view_text_padding_top">32dp</dimen>
+    <dimen name="empty_home_view_image_offset">175dp</dimen>
+    <dimen name="empty_view_image_height">180dp</dimen>
+    <dimen name="launchscreens_product_logo_bottom">72dp</dimen>
+    <integer name="contact_list_card_layout_weight">6</integer>
+    <integer name="contact_list_space_layout_weight">1</integer>
+    <integer name="empty_account_view_image_margin_divisor">5</integer>
+    <integer name="empty_group_view_image_margin_divisor">8</integer>
+    <integer name="snippet_length_before_tokenize">20</integer>
+</resources>

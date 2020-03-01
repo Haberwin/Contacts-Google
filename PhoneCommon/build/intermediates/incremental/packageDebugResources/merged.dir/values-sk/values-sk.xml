@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="437630601519502587" name="callEnded_pulled">"Hovor bol presmerovaný na iné zariadenie."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"Pri zapnutom blokovaní hovorov nie je možné uskutočniť odchádzajúce hovory"</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Sieť je zaneprázdnená"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"Hovor bol ukončený, pretože boli vypnuté mobilné dáta."</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"Bol dosiahnutý dátový limit. Hovor bol ukončený."</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"Hovor bol ukončený, pretože bol dosiahnutý mobilný dátový limit."</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"Zmenené na iné číslo"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"Zmenené na videohovor"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"Hovor bol zmenený na žiadosť SS"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"Hovor bol zmenený na žiadosť USSD"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"Zmenené na bežný hovor"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"Zmenené na iné číslo"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"Videohovor bol zmenený na žiadosť SS"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"Videohovor bol zmenený na žiadosť USSD"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Volania obmedzuje riadenie prístupu"</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Tiesňové volania obmedzuje riadenie prístupu"</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Bežné volania obmedzuje riadenie prístupu"</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Odchádzajúce hovory sú obmedzené na povolené čísla."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Nesprávne používateľské meno alebo heslo"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"Bol prekročený limit ACM"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"Používajú sa všetky dostupné linky. Ak chcete uskutočniť hovor, prerušte niektorý hovor v tomto alebo inom zariadení."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"Žiadny signál"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"Volané číslo je nedostupné"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Mobilná sieť nie je k dispozícii"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Volanie mimo siete"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Rádio je vypnuté"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Chyba servera: Skúste to znova neskôr."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Server je nedostupný"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"SIM karta chýba alebo nefunguje"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"Bez odozvy, vypršal časový limit"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"Neplatné číslo"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Linka je obsadená"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"Ak je zapnutý textový telefón, nie je možné uskutočňovať videohovory."</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Predvolený zvuk (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"backspace"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"Prejsť späť"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Ďalšie možnosti"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"plus"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"hlasová schránka"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Číslo hlasovej schránky je neznáme"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"Žiadny"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"Neznámy tón zvonenia"</string>
+</resources>

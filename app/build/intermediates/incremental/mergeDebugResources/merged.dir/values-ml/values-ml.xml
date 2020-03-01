@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="8696793457340503668" name="contacts_count">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> കോൺടാക്റ്റുകൾ</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> കോൺടാക്റ്റ്</item>
+    </plurals>
+    <plurals formatted="false" msgid="7402583111980220575" name="contacts_count_with_account">
+      <item quantity="other"><ns1:g id="COUNT_2">%1$d</ns1:g> കോൺടാക്‌റ്റുകൾ · <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">%1$d</ns1:g> കോൺടാക്‌റ്റ് · <ns1:g id="ACCOUNT_1">%2$s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="1477708624197262295" name="contacts_deleted_toast">
+      <item quantity="other">കോൺടാക്റ്റുകൾ ഇല്ലാതാക്കി</item>
+      <item quantity="one">കോൺടാക്റ്റ് ഇല്ലാതാക്കി</item>
+    </plurals>
+    <plurals formatted="false" msgid="5821095773211149295" name="import_from_sim_secondary_contact_count_fmt">
+      <item quantity="other">%d കോൺടാക്‌റ്റുകൾ</item>
+      <item quantity="one">ഒരു കോൺടാക്‌റ്റ്</item>
+    </plurals>
+    <plurals formatted="false" msgid="2484832025802907060" name="import_from_sim_secondary_template">
+      <item quantity="other"><ns1:g id="COUNT_2">^1</ns1:g> കോൺടാക്‌റ്റുകൾ • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+      <item quantity="one"><ns1:g id="COUNT_0">^1</ns1:g> കോൺടാക്‌റ്റ്‌ • <ns1:g id="PHONE_NUMBER_1">^2</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="8572156521110906443" name="sim_import_success_toast_fmt">
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> സിം കോൺടാക്‌റ്റുകൾ ഇമ്പോർട്ടുചെയ്‌തു</item>
+      <item quantity="one">ഒരു സിം കോൺടാക്‌റ്റ് ഇമ്പോർട്ടുചെയ്‌തു</item>
+    </plurals>
+    <plurals formatted="false" msgid="5886112726191455415" name="title_share_via">
+      <item quantity="other">ഇതുവഴി കോൺടാക്‌റ്റുകൾ പങ്കിടുക</item>
+      <item quantity="one">ഇതുവഴി കോൺടാക്‌റ്റ് പങ്കിടുക</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"ഹോമിലേക്ക് പോവുക"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"മുകളിലേക്ക് പോവുക"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"കൂടുതൽ ഓപ്ഷനുകൾ"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"പൂർത്തിയായി"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"എല്ലാം കാണുക"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ആപ്പ് തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ഓഫ്"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ഓൺ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"ഫംഗ്ഷന്‍+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"മെറ്റ+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"സ്‌പെയ്‌സ്"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"മെനു+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"തിരയുക…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ചോദ്യം മായ്‌ക്കുക"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"ചോദ്യം തിരയുക"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"തിരയുക"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ചോദ്യം സമർപ്പിക്കുക"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"സംസാരത്തിലൂടെ തിരയുക"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"ഇനിപ്പറയുന്നതുമായി പങ്കിടുക"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> എന്നതുമായി പങ്കിടുക"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ചുരുക്കുക"</string>
+    <string msgid="1765533099416999801" name="about_build_version">"ബിൽഡ് പതിപ്പ്"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"ആമുഖം"</string>
+    <string msgid="6479990452352919641" name="about_open_source_licenses">"ഓപ്പൺ സോഴ്‌സ് ലൈസൻസുകൾ"</string>
+    <string msgid="57418386931763994" name="about_open_source_licenses_summary">"ഓപ്പൺ സോഴ്‌സ് സോഫ്റ്റ്‌വെയറിനായുള്ള ലൈസൻസ് വിശദാംശങ്ങൾ"</string>
+    <string msgid="3705518622499152626" name="about_privacy_policy">"സ്വകാര്യതാ നയം"</string>
+    <string msgid="4642400812150296723" name="about_terms_of_service">"സേവന നിബന്ധനകൾ"</string>
+    <string msgid="6696859503887762213" name="account_filter_view_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g> ചെക്കുചെയ്തു"</string>
+    <string msgid="2248684521205038389" name="account_filter_view_not_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g> ചെക്കുചെയ്തില്ല"</string>
+    <string msgid="7128032778471187553" name="account_phone">"ഉപകരണം"</string>
+    <string msgid="6519016427905087952" name="account_sim">"സിം"</string>
+    <string msgid="7646143254066243924" name="account_sync_off">"അക്കൗണ്ട് സമന്വയം ഓഫാണ്. ഓണാക്കാൻ ടാപ്പുചെയ്യുക."</string>
+    <string msgid="718948015590343010" name="account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g> കോൺടാക്റ്റ്"</string>
+    <string msgid="5506832825256203208" name="action_menu_add_new_contact_button">"പുതിയകോൺടാക്റ്റ് സൃഷ്‌ടിക്കൂ"</string>
+    <string msgid="6435476408621731420" name="action_menu_back_from_edit_select">"അടയ്‌ക്കുക"</string>
+    <string msgid="8793348588949233348" name="action_menu_back_from_search">"തിരയൽ നിർത്തുക"</string>
+    <string msgid="8275542497615516969" name="activity_title_contacts_filter">"ദൃശ്യമാക്കേണ്ട കോൺടാക്റ്റുകൾ"</string>
+    <string msgid="5467767062737708066" name="activity_title_licenses">"ഓപ്പൺ സോഴ്‌സ് ലൈസൻസുകൾ"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"ക്രമീകരണം"</string>
+    <string msgid="8201790677994503186" name="add_account">"അക്കൗണ്ട് ചേർക്കുക"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"കോൺടാക്റ്റുകളിലേക്ക് \"<ns1:g id="EMAIL">%s</ns1:g>\" ചേർക്കണോ?"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"പുതിയ അക്കൗണ്ട് ചേർക്കുക"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"തിരഞ്ഞെടുത്ത കോൺടാക്റ്റ് എഡിറ്റുചെയ്യുന്നതിലേക്ക് മാറണോ? ഇതുവരെ നിങ്ങൾ നൽകിയ വിവരങ്ങൾ പകർത്തപ്പെടും."</string>
+    <string msgid="6414231530177338704" name="announce_collapsed_fields">"ചുരുക്കി"</string>
+    <string msgid="1075947220478530622" name="announce_expanded_fields">"വികസിപ്പിച്ചു"</string>
+    <string msgid="3906689777043645443" name="applicationLabel">"കോണ്‍ടാക്റ്റുകള്‍"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"കോൺടാക്‌‌റ്റിന്റെ ഫോട്ടോ"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"വോയ്സ് ചാറ്റ്"</string>
+    <string msgid="2180147284456026587" name="auto_sync_off">"സ്വയ സമന്വയം ഓഫാണ്. ഓണാക്കാൻ ടാപ്പുചെയ്യുക."</string>
+    <string msgid="4355362760545735065" name="back_arrow_content_description">"മടങ്ങുക"</string>
+    <string msgid="3984346060324014108" name="batch_delete_confirmation">"തിരഞ്ഞെടുത്ത കോൺടാക്‌റ്റുകൾ ഇല്ലാതാക്കണോ?"</string>
+    <string msgid="8207205649127030030" name="batch_delete_multiple_accounts_confirmation">"ഇല്ലാതാക്കേണ്ട കോൺടാക്റ്റുകളിൽ ഒന്നിലധികം അക്കൗണ്ടുകളിൽ നിന്നുള്ള വിശദാംശങ്ങൾ അടങ്ങിയിരിക്കുന്നു. വായന-മാത്രമായ അക്കൗണ്ടുകളിൽ നിന്നുള്ള വിശദാംശങ്ങൾ മറയ്‌ക്കുമെങ്കിലും, അവ ഇല്ലാതാക്കില്ല."</string>
+    <string msgid="8411117621035639964" name="batch_delete_read_only_contact_confirmation">"നിങ്ങളുടെ വായന-മാത്രമായ അക്കൗണ്ടുകളിൽ നിന്നുള്ള കോൺടാക്റ്റുകൾ ഇല്ലാതാക്കാൻ കഴിയില്ല, എന്നാൽ അവയെ മറയ്ക്കാവുന്നതാണ്."</string>
+    <string msgid="5864256698061641841" name="blurbJoinContactDataWith">"<ns1:g id="NAME">%s</ns1:g> എന്നയാളുമായി ലിങ്കുചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്ന കോൺടാക്റ്റ് തിരഞ്ഞെടുക്കുക:"</string>
+    <string msgid="4926308675041506756" name="caching_vcard_message">"പ്രാദേശിക താൽക്കാലിക സംഭരണത്തിലേക്ക് vCard (vCard-കൾ) കാഷെ ചെയ്യുന്നു. യഥാർത്ഥ ഇമ്പോർട്ടുചെയ്യൽ ഉടൻ ആരംഭിക്കും."</string>
+    <string msgid="1226272312940516605" name="caching_vcard_title">"കാഷെ ചെയ്യൽ"</string>
+    <string msgid="437630601519502587" name="callEnded_pulled">"കോൾ മറ്റൊരു ഉപകരണത്തിലേക്ക് കൈമാറി."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"കോൾ ബാറിംഗ് ഓണായിരിക്കുമ്പോൾ നിങ്ങൾക്ക് ഔട്ട്‌ഗോയിംഗ് കോളുകൾ ചെയ്യാനാവില്ല."</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"നെറ്റ്‌വർക്ക് തിരക്കിലാണ്"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"സെല്ലുലാർ ഡാറ്റ പ്രവർത്തനരഹിതമാക്കിയതിനാൽ കോൾ അവസാനിച്ചു."</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"ഡാറ്റ പരിധിയെത്തി. കോൾ അവസാനിച്ചു."</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"സെല്ലുലാർ ഡാറ്റ പരിധിയെത്തിയതിനാൽ കോൾ അവസാനിച്ചു."</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"മറ്റൊരു നമ്പറിലേക്ക് മാറ്റി"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"വീഡിയോ കോളിലേക്ക് മാറ്റി"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"കോൾ, SS അഭ്യർത്ഥനയിലേക്ക് മാറ്റി"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"കോൾ, USSD അഭ്യർത്ഥനയിലേക്ക് മാറ്റി"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"സാധാരണ കോളിലേക്ക് മാറ്റി"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"മറ്റൊരു നമ്പറിലേക്ക് മാറ്റി"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"വീഡിയോ കോൾ SS അഭ്യർത്ഥനയിലേക്ക് മാറ്റി"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"വീഡിയോ കോൾ, USSD അഭ്യർത്ഥനയിലേക്ക് മാറ്റി"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"ആക്‌സസ്സ് നിയന്ത്രണം ഉപയോഗിച്ച് കോളുകൾ നിയന്ത്രിച്ചിരിക്കുന്നു."</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"ആക്‌സസ്സ് നിയന്ത്രണം ഉപയോഗിച്ച് അടിയന്തിര കോളുകൾ നിയന്ത്രിച്ചിരിക്കുന്നു."</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"ആക്‌സസ്സ് നിയന്ത്രണം ഉപയോഗിച്ച് സാധാരണ കോളുകൾ നിയന്ത്രിച്ചിരിക്കുന്നു."</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"FDN, ഔട്ട്ഗോയിംഗ് കോളുകൾ നിയന്ത്രിച്ചിരിക്കുന്നു."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"ഉപയോക്തൃനാമമോ പാസ്‌വേഡോ തെറ്റാണ്"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"ACM പരിധി കഴിഞ്ഞു"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"ലഭ്യമായ ലൈനുകളെല്ലാം ഉപയോഗത്തിലാണ്. കോൾ ചെയ്യാൻ, ഈ ഉപകരണത്തിലെ കോളുകളിലൊന്ന് വിച്ഛേദിക്കുകയോ നിങ്ങളുടെ മറ്റൊരു ഉപകരണം ഓണാക്കുകയോ ചെയ്യുക."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"സിഗ്‌നൽ ഇല്ല"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"നമ്പർ പരിധിയ്‌ക്ക് പുറത്താണ്"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"സെല്ലുലാർ നെറ്റ്‌വർക്ക് ലഭ്യമല്ല"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"കോൾ നെറ്റ്‌വർക്കിന് പുറത്താണ്"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"റേഡിയോ ഓഫാണ്"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"സെർവർ പിശക്. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"സെർവർ പരിധിക്ക് പുറത്താണ്"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"സിം ഇല്ല അല്ലെങ്കിൽ സിം പിശക്"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"പ്രതികരണമില്ല, കാലഹരണപ്പെട്ടു"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"നമ്പർ അസാധുവാണ്"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"ലൈൻ തിരക്കിലാണ്"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"TTY പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുമ്പോൾ വീഡിയോ കോളുകൾ ചെയ്യാൻ കഴിയില്ല."</string>
+    <string msgid="670941612175068337" name="call_assistant">"<ns1:g id="CUSTOM_LABEL">%s</ns1:g> എന്ന നമ്പറിൽ വിളിക്കുക"</string>
+    <string msgid="2566802538698913124" name="call_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (വിളിക്കുക)"</string>
+    <string msgid="1910165691349426858" name="call_callback">"കോൾബാക്ക് നമ്പറിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="3280537320306436445" name="call_car">"കാർ നമ്പറിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="6105120947138711257" name="call_company_main">"കമ്പനിയിലെ പ്രധാന ഫോണിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="6385303130912713318" name="call_custom">"<ns1:g id="CUSTOM_LABEL">%s</ns1:g> എന്ന നമ്പറിൽ വിളിക്കുക"</string>
+    <string msgid="8342175628887571876" name="call_fax_home">"വീട്ടിലെ ഫാക്‌സിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="7467763592359059243" name="call_fax_work">"ഔദ്യോഗിക ഫാക്‌സിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="1990519474420545392" name="call_home">"വീട്ടിലെ ഫോണിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="1541590690193403411" name="call_isdn">"ISDN-ലേക്ക് വിളിക്കുക"</string>
+    <string msgid="6082900571803441339" name="call_main">"പ്രധാന ഫോണിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="6274041545876221437" name="call_mms">"MMS ഫോണിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="7502236805487609178" name="call_mobile">"മൊബൈലിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="8563753966926932052" name="call_other">"വിളിക്കുക"</string>
+    <string msgid="5745314124619636674" name="call_other_fax">"ഫാക്‌സിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="9003902812293983281" name="call_pager">"പേജറിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="8296755876398357063" name="call_radio">"റേഡിയോയിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="3043028982108363572" name="call_subject_hint">"കോളിനൊപ്പം അയയ്‌ക്കാൻ ഒരു കുറിപ്പ് ടൈപ്പുചെയ്യുക..."</string>
+    <string msgid="4545212901205397669" name="call_subject_limit">"<ns1:g id="COUNT">%1$s</ns1:g> / <ns1:g id="LIMIT">%2$s</ns1:g>"</string>
+    <string msgid="7667188212129152558" name="call_subject_type_and_number">"<ns1:g id="TYPE">%1$s</ns1:g> • <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2223170774548648114" name="call_telex">"ടെലക്‌സിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="8951266948204379604" name="call_tty_tdd">"TTY/TDD-യിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="8389827628360791676" name="call_with_a_note">"കുറിപ്പിനൊപ്പം വിളിക്കുക"</string>
+    <string msgid="5328785911463744028" name="call_work">"ഔദ്യോഗിക ഫോണിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="8707874281430105394" name="call_work_mobile">"ഔദ്യോഗിക മൊബൈലിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="3419348514157949008" name="call_work_pager">"ഔദ്യോഗിക പേജറിലേക്ക് വിളിക്കുക"</string>
+    <string msgid="1288652456274531846" name="cancel_button_content_description">"റദ്ദാക്കുക"</string>
+    <string msgid="3057023972074640671" name="cancel_confirmation_dialog_cancel_editing_button">"നിരസിക്കുക"</string>
+    <string msgid="3316573928085916146" name="cancel_confirmation_dialog_keep_editing_button">"റദ്ദാക്കൂ"</string>
+    <string msgid="9008214737653278989" name="cancel_confirmation_dialog_message">"മാറ്റങ്ങൾ നിരസിക്കണോ?"</string>
+    <string msgid="1995462401949262638" name="cancel_export_confirmation_message">"<ns1:g id="FILENAME">%s</ns1:g> എന്നത് എക്‌സ്‌പോർട്ടുചെയ്യുന്നത് റദ്ദാക്കണോ?"</string>
+    <string msgid="3929951040347726757" name="cancel_import_confirmation_message">"<ns1:g id="FILENAME">%s</ns1:g> എന്നത് ഇമ്പോർട്ടുചെയ്യുന്നത് റദ്ദാക്കണോ?"</string>
+    <string msgid="6139900383366166706" name="cancel_vcard_import_or_export_failed">"vCard ഇമ്പോർട്ടുചെയ്യൽ/എക്‌സ്‌പോർട്ടുചെയ്യൽ റദ്ദാക്കാനായില്ല"</string>
+    <string msgid="9025361898797412245" name="chat">"ചാറ്റുചെയ്യുക"</string>
+    <string msgid="2588492205291249142" name="chat_aim">"AIM ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="981575737258117697" name="chat_gtalk">"Google Talk ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="8438405386153745775" name="chat_icq">"ICQ ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="7561444230307829609" name="chat_jabber">"Jabber ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="8041633440091073484" name="chat_msn">"Windows Live ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="4294637812847719693" name="chat_qq">"QQ ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="1210045020427480566" name="chat_skype">"Skype ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="6629211142719943666" name="chat_yahoo">"Yahoo ഉപയോഗിച്ച് ചാറ്റുചെയ്യുക"</string>
+    <string msgid="2270554975938265734" name="clearFrequentsConfirmation">"നിങ്ങൾ കോൺടാക്‌റ്റുകളുടെയും ഫോണിന്റെയും അപ്ലിക്കേഷനുകളിലെ പതിവായി കോൺടാക്റ്റുചെയ്യുന്നവരുടെ ലിസ്റ്റ് മായ്‌ക്കുകയും സ്‌ക്രാച്ചിൽ നിന്നും ബന്ധപ്പെടൽ മുൻഗണനകൾ അറിയാൻ ഇമെയിൽ അപ്ലിക്കേഷനുകളെ പ്രേരിപ്പിക്കുകയും ചെയ്യും."</string>
+    <string msgid="766292372438450432" name="clearFrequentsConfirmation_title">"പതിവായി കോൺടാക്റ്റുചെയ്യുന്നവരെ മായ്‌ക്കണോ?"</string>
+    <string msgid="5157001637482794212" name="clearFrequentsProgress_title">"പതിവായി കോൺടാക്റ്റുചെയ്യുന്നവരെ മായ്‌ക്കുന്നു…"</string>
+    <string msgid="7193185801596678067" name="clear_default">"സ്ഥിരമായത് മായ്‌ക്കുക"</string>
+    <string msgid="1884143625854637874" name="collapse_fields_description">"ചുരുക്കുക"</string>
+    <string msgid="4757877385895561556" name="collapse_name_fields_description">"പേരിന്റെ ഫീൽഡുകൾ ചുരുക്കുക"</string>
+    <string msgid="1765944280846236723" name="composer_failed_to_get_database_infomation">"ഡാറ്റാബേസ് വിവരം നേടാനായില്ല."</string>
+    <string msgid="5712531702823346549" name="composer_has_no_exportable_contact">"എക്‌സ്‌പോർട്ടുചെയ്യാനാകുന്ന കോൺടാക്റ്റുകളൊന്നുമില്ല."</string>
+    <string msgid="2321648986367005254" name="composer_not_initialized">"vCard കമ്പോസർ ശരിയായി ആരംഭിച്ചില്ല."</string>
+    <string msgid="7046408921529247089" name="connection_error_message">"കണക്ഷനൊന്നുമില്ല"</string>
+    <string msgid="3885457515665783976" name="contactGenericErrorToast">"കോൺടാക്റ്റ് സംരക്ഷിക്കുന്നതില്‍ പിശക്"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"കോണ്‍‌ടാക്റ്റിലേക്ക് ചേര്‍ക്കുക"</string>
+    <string msgid="5735129234573327701" name="contactJoinErrorToast">"കോൺടാക്റ്റ് ലിങ്കുചെയ്യാനായില്ല"</string>
+    <string msgid="6860883564984042194" name="contactPhotoSavedErrorToast">"കോൺടാക്റ്റ് ഫോട്ടോയിലെ മാറ്റങ്ങൾ സംരക്ഷിക്കാനായില്ല"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"കോൺടാക്റ്റ് തിരഞ്ഞെടുക്കൂ"</string>
+    <string msgid="4827033473908688031" name="contactSavedErrorToast">"കോൺടാക്റ്റ് മാറ്റങ്ങൾ സംരക്ഷിക്കാനായില്ല"</string>
+    <string msgid="895136068894549611" name="contactSavedNamedToast">"<ns1:g id="DISPLAY_NAME">%s</ns1:g> സംരക്ഷിച്ചു"</string>
+    <string msgid="9171862279493213075" name="contactSavedToast">"കോൺടാക്റ്റ് സംരക്ഷിച്ചു"</string>
+    <string msgid="2706297508166952431" name="contactUnlinkErrorToast">"കോൺടാക്റ്റ് അൺലിങ്കുചെയ്യാനായില്ല"</string>
+    <string msgid="7122823195786012553" name="contactUnlinkedToast">"കോൺടാക്റ്റുകൾ അൺലിങ്കുചെയ്തു"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"ഡയറക്‌ടറി <ns1:g id="TYPE">%1$s</ns1:g>"</string>
+    <string msgid="426142748048816297" name="contact_editor_add_linked_contact">"ചേർക്കുക"</string>
+    <string msgid="4618465940423857694" name="contact_editor_pick_linked_contact_dialog_title">"ലിങ്കുചെയ്ത കോൺടാക്റ്റുകൾ"</string>
+    <string msgid="4186699385645902152" name="contact_editor_pick_raw_contact_to_edit_dialog_title">"എഡിറ്റുചെയ്യാനുള്ള കോൺടാക്‌റ്റ്‌ തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="8565761674283473549" name="contact_editor_prompt_multiple_accounts">"പുതിയ കോൺടാക്റ്റുകൾക്ക് ഒരു ഡിഫോൾട്ട് അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക:"</string>
+    <string msgid="3087691056345099310" name="contact_editor_prompt_one_account">"പുതിയ കോൺടാക്റ്റുകൾ <ns1:g id="ACCOUNT_NAME">%1$s</ns1:g> എന്ന അക്കൗണ്ടിലേക്ക് സംരക്ഷിക്കപ്പെടും."</string>
+    <string msgid="6648376557574360096" name="contact_editor_prompt_zero_accounts">"കുറച്ചുസമയമെടുത്ത് ഒരു അക്കൗണ്ട് ചേർക്കുക, അത് Google-ൽ നിങ്ങളുടെ കോൺടാക്‌റ്റുകളുടെ ബായ്‌ക്കപ്പെടുക്കുന്നതിനിടയാക്കും."</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"എഡിറ്റുചെയ്യുക"</string>
+    <string msgid="3042788718983070111" name="contact_editor_title_new_contact">"പുതിയകോൺടാക്റ്റ് സൃഷ്‌ടിക്കൂ"</string>
+    <string msgid="2443496574528842237" name="contact_editor_title_read_only_contact">"കാഴ്‌ച മാത്രം"</string>
+    <string msgid="4525214336177236653" name="contact_editor_unlink_contacts">"അൺലിങ്കുചെയ്യുക"</string>
+    <string msgid="752179367353018597" name="contact_status_update_attribution">"<ns1:g id="SOURCE">%1$s</ns1:g> വഴി"</string>
+    <string msgid="7358045508107825068" name="contact_status_update_attribution_with_date">"<ns1:g id="SOURCE">%2$s</ns1:g> വഴി <ns1:g id="DATE">%1$s</ns1:g>"</string>
+    <string msgid="8417039765586853670" name="contactsFavoritesLabel">"പ്രിയപ്പെട്ടവ"</string>
+    <string msgid="3343535986195643136" name="contactsJoinedMessage">"ലിങ്കുചെയ്ത കോൺടാക്റ്റുകൾ"</string>
+    <string msgid="1299418263439579455" name="contactsJoinedNamedMessage">"<ns1:g id="NAME">%s</ns1:g> ലിങ്കുചെയ്‌തു"</string>
+    <string msgid="8661624236494819731" name="contactsList">"കോണ്‍‌ടാക്റ്റുകള്‍"</string>
+    <string msgid="4754058700611188581" name="contacts_default_notification_channel">"അറിയിപ്പുകൾ"</string>
+    <string msgid="7731565342428031249" name="contacts_deleted_many_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g>, <ns1:g id="NAME_1">%2$s</ns1:g>, <ns1:g id="NAME_2">%3$s</ns1:g> എന്നീ കോൺടാക്റ്റുകളെ ഇല്ലാതാക്കി…"</string>
+    <string msgid="2252551736301363193" name="contacts_deleted_one_named_toast">"<ns1:g id="NAME">%1$s</ns1:g> എന്ന കോൺടാക്റ്റിനെ ഇല്ലാതാക്കി"</string>
+    <string msgid="3642082931473111791" name="contacts_deleted_two_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g>,<ns1:g id="NAME_1">%2$s</ns1:g> എന്നീ കോൺടാക്റ്റുകളെ ഇല്ലാതാക്കി"</string>
+    <string msgid="8538705791417534431" name="contacts_export_will_start_message">"കോൺടാക്റ്റുകൾ താമസിയാതെ എക്സ്പോർട്ടുചെയ്യും."</string>
+    <string msgid="2846494347384549277" name="contacts_linking_progress_bar">"ലിങ്കുചെയ്യുന്നു"</string>
+    <string msgid="4347232421410561500" name="contacts_unavailable_add_account">"അക്കൗണ്ട് ചേർക്കുക"</string>
+    <string msgid="3182801738595937144" name="contacts_unavailable_import_contacts">"ഇമ്പോർട്ടുചെയ്യുക"</string>
+    <string msgid="5989310198163726929" name="contacts_unlinking_progress_bar">"അൺലിങ്കുചെയ്യുന്നു"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"ലൊക്കേഷനിലേക്കുള്ള വഴികൾ"</string>
+    <string msgid="3257145021583508761" name="copy_text">"ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തുക"</string>
+    <string msgid="953651153238790069" name="createContactShortcutSuccessful">"ഹോം സ്ക്രീനിലേക്ക് <ns1:g id="NAME">%s</ns1:g> ചേർത്തു."</string>
+    <string msgid="8831303345367275472" name="createContactShortcutSuccessful_NoName">"ഹോം സ്ക്രീനിലേക്ക് കോൺടാക്റ്റ് ചേർത്തു."</string>
+    <string msgid="3263064599743742865" name="create_group_item_label">"പുതിയത് സൃഷ്‌ടിക്കുക…"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"ഇഷ്‌ടാനുസൃത ലേബൽ പേര്"</string>
+    <string msgid="9048525797111024204" name="custom_list_filter">"കാഴ്‌ച ഇഷ്‌ടാനുസൃതമാക്കൂ"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"സജ്ജമാക്കുക"</string>
+    <string msgid="7122002148518724139" name="date_year_toggle">"വർഷം ഉൾപ്പെടുത്തുക"</string>
+    <string msgid="699591683362420991" name="default_editor_account">"പുതുകോൺടാക്റ്റുകൾക്കുള്ള ഡിഫോൾട്ട് അക്കൗണ്ട്"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"സ്ഥിര ശബ്‌ദം (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="3512271779086656043" name="deleteConfirmation">"ഈ കോൺടാക്റ്റ് ഇല്ലാതാക്കണോ?"</string>
+    <string msgid="7857888845028586365" name="deleteConfirmation_positive_button">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="335713829185261371" name="delete_group_dialog_message">"\"<ns1:g id="GROUP_LABEL">%1$s</ns1:g>\" ലേബൽ ഇല്ലാതാക്കണോ? (കോൺടാക്റ്റുകൾ സ്വയം ഇല്ലാതാക്കപ്പെടില്ല.)"</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"പ്രിയപ്പെട്ടവയിലേക്ക് ചേർത്തു"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"പ്രിയപ്പെട്ടവയിൽ നിന്നും നീക്കംചെയ്‌തു"</string>
+    <string msgid="688023606766232904" name="description_clear_search">"തിരയൽ മായ്ക്കുക"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"ബാക്ക്‌സ്‌പെയ്‌സ്"</string>
+    <string msgid="53835657343783663" name="description_delete_contact">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"തിരികെ പോകുക"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"കൂടുതൽ ഓപ്‌ഷനുകൾ"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"പ്ലസ്"</string>
+    <string msgid="6908099247930477551" name="description_minus_button">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="8884991311595943271" name="description_no_name_header">"എല്ലിപ്‌സിസ്"</string>
+    <string msgid="6737516415168327789" name="description_quick_contact_for">"<ns1:g id="NAME">%1$s</ns1:g> എന്നയാളുടെ ദ്രുത കോൺടാക്റ്റ്"</string>
+    <string msgid="5841525580339803272" name="description_search_video_call">"വീഡിയോ കോൾ ചെയ്യുക"</string>
+    <string msgid="7120921378651700947" name="description_video_call">"വീഡിയോ കോൾ ചെയ്യുക"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"വോയ്‌സ്‌മെയിൽ"</string>
+    <string msgid="1628001095187741417" name="dialog_export">"കോൺടാക്റ്റുകൾ എക്‌സ്‌പോർട്ടുചെയ്യുക"</string>
+    <string msgid="2423592905927819672" name="dialog_import">"ഇതിൽ നിന്ന്‌ കോൺടാക്‌റ്റ് ഇമ്പോർട്ടുചെയ്യൂ"</string>
+    <string msgid="4969619718062454756" name="dialog_new_contact_account">"ഇമ്പോർട്ടുചെയ്ത കോൺടാക്റ്റുകൾ ഇനിപ്പറയുന്നതിലേക്ക് സംരക്ഷിക്കുക:"</string>
+    <string msgid="3451312333591556651" name="dialog_new_group_account">"അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="8267045393119375803" name="dialog_sync_add">"സമന്വയ ഗ്രൂപ്പ് ചേർക്കുക"</string>
+    <string msgid="1887759056597975053" name="directory_search_label">"ഡയറക്‌ടറി"</string>
+    <string msgid="8618292129829443176" name="directory_search_label_work">"ഔദ്യോഗിക ഡയറക്‌ടറി"</string>
+    <string msgid="8941131776605093596" name="dismiss_sync_alert">"നിരസിക്കുക"</string>
+    <string msgid="2031647544742889505" name="display_all_contacts">"എല്ലാ കോൺടാക്റ്റുകളും"</string>
+    <string msgid="2682547080423434170" name="display_more_groups">"കൂടുതൽ ഗ്രൂപ്പുകൾ…"</string>
+    <string msgid="3771577099236534776" name="display_options_phonetic_name_fields">"ഉച്ചാരണപ്രകാരമുള്ള പേര്"</string>
+    <string msgid="2684905041926954793" name="display_options_sort_by_family_name">"ലാസ്റ്റ് നെയിം"</string>
+    <string msgid="2778421332815687873" name="display_options_sort_by_given_name">"ഫസ്റ്റ് നെയിം"</string>
+    <string msgid="7028809117272018712" name="display_options_sort_list_by">"ഇപ്രകാരം അടുക്കുക"</string>
+    <string msgid="956445100777296467" name="display_options_view_family_name_first">"ലാസ്റ്റ് നെയിം ആദ്യം"</string>
+    <string msgid="3616004640258761473" name="display_options_view_given_name_first">"ഫസ്റ്റ് നെയിം ആദ്യം"</string>
+    <string msgid="6514632499276563482" name="display_options_view_names_as">"പേരിന്റെ ഫോർമാറ്റ്"</string>
+    <string msgid="6885954210243119591" name="display_ungrouped">"മറ്റെല്ലാ കോൺടാക്റ്റുകളും"</string>
+    <string msgid="8872290721676651414" name="display_warn_remove_ungrouped">"സമന്വയത്തിൽ നിന്നും \"<ns1:g id="GROUP">%s</ns1:g>\" നീക്കംചെയ്യുന്നത്, സമന്വയത്തിൽ നിന്നും ഗ്രൂപ്പുചെയ്യാത്ത എല്ലാ കോൺടാക്റ്റുകളേയും നീക്കംചെയ്യുന്നതിനിടയാക്കും."</string>
+    <string msgid="6845645831837615899" name="dynamic_shortcut_contact_removed_message">"കോൺടാക്‌റ്റ് നീക്കംചെയ്‌തു"</string>
+    <string msgid="249939425761315252" name="dynamic_shortcut_disabled_message">"ഈ കുറുക്കുവഴി പ്രവർത്തനരഹിതമാക്കി"</string>
+    <string msgid="4137969650184457126" name="editor_account_selector_read_only_title">"<ns1:g id="ACCOUNT">%s</ns1:g> എന്നതിലുള്ള കോൺടാക്‌റ്റ്‌ എഡിറ്റുചെയ്യാനാവില്ല"</string>
+    <string msgid="4426337993307015833" name="editor_account_selector_title">"ഇതിലേക്ക് സംരക്ഷിക്കുന്നു"</string>
+    <string msgid="4194479313465418120" name="editor_add_photo_content_description">"കോൺടാക്‌റ്റ് ഫോട്ടോ ചേർക്കുക"</string>
+    <string msgid="820879708069864340" name="editor_change_photo_content_description">"കോൺടാക്‌റ്റ് ഫോട്ടോ മാറ്റുക"</string>
+    <string msgid="8571975622926162369" name="editor_contact_photo_content_description">"കോൺടാക്‌‌റ്റിന്റെ ഫോട്ടോ"</string>
+    <string msgid="8583095381562991959" name="editor_delete_view_description">"<ns1:g id="DATA_TYPE">%1$s </ns1:g><ns1:g id="DATA_KIND">%2$s</ns1:g> ഇല്ലാതാക്കുക"</string>
+    <string msgid="7335518371270844912" name="editor_delete_view_description_short">"<ns1:g id="DATA_KIND">%s</ns1:g> ഇല്ലാതാക്കുക"</string>
+    <string msgid="1623639078580475818" name="editor_failed_to_load">"എഡിറ്റർ തുറക്കുന്നത് പരാജയപ്പെട്ടു."</string>
+    <string msgid="3630987771304393421" name="editor_more_fields">"കൂടുതൽ ഫീൽഡുകൾ"</string>
+    <string msgid="7253911385818398903" name="editor_options_always_show_phonetic_names">"എപ്പോഴും പ്രദര്‍ശിപ്പിക്കുക"</string>
+    <string msgid="2672008764795671104" name="editor_options_hide_phonetic_names_if_empty">"ശൂന്യമാണെങ്കിൽ മറയ്‌ക്കുക"</string>
+    <string msgid="5668400997660065897" name="email">"ഇമെയില്‍"</string>
+    <string msgid="8389931313045344406" name="emailLabelsGroup">"ഇമെയില്‍"</string>
+    <string msgid="5536404237099078802" name="email_custom">"<ns1:g id="CUSTOM_LABEL">%s</ns1:g> എന്നതിലേക്ക് ഇമെയിൽ അയയ്‌ക്കുക"</string>
+    <string msgid="8573740658148184279" name="email_home">"വീട്ടിലെ ഇമെയിൽ"</string>
+    <string msgid="2042889209787989814" name="email_mobile">"മൊബൈൽ ഇമെയിൽ"</string>
+    <string msgid="3454004077967657109" name="email_other">"ഇമെയില്‍"</string>
+    <string msgid="2807430017302722689" name="email_work">"ഔദ്യോഗിക ഇമെയിൽ"</string>
+    <string msgid="6873962901497975964" name="emptyAccount">"ഈ അക്കൗണ്ടിൽ കോൺടാക്‌റ്റുകളൊന്നുമില്ല"</string>
+    <string msgid="5102411903247859575" name="emptyGroup">"ഈ ലേബലുള്ള കോൺടാക്‌റ്റുകളൊന്നുമില്ല"</string>
+    <string msgid="2772242747899664460" name="emptyMainList">"നിങ്ങളുടെ കോൺടാക്‌റ്റ് ലിസ്‌റ്റ് ശൂന്യമാണ്"</string>
+    <string msgid="4594274696120278368" name="enter_contact_name">"കോണ്‍‌ടാക്റ്റുകള്‍ തിരയുക"</string>
+    <string msgid="7960408705307831289" name="eventLabelsGroup">"പ്രത്യേക തീയതി"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"തീയതി"</string>
+    <string msgid="8129294181216760037" name="expand_fields_description">"വികസിപ്പിക്കുക"</string>
+    <string msgid="6948274252874552543" name="expand_name_fields_description">"പേരിന്റെ കൂടുതൽ ഫീൽഡുകൾ കാണിക്കുക"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"കുറച്ച് കാണുക"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"കൂടുതൽ‍ കാണുക"</string>
+    <string msgid="4407527157056120858" name="export_to_vcf_file">".vcf ഫയലിലേക്ക് എക്സ്പോർട്ട് ചെയ്യൂ"</string>
+    <string msgid="4938527850142003141" name="exporting_contact_failed_message">"കോൺടാക്റ്റ് ഡാറ്റ എക്‌സ്‌പോർട്ടുചെയ്‌തില്ല.\nകാരണം: \"<ns1:g id="FAIL_REASON">%s</ns1:g>\""</string>
+    <string msgid="4892358112409576342" name="exporting_contact_failed_title">"എക്‌സ്‌പോർട്ടുചെയ്യാനായില്ല"</string>
+    <string msgid="3367949209642931952" name="exporting_contact_list_message">"കോൺടാക്റ്റ് ഡാറ്റ എക്സ്പോർട്ടുചെയ്യുകയാണ്."</string>
+    <string msgid="9072240631534457415" name="exporting_contact_list_title">"കോൺടാക്റ്റ് ഡാറ്റ എക്‌സ്‌പോർട്ടുചെയ്യുന്നു"</string>
+    <string msgid="2652222370493306887" name="exporting_vcard_canceled_title">"<ns1:g id="FILENAME">%s</ns1:g> എക്‌സ്‌പോർട്ടുചെയ്യൽ റദ്ദാക്കി."</string>
+    <string msgid="4767045779458185251" name="exporting_vcard_finished_title">"<ns1:g id="FILENAME">%s</ns1:g> എക്‌സ്‌പോർട്ടുചെയ്യൽ പൂർത്തിയായി."</string>
+    <string msgid="6060472638008218274" name="exporting_vcard_finished_title_fallback">"കോൺടാക്റ്റുകൾ എക്‌സ്‌പോർട്ടുചെയ്യൽ പൂർത്തിയായി."</string>
+    <string msgid="1739055986856453882" name="exporting_vcard_finished_toast">"കോൺടാക്റ്റുകൾ എക്‌സ്‌പോർട്ടുചെയ്യൽ പൂർത്തിയായി, കോൺടാക്റ്റുകൾ പങ്കിടുന്നതിന് അറിയിപ്പിൽ ക്ലിക്കുചെയ്യുക."</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"എന്റെ <ns1:g id="EXTERNAL_SOURCE">%1$s</ns1:g> പ്രൊഫൈൽ"</string>
+    <string msgid="707260459259688510" name="fail_reason_could_not_initialize_exporter">"എക്‌സ്‌പോർട്ടർ ആരംഭിക്കാനായില്ല: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\"."</string>
+    <string msgid="2067725459821997463" name="fail_reason_could_not_open_file">"\"<ns1:g id="FILE_NAME">%1$s</ns1:g>\" തുറക്കാനായില്ല: <ns1:g id="EXACT_REASON">%2$s</ns1:g>."</string>
+    <string msgid="3018855323913649063" name="fail_reason_error_occurred_during_export">"എക്‌സ്‌പോർട്ടുചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\"."</string>
+    <string msgid="6748358842976073255" name="fail_reason_io_error">"I/O പിശക്"</string>
+    <string msgid="875222757734882898" name="fail_reason_low_memory_during_import">"ആവശ്യമായ മെമ്മറിയില്ല. ഫയൽ വളരെ വലുതായിരിക്കാം."</string>
+    <string msgid="8728506011371262065" name="fail_reason_no_exportable_contact">"എക്‌സ്‌പോർട്ടുചെയ്യാനാകുന്ന കോൺടാക്റ്റ് ഒന്നുമില്ല."</string>
+    <string msgid="8219562769267148825" name="fail_reason_not_supported">"ഫോർമാറ്റിനെ പിന്തുണയ്‌ക്കില്ല."</string>
+    <string msgid="1714092345030570863" name="fail_reason_unknown">"അജ്ഞാത പിശക്."</string>
+    <string msgid="5414421120553765775" name="ghostData_company">"കമ്പനി"</string>
+    <string msgid="7496735200318496110" name="ghostData_title">"ശീർഷകം"</string>
+    <string msgid="5283997303922067997" name="google_account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g> അക്കൗണ്ട്"</string>
+    <string msgid="4359093891863474299" name="groupCreateFailedToast">"ലേബൽ സൃഷ്‌ടിക്കാൻ കഴിയുന്നില്ല"</string>
+    <string msgid="1924195126172834870" name="groupCreatedToast">"ലേബൽ സൃഷ്‌ടിച്ചു"</string>
+    <string msgid="520896687873262027" name="groupDeletedToast">"ലേബൽ ഇല്ലാതാക്കി"</string>
+    <string msgid="5196811283836946189" name="groupExistsErrorMessage">"ആ ലേബൽ നിലവിലുണ്ട്"</string>
+    <string msgid="7536267148196064554" name="groupLoadErrorToast">"ലേബൽ ലോഡുചെയ്യുന്നത് പരാജയപ്പെട്ടു"</string>
+    <string msgid="1431750793695262522" name="groupMemberPickerActivityTitle">"തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="4824834898718972768" name="groupMembersAddedToast">"ലേബലിൽ ചേർത്തു"</string>
+    <string msgid="3510563559799376603" name="groupMembersRemovedToast">"ലേബലിൽ നിന്ന് നീക്കംചെയ്‌തു"</string>
+    <string msgid="2355891714292740162" name="groupSavedErrorToast">"ലേബൽ മാറ്റങ്ങൾ സംരക്ഷിക്കാനായില്ല"</string>
+    <string msgid="8211161470235548732" name="groupSomeContactsNoEmailsToast">"ചില കോൺടാക്റ്റുകൾക്ക് ഇമെയിലുകൾ ഇല്ല."</string>
+    <string msgid="5530760834827530509" name="groupSomeContactsNoPhonesToast">"ചില കോൺടാക്റ്റുകൾക്ക് ഫോൺ നമ്പറുകൾ ഇല്ല."</string>
+    <string msgid="3667977658676267687" name="groupUpdatedToast">"ലേബൽ അപ്ഡേറ്റുചെയ്‌തു"</string>
+    <string msgid="8038224059926963133" name="group_edit_field_hint_text">"ലേബൽ"</string>
+    <string msgid="7624523157537700160" name="group_name_dialog_hint">"ലേബല്‍ പേര്"</string>
+    <string msgid="2668452090427027941" name="group_name_dialog_insert_title">"ലേബല്‍ സൃഷ്ടിക്കുക"</string>
+    <string msgid="6328021162869677383" name="group_name_dialog_update_title">"ലേബലിന്റെ പേരുമാറ്റുക"</string>
+    <string msgid="7000816729542098972" name="groupsLabel">"ലേബലുകൾ"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"ഇമെയിൽ"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"പുതുവിലാസം സൃഷ്‌ടിക്കൂ"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"ഇവന്‍റ്"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"IM"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"പേര്"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"വിളിപ്പേര്"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"കുറിപ്പ്"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"ഓര്‍ഗനൈസേഷന്‍"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"ഫോണ്‍"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"ബന്ധം"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"വെബ്‌സൈറ്റ്"</string>
+    <string msgid="7128627979899070325" name="hint_findContacts">"കോണ്‍‌ടാക്റ്റുകള്‍ തിരയുക"</string>
+    <string msgid="3898238486262614027" name="imLabelsGroup">"IM"</string>
+    <string msgid="6912071635295799131" name="import_from_sim">"സിം കാർഡ്‌"</string>
+    <string msgid="5169032449686348118" name="import_from_sim_summary_fmt">"സിം, <ns1:g id="SIM_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8662528435646418203" name="import_from_vcf_file">".vcf ഫയൽ"</string>
+    <string msgid="967723361108008345" name="import_from_vcf_file_confirmation_message">"vCard-ൽ നിന്ന്‌ കോൺടാക്‌റ്റുകൾ ഇമ്പോർട്ടുചെയ്യണോ?"</string>
+    <string msgid="3345258302998021066" name="importing_sim_failed_message">"സിം കാർഡിൽ നിന്ന്‌ കോൺടാക്‌റ്റുകൾ ഇമ്പോർട്ടുചെയ്യാനായില്ല"</string>
+    <string msgid="39706901030537985" name="importing_sim_failed_title">"ഇമ്പോർട്ടുചെയ്യൽ പരാജയപ്പെട്ടു"</string>
+    <string msgid="5196369441294050721" name="importing_sim_finished_title">"സിം കാർഡ് ഇമ്പോർട്ടുചെയ്‌തു"</string>
+    <string msgid="3638299581276676109" name="importing_sim_in_progress_title">"സിം കോൺടാക്റ്റുകൾ ഇമ്പോർട്ടുചെയ്യുന്നു"</string>
+    <string msgid="2147475978165599336" name="importing_vcard_canceled_title">"<ns1:g id="FILENAME">%s</ns1:g> ഇമ്പോർട്ടുചെയ്യൽ റദ്ദാക്കി"</string>
+    <string msgid="4245275224298571351" name="importing_vcard_description">"<ns1:g id="NAME">%s</ns1:g> എന്നയാളെ ഇമ്പോർട്ടുചെയ്യുന്നു"</string>
+    <string msgid="3341541727268747967" name="importing_vcard_finished_title">"vCard <ns1:g id="FILENAME">%s</ns1:g> ഇമ്പോർട്ടുചെയ്യൽ പൂർത്തിയായി"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"വോയ്‌സ് മെയിൽ നമ്പർ അജ്ഞാതമാണ്."</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"കോൺടാക്റ്റ് നിലവിലില്ല."</string>
+    <string msgid="8262614843581924365" name="joinConfirmation">"നിങ്ങൾ ഇതിനകം വരുത്തിയിട്ടുള്ള മാറ്റങ്ങൾ സംരക്ഷിക്കാനും തിരഞ്ഞെടുത്ത കോൺടാക്റ്റുമായി ലിങ്കുചെയ്യാനും താൽപ്പര്യപ്പെടുന്നുണ്ടോ?"</string>
+    <string msgid="4573092849769149516" name="joinConfirmation_positive_button">"സംരക്ഷിച്ച് ലിങ്കുചെയ്യുക"</string>
+    <string msgid="1994056912242214426" name="label_custom_field">"ഇഷ്‌ടാനുസൃതം"</string>
+    <string msgid="1276051790427638142" name="label_name_dialog_hint">"ലേബല്‍ പേര്"</string>
+    <string msgid="8337354953278341042" name="label_notes">"കുറിപ്പുകള്‍"</string>
+    <string msgid="7252153678613978127" name="label_sip_address">"SIP"</string>
+    <string msgid="4277114551206032979" name="leave_customize_confirmation_dialog_message">"ഇഷ്‌ടാനുസൃതമാക്കലുകൾ നിരസിക്കണോ?"</string>
+    <string msgid="1840624396582117590" name="listCustomView">"ഇഷ്‌ടാനുസൃത കാഴ്‌ച"</string>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"കോൺടാക്റ്റുകളൊന്നുമില്ല"</string>
+    <string msgid="8908683398914322369" name="list_filter_all_accounts">"എല്ലാ കോൺടാക്റ്റുകളും"</string>
+    <string msgid="5031734941601931356" name="list_filter_all_starred">"നക്ഷത്രമിട്ടവ"</string>
+    <string msgid="4789963356004169321" name="list_filter_customize">"ഇഷ്‌ടാനുസൃതമാക്കുക"</string>
+    <string msgid="735313795643493365" name="list_filter_phones">"ഫോൺ നമ്പറുകളുള്ള എല്ലാ കോൺടാക്റ്റുകളും"</string>
+    <string msgid="1470173699551475015" name="list_filter_phones_work">"ഔദ്യോഗിക പ്രൊഫൈൽ കോൺടാക്റ്റുകൾ"</string>
+    <string msgid="5871400283515893087" name="list_filter_single">"കോൺടാക്റ്റ്"</string>
+    <string msgid="6046691709127661065" name="local_invisible_directory">"മറ്റുള്ളവ"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"എന്റെ പ്രാദേശിക പ്രൊഫൈൽ"</string>
+    <string msgid="2551177578246113614" name="local_search_label">"എല്ലാ കോൺടാക്റ്റുകളും"</string>
+    <string msgid="8761800628069473526" name="map_custom">"<ns1:g id="CUSTOM_LABEL">%s</ns1:g> വിലാസം കാണുക"</string>
+    <string msgid="1243547733423343982" name="map_home">"വീട്ടുവിലാസം കാണുക"</string>
+    <string msgid="3817820803587012641" name="map_other">"വിലാസം കാണുക"</string>
+    <string msgid="1360474076921878088" name="map_work">"ഔദ്യോഗിക വിലാസം കാണുക"</string>
+    <string msgid="655196688840626483" name="menu_addContactsToGroup">"കോൺടാക്റ്റുകൾ ചേർക്കുക"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"പ്രിയപ്പെട്ടവയിലേക്ക് ചേർക്കുക"</string>
+    <string msgid="3267409983764370041" name="menu_addToGroup">"കോൺടാക്റ്റ് ചേർക്കുക"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"കോൺടാക്‌റ്റുകളിൽ ചേർക്കുക"</string>
+    <string msgid="4465646512002163011" name="menu_add_contacts">"ചേർക്കുക"</string>
+    <string msgid="5760693735722052454" name="menu_assistant">"നിര്‍ദ്ദേശങ്ങള്‍"</string>
+    <string msgid="3132884821616980034" name="menu_assistant_new_badge">"പുതിയത്"</string>
+    <string msgid="5272951629083025995" name="menu_blocked_numbers">"ബ്ലോക്കുചെയ്ത നമ്പറുകൾ"</string>
+    <string msgid="7769177631511496210" name="menu_change_photo">"ഫോട്ടോ മാറ്റുക"</string>
+    <string msgid="2165153460860262501" name="menu_contacts_filter">"ദൃശ്യമാക്കേണ്ട കോൺടാക്റ്റുകൾ"</string>
+    <string msgid="1663022219127343858" name="menu_create_contact_shortcut">"കുറുക്കുവഴി സൃഷ്‌ടിക്കുക"</string>
+    <string msgid="2679793632208086460" name="menu_custom_filter_save">"സംരക്ഷിക്കൂ"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="1126469629233412249" name="menu_deleteGroup">"ലേബല്‍ ഇല്ലാതാക്കുക"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"എഡിറ്റുചെയ്യുക"</string>
+    <string msgid="6696843438454341063" name="menu_editGroup">"കോൺടാക്റ്റ് നീക്കംചെയ്യൂ"</string>
+    <string msgid="2658783911863503902" name="menu_export">"എക്‌സ്‌പോർട്ട് ചെയ്യുക"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"ഡാറ്റാബേസ് ഫയലുകൾ എക്‌സ്‌പോർട്ടുചെയ്യുക"</string>
+    <string msgid="1680178646764069976" name="menu_help">"സഹായവും ഫീഡ്‌ബാക്കും"</string>
+    <string msgid="6107961135813836467" name="menu_import">"ഇമ്പോർട്ടുചെയ്യുക"</string>
+    <string msgid="3599512127797513606" name="menu_joinAggregate">"ലിങ്ക്"</string>
+    <string msgid="400444389718855621" name="menu_linkedContacts">"ലിങ്കുചെയ്‌ത കോൺടാക്‌റ്റുകൾ കാണുക"</string>
+    <string msgid="3127059073617415221" name="menu_new_group_action_bar">"ലേബല്‍ സൃഷ്ടിക്കുക"</string>
+    <string msgid="83331924006712755" name="menu_redirect_calls_to_vm">"വോയ്‌സ്‌മെയിലിൽ റൂട്ടുചെയ്യുക"</string>
+    <string msgid="6720354305399961978" name="menu_removeFromGroup">"ലേബ‌ലിൽ നിന്ന് നീക്കംചെയ്യുക"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"പ്രിയപ്പെട്ടവയിൽ നിന്നും നീക്കംചെയ്യുക"</string>
+    <string msgid="7169512355179757182" name="menu_renameGroup">"ലേബലിന്റെ പേരുമാറ്റുക"</string>
+    <string msgid="1727844363591825909" name="menu_save">"സംരക്ഷിക്കൂ"</string>
+    <string msgid="3999234528229376098" name="menu_selectForGroup">"കോണ്‍‌ടാക്റ്റുകൾ തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="5978319931321657780" name="menu_sendEmailOption">"ഇമെയില്‍ അയയ്ക്കുക"</string>
+    <string msgid="8850168125274916426" name="menu_sendMessageOption">"സന്ദേശം അയയ്‌ക്കുക"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"റിംഗ്‌ടോൺ സജ്ജമാക്കുക"</string>
+    <string msgid="377929915873428211" name="menu_settings">"ക്രമീകരണം"</string>
+    <string msgid="943789700636542260" name="menu_share">"പങ്കിടുക"</string>
+    <string msgid="2627252205317945563" name="menu_splitAggregate">"അൺലിങ്കുചെയ്യുക"</string>
+    <string msgid="3266725887008450161" name="menu_sync_remove">"സമന്വയ ഗ്രൂപ്പ് നീക്കംചെയ്യുക"</string>
+    <string msgid="8210922220185114527" name="menu_title_filters">"അക്കൗണ്ടുകൾ"</string>
+    <string msgid="8356921831150278868" name="menu_title_groups">"ലേബലുകൾ"</string>
+    <string msgid="8725542534701811737" name="menu_unredirect_calls_to_vm">"വോയ്‌സ്‌മെയിലിൽ അൺറൂട്ടുചെയ്യൂ"</string>
+    <string msgid="1466111003546611387" name="missing_app">"ഈ പ്രവർത്തനം കൈകാര്യം ചെയ്യാൻ അപ്ലിക്കേഷനുകളൊന്നും കണ്ടെത്തിയില്ല."</string>
+    <string msgid="8745511583852904385" name="missing_name">"(പേരില്ല)"</string>
+    <string msgid="5865884842972833120" name="missing_required_permission">"ആവശ്യമായ ഒരു അനുമതി നിങ്ങൾ പ്രവർത്തനരഹിതമാക്കി."</string>
+    <string msgid="5235324124905653550" name="multipleContactDeleteConfirmation">"ഈ കോൺടാക്റ്റ് ഇല്ലാതാക്കുന്നതുവഴി ഒന്നിലധികം അക്കൗണ്ടുകളിൽ നിന്നുള്ള വിശദാംശങ്ങൾ ഇല്ലാതാക്കപ്പെടും."</string>
+    <string msgid="2034640839640477827" name="nameLabelsGroup">"പേര്"</string>
+    <string msgid="7466985689626017037" name="name_family">"ലാസ്റ്റ് നെയിം"</string>
+    <string msgid="4280790853455320619" name="name_given">"ഫസ്റ്റ് നെയിം"</string>
+    <string msgid="8467433655992690326" name="name_middle">"മിഡിൽ നെയിം"</string>
+    <string msgid="4259595234312430484" name="name_phonetic">"ഉച്ചാരണപ്രകാരമുള്ള പേര്"</string>
+    <string msgid="2640133663656011626" name="name_phonetic_family">"പേരിന്റെ അവസാന ഭാഗം"</string>
+    <string msgid="8723179018384187631" name="name_phonetic_given">"ഫസ്റ്റ് നെയിം"</string>
+    <string msgid="8643721493320405200" name="name_phonetic_middle">"ഉച്ചാരണപ്രകാരമുള്ള മിഡിൽ നെയിം"</string>
+    <string msgid="59756378548779822" name="name_prefix">"പേരിന്റെ പ്രിഫിക്‌സ്"</string>
+    <string msgid="3855278445375651441" name="name_suffix">"പേരിന്റെ സഫിക്‌സ്"</string>
+    <string msgid="4137416137011817930" name="navigation_drawer_close">"നാവിഗേഷൻ ഡ്രോയർ അടയ്‌ക്കുക"</string>
+    <string msgid="4154758025620107419" name="navigation_drawer_label">"<ns1:g id="LABEL_NAME">%s</ns1:g> ലേബൽ"</string>
+    <string msgid="1126498472143250642" name="navigation_drawer_open">"നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക"</string>
+    <string msgid="2823095213265993609" name="nfc_vcard_file_name">"NFC മുഖേന ലഭിച്ച കോൺടാക്റ്റ്"</string>
+    <string msgid="2891682101053358010" name="nicknameLabelsGroup">"വിളിപ്പേര്"</string>
+    <string msgid="2228592924476426108" name="noContacts">"നിങ്ങളുടെ കോൺടാക്‌റ്റ് ലിസ്‌റ്റ് ശൂന്യമാണ്"</string>
+    <string msgid="5742815694687835125" name="no_button">"ഇല്ല"</string>
+    <string msgid="1276397530378323033" name="no_contact_to_share">"പങ്കിടാൻ കോൺടാക്റ്റുകളൊന്നും ഇല്ല."</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"കോൺടാക്റ്റുകളിൽ ചേർക്കുക"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"ഫോൺ നമ്പർ"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"അടയ്‌ക്കുക"</string>
+    <string msgid="1651921906873335656" name="nothing_to_import_message">"ഇമ്പോർട്ടുചെയ്യാനൊന്നുമില്ല"</string>
+    <string msgid="2478611760751832035" name="organizationLabelsGroup">"ഓര്‍ഗനൈസേഷന്‍"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<ns1:g id="COMPANY_0">%2$s</ns1:g>, <ns1:g id="COMPANY_1">%1$s</ns1:g>"</string>
+    <string msgid="6468091477851199285" name="phoneLabelsGroup">"ഫോണ്‍"</string>
+    <string msgid="2052542573853433204" name="photoPickerNotFoundText">"ഉപകരണത്തിൽ ചിത്രങ്ങളൊന്നും ലഭ്യമല്ല."</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"പുതിയ ഫോട്ടോ തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"ഫോട്ടോ തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="1936544190231136729" name="pickerSelectContactsActivityTitle">"കോണ്‍‌ടാക്റ്റുകള്‍ തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="3487738141112589324" name="postalLabelsGroup">"വിലാസം"</string>
+    <string msgid="8765560217149624536" name="postal_address">"വിലാസം"</string>
+    <string msgid="6597491300084895548" name="postal_city">"നഗരം"</string>
+    <string msgid="7638264508416368690" name="postal_country">"രാജ്യം"</string>
+    <string msgid="572136414136673751" name="postal_postcode">"തപാൽ കോഡ്"</string>
+    <string msgid="6045263193478437672" name="postal_region">"സംസ്ഥാനം"</string>
+    <string msgid="8133143961580058972" name="postal_street">"സ്ട്രീറ്റ്"</string>
+    <string msgid="2311011466908220528" name="progress_notifier_message">"<ns1:g id="CURRENT_NUMBER">%1$s</ns1:g>/<ns1:g id="TOTAL_NUMBER">%2$s</ns1:g> ഇമ്പോർട്ടുചെയ്യുന്നു: <ns1:g id="NAME">%3$s</ns1:g>"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"ഇമെയില്‍‌ ചേര്‍‌ക്കുക"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"ഫോണ്‍ നമ്പര്‍ ചേര്‍ക്കുക"</string>
+    <string msgid="8236954313106630862" name="quickcontact_suggestion_cancel_button">"റദ്ദാക്കുക"</string>
+    <string msgid="3244619714781727946" name="quickcontact_suggestion_link_button">"കോണ്ടാക്റ്റുകൾ ലിങ്കുചെയ്യൂ"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"മുമ്പത്തെ സ്‌ക്രീനിലേക്ക് മടങ്ങാൻ ക്ലിക്കുചെയ്യുക"</string>
+    <string msgid="4717023505914239809" name="readOnlyContactDeleteConfirmation">"ഈ കോൺടാക്‌റ്റിലെ വായിക്കാൻ മാത്രമുള്ള അക്കൗണ്ടുകൾ മറയ്‌ക്കുന്നതാണ്‌, എന്നാൽ അവ ഇല്ലാതാക്കില്ല."</string>
+    <string msgid="7514475664695089411" name="readOnlyContactWarning">"ഈ കോൺടാക്‌റ്റ്‌ വായിക്കാൻ മാത്രമുള്ളതാണ്‌. അത് ഇല്ലാതാക്കാനാവില്ല, എന്നാൽ മറയ്‌ക്കാനാവും."</string>
+    <string msgid="8914797212167683673" name="readOnlyContactWarning_positive_button">"കോൺടാക്‌‌റ്റ്‌ മറയ്‌ക്കുക"</string>
+    <string msgid="4251647443358422855" name="reading_vcard_failed_title">"vCard ഡാറ്റ വായിക്കാനായില്ല"</string>
+    <string msgid="1854373894284572781" name="relationLabelsGroup">"ബന്ധം"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"ഫോട്ടോ നീക്കംചെയ്യുക"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"ഒന്നും വേണ്ട"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"അറിഞ്ഞുകൂടാത്ത റിംഗ്‌ടോൺ"</string>
+    <string msgid="2133152192716475939" name="savingDisplayGroups">"ഡിസ്‌പ്ലേ ഓപ്‌ഷനുകൾ സംരക്ഷിക്കുന്നു…"</string>
+    <string msgid="8482945356247760701" name="searchHint">"കോണ്‍‌ടാക്റ്റുകള്‍ തിരയുക"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"തിരയുക"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"തിരയുന്നു…"</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"നിങ്ങളുടെ കോൺടാക്റ്റുകളുടെ പേരുകൾ"</string>
+    <string msgid="5478489655696599219" name="select_account_dialog_title">"അക്കൗണ്ട്"</string>
+    <string msgid="7740295432834590737" name="send_and_call_button">"അയയ്ക്കുക, വിളിക്കുക"</string>
+    <string msgid="2251339182881603540" name="send_to_selection">"അയയ്‌ക്കുക"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"എല്ലാ കോൺടാക്റ്റുകളും"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"നിര്‍ദ്ദേശിക്കുന്ന കോണ്‍ടാക്റ്റുകള്‍"</string>
+    <string msgid="4417505153468300351" name="set_default">"സ്ഥിരമായി സജ്ജമാക്കുക"</string>
+    <string msgid="4311613760725609801" name="set_default_account">"ഇത് എല്ലായ്‌പ്പോഴും കോളുകൾക്കായി ഉപയോഗിക്കുക"</string>
+    <string msgid="7370213843590143771" name="set_up_profile">"നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജമാക്കുക"</string>
+    <string msgid="7014388749752042863" name="setting_about">"കോണ്‍ടാക്റ്റുകളെ കുറിച്ച്"</string>
+    <string msgid="350219740670774576" name="settings_accounts">"അക്കൗണ്ടുകൾ"</string>
+    <string msgid="1534272456405343119" name="settings_my_info_title">"എന്റെ വിവരം"</string>
+    <string msgid="8109287987498711664" name="share_contacts">"എല്ലാ കോൺടാക്റ്റുകളും പങ്കിടുക"</string>
+    <string msgid="1216431977330560559" name="share_contacts_failure">"കോൺടാക്റ്റുകൾ പങ്കിടുന്നത് പരാജയം."</string>
+    <string msgid="948429331673358107" name="share_error">"ഈ കോൺടാക്റ്റ് പങ്കിടാനാകില്ല."</string>
+    <string msgid="4280926751003081042" name="share_favorite_contacts">"പ്രിയപ്പെട്ട കോൺടാക്റ്റുകൾ പങ്കിടുക"</string>
+    <string msgid="1504383567778497348" name="shortcutActivityTitle">"കോൺടാക്‌റ്റ് തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"കോൺടാക്റ്റ്"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"നേരിട്ടുള്ള ഡയൽ"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"സന്ദേശങ്ങൾ നേരിട്ട്"</string>
+    <string msgid="7476283631356909204" name="shortcut_add_contact">"കോൺടാക്റ്റ് ചേർക്കുക"</string>
+    <string msgid="4277410425912984722" name="show_more_content_description">"കൂടുതൽ കാണിക്കൂ"</string>
+    <string msgid="4270841592496619317" name="sim_import_button_text">"ഇമ്പോർട്ടുചെയ്യുക"</string>
+    <string msgid="1619832410253424452" name="sim_import_cancel_content_description">"റദ്ദാക്കുക"</string>
+    <string msgid="1503743663717316732" name="sim_import_contact_exists_toast">"കോൺടാക്‌റ്റ്‌ നിലവിൽ നിങ്ങളുടെ ലിസ്‌റ്റിലുണ്ട്‌"</string>
+    <string msgid="7743815244380189651" name="sim_import_empty_message">"നിങ്ങളുടെ സിം കാർഡിൽ കോൺടാക്‌റ്റുകളില്ല"</string>
+    <string msgid="5559267299793622705" name="sim_import_failed_toast">"സിം കോൺടാക്‌റ്റുകൾ ഇമ്പോർട്ടുചെയ്യാനായില്ല"</string>
+    <string msgid="2511154832820812822" name="sim_import_title">"സിം കാർഡിൽ നിന്ന്‌ ഇമ്പോർട്ടുചെയ്യുക"</string>
+    <string msgid="6910517331401970693" name="sim_import_title_none_selected">"കോണ്‍‌ടാക്റ്റുകൾ തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="3106905986948679720" name="single_delete_confirmation">"ഈ കോൺടാക്റ്റ് ഇല്ലാതാക്കണോ?"</string>
+    <string msgid="6985770499439371497" name="single_sim_display_label">"സിം"</string>
+    <string msgid="1756857139634224222" name="sms">"വാചക സന്ദേശം"</string>
+    <string msgid="2773424339923116234" name="sms_assistant">"<ns1:g id="ASSISTANT">%s</ns1:g> എന്നതിലേക്ക് വാചക സന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="7741770672976099517" name="sms_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (സന്ദേശം)"</string>
+    <string msgid="5004824430094288752" name="sms_callback">"കോൾബാക്ക് ഫോണിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="7444227058437359641" name="sms_car">"കാർ ഫോണിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="118970873419678087" name="sms_company_main">"കമ്പനി പ്രധാന ഫോണിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="415060214233647603" name="sms_custom">"<ns1:g id="CUSTOM_LABEL">%s</ns1:g> എന്ന നമ്പറിലേക്ക് സന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="9204042076306809634" name="sms_fax_home">"വീട്ടിലെ ഫാക്‌സിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="8028189067816907075" name="sms_fax_work">"ഔദ്യോഗിക ഫാക്‌സിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="7524332261493162995" name="sms_home">"വീട്ടിലെ ഫോണിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="8153785037515047845" name="sms_isdn">"ISDN-ലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="8621625784504541679" name="sms_main">"പ്രധാന ഫോണിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="4069352461380762677" name="sms_mms">"MMS നമ്പറിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="5200107250451030769" name="sms_mobile">"മൊബൈലിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="806127844607642331" name="sms_other">"ടെക്‌സ്റ്റ്"</string>
+    <string msgid="3888842199855843152" name="sms_other_fax">"ഫാക്‌സിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="7730404569637015192" name="sms_pager">"പേജറിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="3329166673433967820" name="sms_radio">"റേഡിയോയിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="9034802430065267848" name="sms_telex">"ടെലക്‌സിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="6782284969132531532" name="sms_tty_tdd">"TTY/TDD എന്നതിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="2269624156655267740" name="sms_work">"ഔദ്യോഗിക ഫോണിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="2459939960512702560" name="sms_work_mobile">"ഔദ്യോഗിക മൊബൈലിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="5566924423316960597" name="sms_work_pager">"ഔദ്യോഗിക പേജറിലേക്ക് വാചകസന്ദേശമയയ്‌ക്കുക"</string>
+    <string msgid="7342030840130187290" name="splitConfirmation">"ഈ കോൺടാക്റ്റ് ഒന്നിലധികം കോൺടാക്റ്റുകളായി അൺലിങ്കുചെയ്യണോ?"</string>
+    <string msgid="7719062163511895696" name="splitConfirmationWithPendingChanges">"നിങ്ങൾ ഇതിനകം വരുത്തിയിട്ടുള്ള മാറ്റങ്ങൾ സംരക്ഷിക്കാനും ഒന്നിലധികം കോൺടാക്റ്റുകളായി ഈ കോൺടാക്റ്റ് അൺലിങ്കുചെയ്യാനും താൽപ്പര്യപ്പെടുന്നുണ്ടോ?"</string>
+    <string msgid="9073444264887244032" name="splitConfirmationWithPendingChanges_positive_button">"സംരക്ഷിച്ച് അൺലിങ്കുചെയ്യുക"</string>
+    <string msgid="9129409098807939699" name="splitConfirmation_positive_button">"അൺലിങ്കുചെയ്യുക"</string>
+    <string msgid="5586870015822828392" name="status_available">"ലഭ്യം"</string>
+    <string msgid="1838861100379804730" name="status_away">"ലഭ്യമല്ല"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9147992455450257136" name="status_busy">"തിരക്കിൽ"</string>
+    <string msgid="9107788743178980902" name="suggestion_card_duplicates_title">"സാധ്യതയുള്ള ഡ്യൂപ്ലിക്കേറ്റുകൾ"</string>
+    <string msgid="4474061044387181093" name="suggestion_card_help_message">"ഈ കോൺടാക്റ്റുകൾ, ഒരേ വ്യക്തി ആയേക്കാം, ഒരൊറ്റ കോൺടാക്റ്റായി നിങ്ങൾക്കിവ ലിങ്കുചെയ്യാവുന്നതാണ്."</string>
+    <string msgid="3039457405374454914" name="suggestion_card_this_contact_title">"ഈ കോൺടാക്റ്റ്"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"പുതിയ ഫോട്ടോ എടുക്കുക"</string>
+    <string msgid="7496128293167402354" name="take_photo">"ഫോട്ടോ എടുക്കുക"</string>
+    <string msgid="6825255752748313944" name="titleJoinContactDataWith">"കോണ്ടാക്റ്റുകൾ ലിങ്കുചെയ്യൂ"</string>
+    <string msgid="8602752287270586734" name="title_edit_group">"കോൺടാക്റ്റ് നീക്കംചെയ്യൂ"</string>
+    <string msgid="4664084747121207202" name="title_from_google">"Google-ൽ നിന്നുള്ളവ"</string>
+    <string msgid="8307885412426754288" name="title_from_other_accounts">"<ns1:g id="ACCOUNT">%s</ns1:g> അക്കൗണ്ടിൽ നിന്നുള്ളവ"</string>
+    <string msgid="1215465657839085613" name="toast_join_with_empty_contact">"മറ്റൊരു കോൺടാക്റ്റുമായി ലിങ്കുചെയ്യുന്നതിന് മുമ്പ് കോൺടാക്റ്റിന്റെ പേര് ടൈപ്പുചെയ്യുക."</string>
+    <string msgid="288549957278065542" name="toast_making_personal_copy">"ഒരു വ്യക്തിഗത പകർപ്പ് സൃഷ്‌ടിക്കുന്നു…"</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"വാചകം പകർത്തി"</string>
+    <string msgid="4882485525268469736" name="touch_to_share_contacts">"കോൺടാക്റ്റുകൾ പങ്കിടാൻ ടാപ്പുചെയ്യുക."</string>
+    <string msgid="5025336917533693997" name="turn_auto_sync_on_dialog_body">"Google കോൺടാക്‌റ്റുകളിൽ മാത്രമല്ല, എല്ലാ ആപ്‌സുകളിലും അക്കൗണ്ടുകളിലും വരുത്തുന്ന മാറ്റങ്ങളെ വെബിലും നിങ്ങളുടെ ഉപകരണങ്ങളിലും അപ്‌റ്റു‌ഡേറ്റായി നിലനിർത്തും."</string>
+    <string msgid="1070332014838295599" name="turn_auto_sync_on_dialog_confirm_btn">"ഓൺ ചെയ്യുക"</string>
+    <string msgid="333965456829670541" name="turn_auto_sync_on_dialog_title">"സ്വയ സമന്വയം ഓണാക്കണോ?"</string>
+    <string msgid="1425165101664071422" name="undo">"പഴയപടിയാക്കുക"</string>
+    <string msgid="452592089815420457" name="url_open_error_toast">"url തുറക്കാനായില്ല."</string>
+    <string msgid="2844874826431327531" name="vcard_export_request_rejected_message">"vCard എക്‌സ്‌പോർട്ടുചെയ്യൽ അഭ്യർത്ഥന നിരസിച്ചു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."</string>
+    <string msgid="5223531255894842406" name="vcard_import_failed">"vCard ഇമ്പോർട്ടുചെയ്യാനായില്ല."</string>
+    <string msgid="2890471184508516011" name="vcard_import_request_rejected_message">"vCard ഇമ്പോർട്ടുചെയ്യൽ അഭ്യർത്ഥന നിരസിച്ചു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."</string>
+    <string msgid="2804911199145873396" name="vcard_import_will_start_message">"<ns1:g id="FILENAME">%s</ns1:g> എന്നത് ഉടൻ ഇമ്പോർട്ടുചെയ്യും."</string>
+    <string msgid="1022969530654129470" name="vcard_import_will_start_message_with_default_name">"ഫയൽ ഉടൻ ഇമ്പോർട്ടുചെയ്യും."</string>
+    <string msgid="7171709890959915954" name="vcard_unknown_filename">"കോൺടാക്റ്റ്"</string>
+    <string msgid="1872255818640336072" name="video_chat">"വീഡിയോ ചാറ്റ്"</string>
+    <string msgid="1782685984905600034" name="view_updates_from_group">"അപ്‌ഡേറ്റുകള്‍ കാണുക"</string>
+    <string msgid="4202998982804009261" name="websiteLabelsGroup">"വെബ്‌സൈറ്റ്"</string>
+    <string msgid="1268479086848288060" name="yes_button">"അതെ"</string>
+</resources>

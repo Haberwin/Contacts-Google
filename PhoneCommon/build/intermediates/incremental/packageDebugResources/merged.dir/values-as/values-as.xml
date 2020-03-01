@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="437630601519502587" name="callEnded_pulled">"কল অইন এটা ডিভাইচলৈ স্থানান্তৰ কৰা হ’ল।"</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"কল প্ৰতিবন্ধক অন হৈ থাকোঁতে বহিৰ্গামী কল কৰিব নোৱাৰি।"</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"নেটৱৰ্ক ব্যস্ত"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"চেলুলাৰ ডেটা অক্ষম কৰি থোৱাৰ কাৰণে কলটোৰ অন্ত পৰিছে।"</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"ডেটাৰ ব্যৱহাৰৰ সীমাত উপনীত হৈছে। কলটোৰ অন্ত পৰিছে।"</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"চেলুলাৰ ডেটা ব্যৱহাৰৰ সীমাত উপনীত হোৱাৰ কাৰণে কলটোৰ অন্ত পৰিছে।"</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"বেলেগ নম্বৰলৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"ভিডিঅ\' কললৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"কল SS অনুৰোধলৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"কল USSD অনুৰোধলৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"সাধাৰণ কললৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"বেলেগ নম্বৰলৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"ভিডিঅ\' কল SS অনুৰোধলৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"ভিডিঅ\' কল USSD অনুৰোধলৈ সলনি কৰা হৈছিল"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"প্ৰৱেশ নিয়ন্ত্ৰকৰ দ্বাৰা কল সীমিত কৰা হৈছে।"</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"প্ৰৱেশ নিয়ন্ত্ৰকৰ দ্বাৰা জৰুৰীকালীন কল সীমিত কৰা হৈছে।"</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"প্ৰৱেশ নিয়ন্ত্ৰকৰ দ্বাৰা সাধাৰণ কল সীমিত কৰা হৈছে।"</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"FDNৰ দ্বাৰা বহিৰ্গামী কল সীমিত কৰা হৈছে।"</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"ব্যৱহাৰকাৰীৰ নাম বা পাছৱর্ড ভুল হৈছে"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"ACM সীমা অতিক্ৰম কৰা হৈছে"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"উপলব্ধ সকলো লাইনৰ ব্যৱহাৰ হৈ আছে। কল কৰিবলৈ এইটো ডিভাইচটোত বা আপোনাৰ অইন কোনো ডিভাইচত চলি থকা কোনো কল বন্ধ কৰক।"</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"কোনো ছিগনেল নাই"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"নম্বৰ সংযোগ সীমাৰ বাহিৰত"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"চেলুলাৰ নেটৱৰ্ক উপলব্ধ নহয়"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"নেটৱৰ্কৰ বাহিৰৰ কল"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"ৰেডিঅ’ অফ হৈ আছে"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"ছাৰ্ভাৰৰ আসোঁৱাহ। পিছত আকৌ চেষ্টা কৰক।"</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"ছাৰ্ভাৰ লগত সংযোগ কৰিব পৰা নাই"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"কোনো ছিম নাই বা ছিমত আসোঁৱাহ আছে"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"কোনো সঁহাৰি নাই, সময় উকলিছে"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"অমান্য নম্বৰ"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"লাইন ব্যস্ত হৈ আছে"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"TTY সক্ষম হৈ কৰি থোৱা অৱস্থাত ভিডিঅ\' কল কৰিব নোৱাৰি।"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"ডিফ\'ল্ট ধ্বনি (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"বেকস্পেচ"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"পিছলৈ যাওক"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"অধিক বিকল্প"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"যোগ চিন"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"ভইচমেইল"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"ভইচমেইলৰ নম্বৰ অজ্ঞাত।"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"নাই"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"অজ্ঞাত ৰিংট\'ন"</string>
+</resources>

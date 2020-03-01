@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/levi/AndroidStudioProjects/Contacts-Google/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw720dp/dimens.xml",
+                    "from": {
+                        "startLines": "17,18,16,25,23,21",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "743,807,686,1182,1110,963",
+                        "endColumns": "63,64,56,66,70,64",
+                        "endOffsets": "802,867,738,1244,1176,1023"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,119,184,241,308,379",
+                        "endColumns": "63,64,56,66,70,64",
+                        "endOffsets": "114,179,236,303,374,439"
+                    }
+                },
+                {
+                    "source": "/home/levi/AndroidStudioProjects/Contacts-Google/app/src/main/res/values-sw720dp/integers.xml",
+                    "from": {
+                        "startLines": "21,18,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "986,801,1145",
+                        "endColumns": "64,65,63",
+                        "endOffsets": "1046,862,1204"
+                    },
+                    "to": {
+                        "startLines": "8,9,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "444,509,575",
+                        "endColumns": "64,65,63",
+                        "endOffsets": "504,570,634"
+                    }
+                }
+            ]
+        }
+    ]
+}

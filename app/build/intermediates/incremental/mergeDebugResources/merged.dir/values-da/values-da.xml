@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals formatted="false" msgid="8696793457340503668" name="contacts_count">
+      <item quantity="one"><ns1:g id="COUNT_1">%d</ns1:g> kontakt</item>
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> kontakter</item>
+    </plurals>
+    <plurals formatted="false" msgid="7402583111980220575" name="contacts_count_with_account">
+      <item quantity="one"><ns1:g id="COUNT_2">%1$d</ns1:g> kontakt · <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+      <item quantity="other"><ns1:g id="COUNT_2">%1$d</ns1:g> kontakter · <ns1:g id="ACCOUNT_3">%2$s</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="1477708624197262295" name="contacts_deleted_toast">
+      <item quantity="one">Kontaktpersonen blev slettet</item>
+      <item quantity="other">Kontaktpersonerne blev slettet</item>
+    </plurals>
+    <plurals formatted="false" msgid="5821095773211149295" name="import_from_sim_secondary_contact_count_fmt">
+      <item quantity="one">%1$d kontakt</item>
+      <item quantity="other">%1$d kontakter</item>
+    </plurals>
+    <plurals formatted="false" msgid="2484832025802907060" name="import_from_sim_secondary_template">
+      <item quantity="one"><ns1:g id="COUNT_2">^1</ns1:g> kontakt • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+      <item quantity="other"><ns1:g id="COUNT_2">^1</ns1:g> kontakter • <ns1:g id="PHONE_NUMBER_3">^2</ns1:g></item>
+    </plurals>
+    <plurals formatted="false" msgid="8572156521110906443" name="sim_import_success_toast_fmt">
+      <item quantity="one"><ns1:g id="COUNT">%d</ns1:g> kontakt på SIM-kortet blev importeret</item>
+      <item quantity="other"><ns1:g id="COUNT">%d</ns1:g> kontakter på SIM-kortet blev importeret</item>
+    </plurals>
+    <plurals formatted="false" msgid="5886112726191455415" name="title_share_via">
+      <item quantity="one">Del kontaktpersonen via</item>
+      <item quantity="other">Del kontaktpersonerne via</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Find hjem"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Gå op"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Flere valgmuligheder"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Udfør"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Vælg en app"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"FRA"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"TIL"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"slet"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"mellemrum"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Søg…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Ryd forespørgsel"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Søgeforespørgsel"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Søg"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Indsend forespørgsel"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Talesøgning"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string msgid="1765533099416999801" name="about_build_version">"Build-version"</string>
+    <string msgid="2920942314212825637" name="about_card_title">"Om"</string>
+    <string msgid="6479990452352919641" name="about_open_source_licenses">"Open source-licenser"</string>
+    <string msgid="57418386931763994" name="about_open_source_licenses_summary">"Licensoplysninger til open source-software"</string>
+    <string msgid="3705518622499152626" name="about_privacy_policy">"Privatlivspolitik"</string>
+    <string msgid="4642400812150296723" name="about_terms_of_service">"Servicevilkår"</string>
+    <string msgid="6696859503887762213" name="account_filter_view_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g> er valgt"</string>
+    <string msgid="2248684521205038389" name="account_filter_view_not_checked">"<ns1:g id="ACCOUNT_INFO">%s</ns1:g> er ikke valgt"</string>
+    <string msgid="7128032778471187553" name="account_phone">"Enhed"</string>
+    <string msgid="6519016427905087952" name="account_sim">"SIM-kort"</string>
+    <string msgid="7646143254066243924" name="account_sync_off">"Kontosynkronisering er slået fra. Tryk for at slå funktionen til."</string>
+    <string msgid="718948015590343010" name="account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g> kontakt"</string>
+    <string msgid="5506832825256203208" name="action_menu_add_new_contact_button">"Opret ny kontakt"</string>
+    <string msgid="6435476408621731420" name="action_menu_back_from_edit_select">"luk"</string>
+    <string msgid="8793348588949233348" name="action_menu_back_from_search">"stop søgning"</string>
+    <string msgid="8275542497615516969" name="activity_title_contacts_filter">"Viste kontakter"</string>
+    <string msgid="5467767062737708066" name="activity_title_licenses">"Open source-licenser"</string>
+    <string msgid="5464130076132770781" name="activity_title_settings">"Indstillinger"</string>
+    <string msgid="8201790677994503186" name="add_account">"Tilføj konto"</string>
+    <string msgid="7986472669444326576" name="add_contact_dlg_message_fmt">"Føj \"<ns1:g id="EMAIL">%s</ns1:g>\" til kontakter?"</string>
+    <string msgid="5748627740680940264" name="add_new_account">"Tilføj ny konto"</string>
+    <string msgid="6549585283910518095" name="aggregation_suggestion_edit_dialog_message">"Vil du redigere den valgte kontakt? Dine indtastninger kopieres."</string>
+    <string msgid="6414231530177338704" name="announce_collapsed_fields">"Skjult"</string>
+    <string msgid="1075947220478530622" name="announce_expanded_fields">"Udvidet"</string>
+    <string msgid="3906689777043645443" name="applicationLabel">"Kontakter"</string>
+    <string msgid="5599827035558557169" name="attach_photo_dialog_title">"Billede af kontakt"</string>
+    <string msgid="2535716629358298691" name="audio_chat">"Talechat"</string>
+    <string msgid="2180147284456026587" name="auto_sync_off">"Automatisk synkronisering er slået fra. Tryk for at slå funktionen til."</string>
+    <string msgid="4355362760545735065" name="back_arrow_content_description">"Tilbage"</string>
+    <string msgid="3984346060324014108" name="batch_delete_confirmation">"Vil du slette de valgte kontakter?"</string>
+    <string msgid="8207205649127030030" name="batch_delete_multiple_accounts_confirmation">"De kontakter, du vil slette, indeholder info fra flere konti. Info fra skrivebeskyttede konti skjules fremfor at blive slettet."</string>
+    <string msgid="8411117621035639964" name="batch_delete_read_only_contact_confirmation">"Kontakter fra dine skrivebeskyttede konti kan ikke slettes, men de kan skjules."</string>
+    <string msgid="5864256698061641841" name="blurbJoinContactDataWith">"Vælg den kontakt, der skal knyttes til <ns1:g id="NAME">%s</ns1:g>:"</string>
+    <string msgid="4926308675041506756" name="caching_vcard_message">"Cachelagrer vCard(s) til lokalt midlertidigt lager. Den egentlige import starter snart."</string>
+    <string msgid="1226272312940516605" name="caching_vcard_title">"Cachelagrer"</string>
+    <string msgid="437630601519502587" name="callEnded_pulled">"Opkaldet blev viderestillet til en anden enhed."</string>
+    <string msgid="4745550615395092407" name="callFailed_cb_enabled">"Kan ikke foretage udgående opkald, mens opkaldsspærring er aktiveret."</string>
+    <string msgid="3645995103907418337" name="callFailed_congestion">"Netværket er optaget"</string>
+    <string msgid="3885826754435317856" name="callFailed_data_disabled">"Opkaldet sluttede, fordi mobildata blev deaktiveret."</string>
+    <string msgid="7045770594965160282" name="callFailed_data_limit_reached">"Datagrænsen er nået. Opkaldet sluttede."</string>
+    <string msgid="1439284832802552582" name="callFailed_data_limit_reached_description">"Opkaldet sluttede, fordi grænsen for mobildata blev nået."</string>
+    <string msgid="4383070508519313539" name="callFailed_dialToDial">"Der blev ændret til et andet nummer"</string>
+    <string msgid="5132568145494398814" name="callFailed_dialToDialVideo">"Der blev ændret til et videoopkald"</string>
+    <string msgid="1932708241240329683" name="callFailed_dialToSs">"Opkaldet blev ændret til en SS-anmodning"</string>
+    <string msgid="2433610980015734954" name="callFailed_dialToUssd">"Opkaldet blev ændret til en USSD-anmodning"</string>
+    <string msgid="7758276428184272770" name="callFailed_dialVideoToDial">"Opkaldet blev ændret til et almindeligt opkald"</string>
+    <string msgid="5451053686606499859" name="callFailed_dialVideoToDialVideo">"Der blev ændret til et andet nummer"</string>
+    <string msgid="4775276313558039477" name="callFailed_dialVideoToSs">"Videoopkaldet blev ændret til en SS-anmodning"</string>
+    <string msgid="3075648968404725328" name="callFailed_dialVideoToUssd">"Videoopkaldet blev ændret til en USSD-anmodning"</string>
+    <string msgid="4087941056515103695" name="callFailed_dsac_restricted">"Opkald er begrænset af adgangskontrol."</string>
+    <string msgid="9031535611092828510" name="callFailed_dsac_restricted_emergency">"Nødopkald er begrænset af adgangskontrol."</string>
+    <string msgid="266947632344387216" name="callFailed_dsac_restricted_normal">"Normale opkald er begrænset af adgangskontrol."</string>
+    <string msgid="1720606112619022283" name="callFailed_fdn_only">"Udgående opkald er begrænset til angivne opkaldsnumre."</string>
+    <string msgid="6115412108261660271" name="callFailed_invalid_credentials">"Forkert brugernavn eller adgangskode"</string>
+    <string msgid="8796663077702587664" name="callFailed_limitExceeded">"ACM-grænsen er overskredet"</string>
+    <string msgid="4823790040422765056" name="callFailed_maximum_reached">"Alle tilgængelige linjer er optaget. Afbryd et af opkaldene på denne enhed eller på en af dine andre enheder for at foretage et opkald."</string>
+    <string msgid="1758972490451048086" name="callFailed_noSignal">"Der er intet signal"</string>
+    <string msgid="1243366438388873914" name="callFailed_number_unreachable">"Nummeret er ikke tilgængeligt"</string>
+    <string msgid="4535901975891969115" name="callFailed_outOfService">"Mobilnetværket er ikke tilgængeligt"</string>
+    <string msgid="6970725831030399542" name="callFailed_out_of_network">"Opkald uden for netværk"</string>
+    <string msgid="9179061328562234362" name="callFailed_powerOff">"Radio slukket"</string>
+    <string msgid="1391421251190688379" name="callFailed_server_error">"Serverfejl. Prøv igen senere."</string>
+    <string msgid="4766146133909799091" name="callFailed_server_unreachable">"Serveren er ikke tilgængelig"</string>
+    <string msgid="3307159523385380486" name="callFailed_simError">"Der er intet SIM-kort, eller der er SIM-kortfejl"</string>
+    <string msgid="7772951976278867294" name="callFailed_timedOut">"Intet svar, timeout"</string>
+    <string msgid="124621797631734731" name="callFailed_unobtainable_number">"Ugyldigt nummer"</string>
+    <string msgid="5163219086553610486" name="callFailed_userBusy">"Linjen er optaget"</string>
+    <string msgid="186585701668604271" name="callFailed_video_call_tty_enabled">"Der kan ikke foretages videoopkald, når TTY er aktiveret."</string>
+    <string msgid="670941612175068337" name="call_assistant">"Ring til <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="2566802538698913124" name="call_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (ring op)"</string>
+    <string msgid="1910165691349426858" name="call_callback">"Ring til tilbagekald"</string>
+    <string msgid="3280537320306436445" name="call_car">"Ring til bil"</string>
+    <string msgid="6105120947138711257" name="call_company_main">"Ring til arbejde (hovednummer)"</string>
+    <string msgid="6385303130912713318" name="call_custom">"Ring til <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8342175628887571876" name="call_fax_home">"Ring til hjemmefax"</string>
+    <string msgid="7467763592359059243" name="call_fax_work">"Ring til arbejdsfax"</string>
+    <string msgid="1990519474420545392" name="call_home">"Ring hjem"</string>
+    <string msgid="1541590690193403411" name="call_isdn">"Ring til ISDN"</string>
+    <string msgid="6082900571803441339" name="call_main">"Ring til hoved"</string>
+    <string msgid="6274041545876221437" name="call_mms">"Ring til mms"</string>
+    <string msgid="7502236805487609178" name="call_mobile">"Ring til mobil"</string>
+    <string msgid="8563753966926932052" name="call_other">"Ring op"</string>
+    <string msgid="5745314124619636674" name="call_other_fax">"Ring til fax"</string>
+    <string msgid="9003902812293983281" name="call_pager">"Ring til personsøger"</string>
+    <string msgid="8296755876398357063" name="call_radio">"Ring til radio"</string>
+    <string msgid="3043028982108363572" name="call_subject_hint">"Angiv en note, som skal sendes ved opkald…"</string>
+    <string msgid="4545212901205397669" name="call_subject_limit">"<ns1:g id="COUNT">%1$s</ns1:g>/<ns1:g id="LIMIT">%2$s</ns1:g>"</string>
+    <string msgid="7667188212129152558" name="call_subject_type_and_number">"<ns1:g id="TYPE">%1$s</ns1:g> • <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2223170774548648114" name="call_telex">"Ring til telex"</string>
+    <string msgid="8951266948204379604" name="call_tty_tdd">"Ring til TTY/TDD"</string>
+    <string msgid="8389827628360791676" name="call_with_a_note">"Ring med en note"</string>
+    <string msgid="5328785911463744028" name="call_work">"Ring til arbejde"</string>
+    <string msgid="8707874281430105394" name="call_work_mobile">"Ring til arbejdsmobil"</string>
+    <string msgid="3419348514157949008" name="call_work_pager">"Ring til personsøger på arbejdet"</string>
+    <string msgid="1288652456274531846" name="cancel_button_content_description">"Annuller"</string>
+    <string msgid="3057023972074640671" name="cancel_confirmation_dialog_cancel_editing_button">"Kassér"</string>
+    <string msgid="3316573928085916146" name="cancel_confirmation_dialog_keep_editing_button">"Annuller"</string>
+    <string msgid="9008214737653278989" name="cancel_confirmation_dialog_message">"Vil du kassere ændringerne?"</string>
+    <string msgid="1995462401949262638" name="cancel_export_confirmation_message">"Vil du annullere eksport af <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="3929951040347726757" name="cancel_import_confirmation_message">"Vil du annullere import af <ns1:g id="FILENAME">%s</ns1:g>?"</string>
+    <string msgid="6139900383366166706" name="cancel_vcard_import_or_export_failed">"Import/eksport af vCard kunne ikke annulleres"</string>
+    <string msgid="9025361898797412245" name="chat">"Chat"</string>
+    <string msgid="2588492205291249142" name="chat_aim">"Chat ved hjælp af AIM"</string>
+    <string msgid="981575737258117697" name="chat_gtalk">"Chat ved hjælp af Google Talk"</string>
+    <string msgid="8438405386153745775" name="chat_icq">"Chat ved hjælp af ICQ"</string>
+    <string msgid="7561444230307829609" name="chat_jabber">"Chat ved hjælp af Jabber"</string>
+    <string msgid="8041633440091073484" name="chat_msn">"Chat ved hjælp af Windows Live"</string>
+    <string msgid="4294637812847719693" name="chat_qq">"Chat ved hjælp af QQ"</string>
+    <string msgid="1210045020427480566" name="chat_skype">"Chat ved hjælp af Skype"</string>
+    <string msgid="6629211142719943666" name="chat_yahoo">"Chat ved hjælp af Yahoo"</string>
+    <string msgid="2270554975938265734" name="clearFrequentsConfirmation">"Hvis du gør dette, rydder du listen over personer, som du ofte kontakter, i dine apps Kontakter og Telefon. Du vil samtidig tvinge mailapps til at lære dine adressepræferencer fra bunden."</string>
+    <string msgid="766292372438450432" name="clearFrequentsConfirmation_title">"Vil du rydde de ofte kontaktede?"</string>
+    <string msgid="5157001637482794212" name="clearFrequentsProgress_title">"Rydder ofte kontaktede personer…"</string>
+    <string msgid="7193185801596678067" name="clear_default">"Ryd standarder"</string>
+    <string msgid="1884143625854637874" name="collapse_fields_description">"Skjul"</string>
+    <string msgid="4757877385895561556" name="collapse_name_fields_description">"Skjul navnefelter"</string>
+    <string msgid="1765944280846236723" name="composer_failed_to_get_database_infomation">"Databaseoplysningerne kunne ikke hentes."</string>
+    <string msgid="5712531702823346549" name="composer_has_no_exportable_contact">"Der er ingen kontakter, der kan eksporteres."</string>
+    <string msgid="2321648986367005254" name="composer_not_initialized">"Oprettelsen af vCard startede ikke korrekt."</string>
+    <string msgid="7046408921529247089" name="connection_error_message">"Der er ingen forbindelse"</string>
+    <string msgid="3885457515665783976" name="contactGenericErrorToast">"Der opstod en fejl, da kontaktpersonen blev gemt"</string>
+    <string msgid="6527505405325862674" name="contactInsertOrEditActivityTitle">"Føj til kontakt"</string>
+    <string msgid="5735129234573327701" name="contactJoinErrorToast">"Kontaktpersonen kan ikke sammenflettes"</string>
+    <string msgid="6860883564984042194" name="contactPhotoSavedErrorToast">"Ændringerne af kontaktpersonens billede kan ikke gemmes"</string>
+    <string msgid="4301062192337417640" name="contactPickerActivityTitle">"Vælg en kontakt"</string>
+    <string msgid="4827033473908688031" name="contactSavedErrorToast">"Ændringerne af kontaktpersonen kan ikke gemmes"</string>
+    <string msgid="895136068894549611" name="contactSavedNamedToast">"<ns1:g id="DISPLAY_NAME">%s</ns1:g> blev gemt"</string>
+    <string msgid="9171862279493213075" name="contactSavedToast">"Kontaktpersonen er gemt"</string>
+    <string msgid="2706297508166952431" name="contactUnlinkErrorToast">"Sammenfletningen til kontaktpersonen kan ikke ophæves"</string>
+    <string msgid="7122823195786012553" name="contactUnlinkedToast">"Sammenfletningen af kontaktpersonerne blev ophævet"</string>
+    <string msgid="683398073603909119" name="contact_directory_description">"Indeks <ns1:g id="TYPE">%1$s</ns1:g>"</string>
+    <string msgid="426142748048816297" name="contact_editor_add_linked_contact">"Tilføj"</string>
+    <string msgid="4618465940423857694" name="contact_editor_pick_linked_contact_dialog_title">"Sammenflettede kontakter"</string>
+    <string msgid="4186699385645902152" name="contact_editor_pick_raw_contact_to_edit_dialog_title">"Vælg en kontakt at redigere"</string>
+    <string msgid="8565761674283473549" name="contact_editor_prompt_multiple_accounts">"Vælg en standardkonto til nye kontakter:"</string>
+    <string msgid="3087691056345099310" name="contact_editor_prompt_one_account">"Nye kontakter gemmes på <ns1:g id="ACCOUNT_NAME">%1$s</ns1:g>."</string>
+    <string msgid="6648376557574360096" name="contact_editor_prompt_zero_accounts">"Brug et øjeblik på at tilføje en konto, som sikkerhedskopierer dine kontakter til Google."</string>
+    <string msgid="4898475703683187798" name="contact_editor_title_existing_contact">"Rediger kontakt"</string>
+    <string msgid="3042788718983070111" name="contact_editor_title_new_contact">"Opret ny kontakt"</string>
+    <string msgid="2443496574528842237" name="contact_editor_title_read_only_contact">"Kun visning"</string>
+    <string msgid="4525214336177236653" name="contact_editor_unlink_contacts">"Ophæv sammenfletning"</string>
+    <string msgid="752179367353018597" name="contact_status_update_attribution">"via <ns1:g id="SOURCE">%1$s</ns1:g>"</string>
+    <string msgid="7358045508107825068" name="contact_status_update_attribution_with_date">"<ns1:g id="DATE">%1$s</ns1:g> via <ns1:g id="SOURCE">%2$s</ns1:g>"</string>
+    <string msgid="8417039765586853670" name="contactsFavoritesLabel">"Favoritter"</string>
+    <string msgid="3343535986195643136" name="contactsJoinedMessage">"Kontaktpersonerne er sammenflettet"</string>
+    <string msgid="1299418263439579455" name="contactsJoinedNamedMessage">"<ns1:g id="NAME">%s</ns1:g> er sammenflettet"</string>
+    <string msgid="8661624236494819731" name="contactsList">"Kontakter"</string>
+    <string msgid="4754058700611188581" name="contacts_default_notification_channel">"Notifikationer"</string>
+    <string msgid="7731565342428031249" name="contacts_deleted_many_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g>, <ns1:g id="NAME_1">%2$s</ns1:g>, <ns1:g id="NAME_2">%3$s</ns1:g>… blev slettet"</string>
+    <string msgid="2252551736301363193" name="contacts_deleted_one_named_toast">"<ns1:g id="NAME">%1$s</ns1:g> blev slettet"</string>
+    <string msgid="3642082931473111791" name="contacts_deleted_two_named_toast">"<ns1:g id="NAME_0">%1$s</ns1:g> og <ns1:g id="NAME_1">%2$s</ns1:g> blev slettet"</string>
+    <string msgid="8538705791417534431" name="contacts_export_will_start_message">"Kontaktpersonerne eksporteres om lidt."</string>
+    <string msgid="2846494347384549277" name="contacts_linking_progress_bar">"Sammenfletter"</string>
+    <string msgid="4347232421410561500" name="contacts_unavailable_add_account">"Tilføj konto"</string>
+    <string msgid="3182801738595937144" name="contacts_unavailable_import_contacts">"Importér"</string>
+    <string msgid="5989310198163726929" name="contacts_unlinking_progress_bar">"Ophæver sammenfletning"</string>
+    <string msgid="2686791825798189335" name="content_description_directions">"rutevejledning til placering"</string>
+    <string msgid="3257145021583508761" name="copy_text">"Kopier til udklipsholder"</string>
+    <string msgid="953651153238790069" name="createContactShortcutSuccessful">"<ns1:g id="NAME">%s</ns1:g> blev føjet til startskærmen."</string>
+    <string msgid="8831303345367275472" name="createContactShortcutSuccessful_NoName">"Kontaktpersonen blev føjet til startskærmen."</string>
+    <string msgid="3263064599743742865" name="create_group_item_label">"Opret ny…"</string>
+    <string msgid="1081475101983255212" name="customLabelPickerTitle">"Navn på tilpasset etiket"</string>
+    <string msgid="9048525797111024204" name="custom_list_filter">"Tilpas visning"</string>
+    <string msgid="4761419824439606690" name="date_time_set">"Angiv"</string>
+    <string msgid="7122002148518724139" name="date_year_toggle">"Inkluder år"</string>
+    <string msgid="699591683362420991" name="default_editor_account">"Standardkonto til nye kontakter"</string>
+    <string msgid="6011631627871110785" name="default_notification_description">"Standardlyd (<ns1:g id="DEFAULT_SOUND_TITLE">%1$s</ns1:g>)"</string>
+    <string msgid="3512271779086656043" name="deleteConfirmation">"Vil du slette denne kontakt?"</string>
+    <string msgid="7857888845028586365" name="deleteConfirmation_positive_button">"Slet"</string>
+    <string msgid="335713829185261371" name="delete_group_dialog_message">"Vil du slette etiketten \"<ns1:g id="GROUP_LABEL">%1$s</ns1:g>\"? (Selve kontaktpersonerne bliver ikke slettet)."</string>
+    <string msgid="3327186327234177456" name="description_action_menu_add_star">"Føjet til favoritter"</string>
+    <string msgid="4699640108012265178" name="description_action_menu_remove_star">"Fjernet fra favoritter"</string>
+    <string msgid="688023606766232904" name="description_clear_search">"Ryd søgning"</string>
+    <string msgid="88733669653753441" name="description_delete_button">"tilbage"</string>
+    <string msgid="53835657343783663" name="description_delete_contact">"Slet"</string>
+    <string msgid="8370856774250260053" name="description_dialpad_back">"Naviger tilbage"</string>
+    <string msgid="4853244877599437286" name="description_dialpad_overflow">"Flere valgmuligheder"</string>
+    <string msgid="7821061347207448362" name="description_image_button_plus">"plus"</string>
+    <string msgid="6908099247930477551" name="description_minus_button">"slet"</string>
+    <string msgid="8884991311595943271" name="description_no_name_header">"Ellipse"</string>
+    <string msgid="6737516415168327789" name="description_quick_contact_for">"Hurtigkontakt for <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5841525580339803272" name="description_search_video_call">"Foretag videoopkald"</string>
+    <string msgid="7120921378651700947" name="description_video_call">"Foretag videoopkald"</string>
+    <string msgid="6281470684653439120" name="description_voicemail_button">"telefonsvarer"</string>
+    <string msgid="1628001095187741417" name="dialog_export">"Eksportér kontakter"</string>
+    <string msgid="2423592905927819672" name="dialog_import">"Importér kontakter fra"</string>
+    <string msgid="4969619718062454756" name="dialog_new_contact_account">"Gem importerede kontakter på:"</string>
+    <string msgid="3451312333591556651" name="dialog_new_group_account">"Vælg konto"</string>
+    <string msgid="8267045393119375803" name="dialog_sync_add">"Tilføj synkroniseringsgruppe"</string>
+    <string msgid="1887759056597975053" name="directory_search_label">"Indeks"</string>
+    <string msgid="8618292129829443176" name="directory_search_label_work">"Indeks for arbejde"</string>
+    <string msgid="8941131776605093596" name="dismiss_sync_alert">"Luk"</string>
+    <string msgid="2031647544742889505" name="display_all_contacts">"Alle kontakter"</string>
+    <string msgid="2682547080423434170" name="display_more_groups">"Flere grupper ..."</string>
+    <string msgid="3771577099236534776" name="display_options_phonetic_name_fields">"Fonetisk navn"</string>
+    <string msgid="2684905041926954793" name="display_options_sort_by_family_name">"Efternavn"</string>
+    <string msgid="2778421332815687873" name="display_options_sort_by_given_name">"Fornavn"</string>
+    <string msgid="7028809117272018712" name="display_options_sort_list_by">"Sortér efter"</string>
+    <string msgid="956445100777296467" name="display_options_view_family_name_first">"Efternavn først"</string>
+    <string msgid="3616004640258761473" name="display_options_view_given_name_first">"Fornavn først"</string>
+    <string msgid="6514632499276563482" name="display_options_view_names_as">"Navneformat"</string>
+    <string msgid="6885954210243119591" name="display_ungrouped">"Alle andre kontakter"</string>
+    <string msgid="8872290721676651414" name="display_warn_remove_ungrouped">"Hvis du fjerner \"<ns1:g id="GROUP">%s</ns1:g>\" fra synkroniseringen, fjernes alle ugrupperede kontakter fra synkroniseringen."</string>
+    <string msgid="6845645831837615899" name="dynamic_shortcut_contact_removed_message">"Kontaktpersonen blev fjernet"</string>
+    <string msgid="249939425761315252" name="dynamic_shortcut_disabled_message">"Denne genvej er blevet deaktiveret"</string>
+    <string msgid="4137969650184457126" name="editor_account_selector_read_only_title">"Kontaktoplysningerne fra <ns1:g id="ACCOUNT">%s</ns1:g> kan ikke redigeres"</string>
+    <string msgid="4426337993307015833" name="editor_account_selector_title">"Gemmes på"</string>
+    <string msgid="4194479313465418120" name="editor_add_photo_content_description">"Tilføj et billede af kontaktpersonen"</string>
+    <string msgid="820879708069864340" name="editor_change_photo_content_description">"Skift kontaktpersonens billede"</string>
+    <string msgid="8571975622926162369" name="editor_contact_photo_content_description">"Billede af kontakt"</string>
+    <string msgid="8583095381562991959" name="editor_delete_view_description">"Slet <ns1:g id="DATA_TYPE">%1$s </ns1:g><ns1:g id="DATA_KIND">%2$s</ns1:g>"</string>
+    <string msgid="7335518371270844912" name="editor_delete_view_description_short">"Slet <ns1:g id="DATA_KIND">%s</ns1:g>"</string>
+    <string msgid="1623639078580475818" name="editor_failed_to_load">"Redigeringsværktøjet kunne ikke åbnes."</string>
+    <string msgid="3630987771304393421" name="editor_more_fields">"Flere felter"</string>
+    <string msgid="7253911385818398903" name="editor_options_always_show_phonetic_names">"Vis altid"</string>
+    <string msgid="2672008764795671104" name="editor_options_hide_phonetic_names_if_empty">"Skjul hvis tom"</string>
+    <string msgid="5668400997660065897" name="email">"Mail"</string>
+    <string msgid="8389931313045344406" name="emailLabelsGroup">"Mail"</string>
+    <string msgid="5536404237099078802" name="email_custom">"Send en mail til <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="8573740658148184279" name="email_home">"Mail til hjem"</string>
+    <string msgid="2042889209787989814" name="email_mobile">"Mail til mobil"</string>
+    <string msgid="3454004077967657109" name="email_other">"Mail"</string>
+    <string msgid="2807430017302722689" name="email_work">"Mail til arbejde"</string>
+    <string msgid="6873962901497975964" name="emptyAccount">"Der er ingen kontakter på denne konto"</string>
+    <string msgid="5102411903247859575" name="emptyGroup">"Der er ingen kontakter med denne etiket"</string>
+    <string msgid="2772242747899664460" name="emptyMainList">"Din liste over kontakter er tom"</string>
+    <string msgid="4594274696120278368" name="enter_contact_name">"Søg i kontakter"</string>
+    <string msgid="7960408705307831289" name="eventLabelsGroup">"Særlig dato"</string>
+    <string msgid="5794424930242630477" name="event_edit_field_hint_text">"Dato"</string>
+    <string msgid="8129294181216760037" name="expand_fields_description">"Udvid"</string>
+    <string msgid="6948274252874552543" name="expand_name_fields_description">"Vis flere navnefelter"</string>
+    <string msgid="5344160551629714168" name="expanding_entry_card_view_see_less">"Se mindre"</string>
+    <string msgid="3779194067124758079" name="expanding_entry_card_view_see_more">"Se mere"</string>
+    <string msgid="4407527157056120858" name="export_to_vcf_file">"Eksportér til .vcf-fil"</string>
+    <string msgid="4938527850142003141" name="exporting_contact_failed_message">"Kontaktpersondataene blev ikke eksporteret.\nÅrsag: \"<ns1:g id="FAIL_REASON">%s</ns1:g>\""</string>
+    <string msgid="4892358112409576342" name="exporting_contact_failed_title">"Eksport ikke mulig"</string>
+    <string msgid="3367949209642931952" name="exporting_contact_list_message">"Eksporterer kontaktoplysningerne."</string>
+    <string msgid="9072240631534457415" name="exporting_contact_list_title">"Eksporterer kontaktdata"</string>
+    <string msgid="2652222370493306887" name="exporting_vcard_canceled_title">"Eksport af <ns1:g id="FILENAME">%s</ns1:g> er annulleret."</string>
+    <string msgid="4767045779458185251" name="exporting_vcard_finished_title">"<ns1:g id="FILENAME">%s</ns1:g> er eksporteret."</string>
+    <string msgid="6060472638008218274" name="exporting_vcard_finished_title_fallback">"Kontaktpersonerne blev eksporteret."</string>
+    <string msgid="1739055986856453882" name="exporting_vcard_finished_toast">"Kontaktpersonerne blev eksporteret. Klik på notifikationen for at dele kontaktpersonerne."</string>
+    <string msgid="8034998767621359438" name="external_profile_title">"Min <ns1:g id="EXTERNAL_SOURCE">%1$s</ns1:g>-profil"</string>
+    <string msgid="707260459259688510" name="fail_reason_could_not_initialize_exporter">"Eksportfunktionen kunne ikke startes: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\""</string>
+    <string msgid="2067725459821997463" name="fail_reason_could_not_open_file">"\"<ns1:g id="FILE_NAME">%1$s</ns1:g>\" kunne ikke åbnes: <ns1:g id="EXACT_REASON">%2$s</ns1:g>."</string>
+    <string msgid="3018855323913649063" name="fail_reason_error_occurred_during_export">"Der opstod en fejl under eksporten: \"<ns1:g id="EXACT_REASON">%s</ns1:g>\"."</string>
+    <string msgid="6748358842976073255" name="fail_reason_io_error">"I/O-fejl"</string>
+    <string msgid="875222757734882898" name="fail_reason_low_memory_during_import">"Ikke nok hukommelse. Filen kan være for stor."</string>
+    <string msgid="8728506011371262065" name="fail_reason_no_exportable_contact">"Der er ingen kontakter, der kan eksporteres."</string>
+    <string msgid="8219562769267148825" name="fail_reason_not_supported">"Formatet understøttes ikke."</string>
+    <string msgid="1714092345030570863" name="fail_reason_unknown">"Ukendt fejl."</string>
+    <string msgid="5414421120553765775" name="ghostData_company">"Virksomhed"</string>
+    <string msgid="7496735200318496110" name="ghostData_title">"Titel"</string>
+    <string msgid="5283997303922067997" name="google_account_type_format">"<ns1:g id="SOURCE">%1$s</ns1:g>-konto"</string>
+    <string msgid="4359093891863474299" name="groupCreateFailedToast">"Etiketten kan ikke oprettes"</string>
+    <string msgid="1924195126172834870" name="groupCreatedToast">"Etiketten blev oprettet"</string>
+    <string msgid="520896687873262027" name="groupDeletedToast">"Etiketten blev slettet"</string>
+    <string msgid="5196811283836946189" name="groupExistsErrorMessage">"Etiketten findes allerede"</string>
+    <string msgid="7536267148196064554" name="groupLoadErrorToast">"Etiketten kan ikke indlæses"</string>
+    <string msgid="1431750793695262522" name="groupMemberPickerActivityTitle">"Vælg"</string>
+    <string msgid="4824834898718972768" name="groupMembersAddedToast">"Føjet til etiket"</string>
+    <string msgid="3510563559799376603" name="groupMembersRemovedToast">"Fjernet fra etiketten"</string>
+    <string msgid="2355891714292740162" name="groupSavedErrorToast">"Ændringerne af etiketten kan ikke gemmes"</string>
+    <string msgid="8211161470235548732" name="groupSomeContactsNoEmailsToast">"Nogle kontakter har ikke e-mails."</string>
+    <string msgid="5530760834827530509" name="groupSomeContactsNoPhonesToast">"Nogle kontakter har ikke telefonnumre."</string>
+    <string msgid="3667977658676267687" name="groupUpdatedToast">"Etiketten blev opdateret"</string>
+    <string msgid="8038224059926963133" name="group_edit_field_hint_text">"Etiket"</string>
+    <string msgid="7624523157537700160" name="group_name_dialog_hint">"Etiketnavn"</string>
+    <string msgid="2668452090427027941" name="group_name_dialog_insert_title">"Opret etiket"</string>
+    <string msgid="6328021162869677383" name="group_name_dialog_update_title">"Omdøb etiket"</string>
+    <string msgid="7000816729542098972" name="groupsLabel">"Etiketter"</string>
+    <string msgid="8666093061171624478" name="header_email_entry">"Mail"</string>
+    <string msgid="2436981165830115659" name="header_entry_contact_list_adapter_header_title">"Opret ny kontakt"</string>
+    <string msgid="6738250422744401460" name="header_event_entry">"Begivenhed"</string>
+    <string msgid="3581720979640225615" name="header_im_entry">"Chat"</string>
+    <string msgid="1592791008096288306" name="header_name_entry">"Navn"</string>
+    <string msgid="6743561883967451485" name="header_nickname_entry">"Kaldenavn"</string>
+    <string msgid="4320190426480612344" name="header_note_entry">"Note"</string>
+    <string msgid="8515394955666265406" name="header_organization_entry">"Organisation"</string>
+    <string msgid="8450980572274173570" name="header_phone_entry">"Telefon"</string>
+    <string msgid="1520292958088146460" name="header_relation_entry">"Relation"</string>
+    <string msgid="1411467850000824745" name="header_website_entry">"Website"</string>
+    <string msgid="7128627979899070325" name="hint_findContacts">"Søg efter kontakter"</string>
+    <string msgid="3898238486262614027" name="imLabelsGroup">"Chat"</string>
+    <string msgid="6912071635295799131" name="import_from_sim">"SIM-kort"</string>
+    <string msgid="5169032449686348118" name="import_from_sim_summary_fmt">"SIM-kort <ns1:g id="SIM_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8662528435646418203" name="import_from_vcf_file">".vcf-fil"</string>
+    <string msgid="967723361108008345" name="import_from_vcf_file_confirmation_message">"Vil du importere kontakter fra vCard?"</string>
+    <string msgid="3345258302998021066" name="importing_sim_failed_message">"Kontaktpersonerne kunne ikke importeres fra SIM-kortet"</string>
+    <string msgid="39706901030537985" name="importing_sim_failed_title">"Importen mislykkedes"</string>
+    <string msgid="5196369441294050721" name="importing_sim_finished_title">"SIM-kortet blev importeret"</string>
+    <string msgid="3638299581276676109" name="importing_sim_in_progress_title">"SIM-kortet importeres"</string>
+    <string msgid="2147475978165599336" name="importing_vcard_canceled_title">"Import af <ns1:g id="FILENAME">%s</ns1:g> blev annulleret"</string>
+    <string msgid="4245275224298571351" name="importing_vcard_description">"Importerer <ns1:g id="NAME">%s</ns1:g>"</string>
+    <string msgid="3341541727268747967" name="importing_vcard_finished_title">"vCard-filen <ns1:g id="FILENAME">%s</ns1:g> er importeret"</string>
+    <string msgid="3651090591812220874" name="incall_error_missing_voicemail_number">"Telefonsvarernummeret er ukendt"</string>
+    <string msgid="8215051456181842274" name="invalidContactMessage">"Kontaktpersonen findes ikke."</string>
+    <string msgid="8262614843581924365" name="joinConfirmation">"Vil du gemme de ændringer, du allerede har foretaget, og sammenflette med den valgte kontakt?"</string>
+    <string msgid="4573092849769149516" name="joinConfirmation_positive_button">"Gem og flet"</string>
+    <string msgid="1994056912242214426" name="label_custom_field">"Tilpasset"</string>
+    <string msgid="1276051790427638142" name="label_name_dialog_hint">"Etiketnavn"</string>
+    <string msgid="8337354953278341042" name="label_notes">"Noter"</string>
+    <string msgid="7252153678613978127" name="label_sip_address">"SIP"</string>
+    <string msgid="4277114551206032979" name="leave_customize_confirmation_dialog_message">"Vil du kassere tilpasningerne?"</string>
+    <string msgid="1840624396582117590" name="listCustomView">"Tilpasset visning"</string>
+    <string msgid="922980883593159444" name="listFoundAllContactsZero">"Ingen kontakter"</string>
+    <string msgid="8908683398914322369" name="list_filter_all_accounts">"Alle kontakter"</string>
+    <string msgid="5031734941601931356" name="list_filter_all_starred">"Stjernemarkerede"</string>
+    <string msgid="4789963356004169321" name="list_filter_customize">"Tilpas"</string>
+    <string msgid="735313795643493365" name="list_filter_phones">"Alle kontakter med telefonnumre"</string>
+    <string msgid="1470173699551475015" name="list_filter_phones_work">"Kontakter for arbejdsprofil"</string>
+    <string msgid="5871400283515893087" name="list_filter_single">"Kontakt"</string>
+    <string msgid="6046691709127661065" name="local_invisible_directory">"Andre"</string>
+    <string msgid="2021416826991393684" name="local_profile_title">"Min lokale profil"</string>
+    <string msgid="2551177578246113614" name="local_search_label">"Alle kontakter"</string>
+    <string msgid="8761800628069473526" name="map_custom">"Se adressen for <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="1243547733423343982" name="map_home">"Vis hjemmeadresse"</string>
+    <string msgid="3817820803587012641" name="map_other">"Vis adresse"</string>
+    <string msgid="1360474076921878088" name="map_work">"Vis arbejdsadresse"</string>
+    <string msgid="655196688840626483" name="menu_addContactsToGroup">"Tilføj kontakter"</string>
+    <string msgid="2908478235715404876" name="menu_addStar">"Føj til favoritter"</string>
+    <string msgid="3267409983764370041" name="menu_addToGroup">"Tilføj kontakt"</string>
+    <string msgid="3198704337220892684" name="menu_add_contact">"Føj til kontakter"</string>
+    <string msgid="4465646512002163011" name="menu_add_contacts">"Tilføj"</string>
+    <string msgid="5760693735722052454" name="menu_assistant">"Forslag"</string>
+    <string msgid="3132884821616980034" name="menu_assistant_new_badge">"Nyt"</string>
+    <string msgid="5272951629083025995" name="menu_blocked_numbers">"Blokerede telefonnumre"</string>
+    <string msgid="7769177631511496210" name="menu_change_photo">"Skift billede"</string>
+    <string msgid="2165153460860262501" name="menu_contacts_filter">"Viste kontakter"</string>
+    <string msgid="1663022219127343858" name="menu_create_contact_shortcut">"Opret genvej"</string>
+    <string msgid="2679793632208086460" name="menu_custom_filter_save">"Gem"</string>
+    <string msgid="6788644058868189393" name="menu_deleteContact">"Slet"</string>
+    <string msgid="1126469629233412249" name="menu_deleteGroup">"Slet etiket"</string>
+    <string msgid="9042415603857662633" name="menu_editContact">"Rediger"</string>
+    <string msgid="6696843438454341063" name="menu_editGroup">"Fjern kontakter"</string>
+    <string msgid="2658783911863503902" name="menu_export">"Eksportér"</string>
+    <string msgid="2659719297530170820" name="menu_export_database">"Eksportér databasefiler"</string>
+    <string msgid="1680178646764069976" name="menu_help">"Hjælp og feedback"</string>
+    <string msgid="6107961135813836467" name="menu_import">"Importér"</string>
+    <string msgid="3599512127797513606" name="menu_joinAggregate">"Sammenflet"</string>
+    <string msgid="400444389718855621" name="menu_linkedContacts">"Se sammenflettede kontakter"</string>
+    <string msgid="3127059073617415221" name="menu_new_group_action_bar">"Opret etiket"</string>
+    <string msgid="83331924006712755" name="menu_redirect_calls_to_vm">"Viderestil til telefonsvarer"</string>
+    <string msgid="6720354305399961978" name="menu_removeFromGroup">"Fjern fra etiket"</string>
+    <string msgid="5844227078364227030" name="menu_removeStar">"Fjern fra favoritter"</string>
+    <string msgid="7169512355179757182" name="menu_renameGroup">"Omdøb etiket"</string>
+    <string msgid="1727844363591825909" name="menu_save">"Gem"</string>
+    <string msgid="3999234528229376098" name="menu_selectForGroup">"Vælg kontakter"</string>
+    <string msgid="5978319931321657780" name="menu_sendEmailOption">"Send mail"</string>
+    <string msgid="8850168125274916426" name="menu_sendMessageOption">"Send besked"</string>
+    <string msgid="8728345772068064946" name="menu_set_ring_tone">"Angiv ringetone"</string>
+    <string msgid="377929915873428211" name="menu_settings">"Indstillinger"</string>
+    <string msgid="943789700636542260" name="menu_share">"Del"</string>
+    <string msgid="2627252205317945563" name="menu_splitAggregate">"Ophæv sammenfletning"</string>
+    <string msgid="3266725887008450161" name="menu_sync_remove">"Fjern synkroniseringsgruppe"</string>
+    <string msgid="8210922220185114527" name="menu_title_filters">"Konti"</string>
+    <string msgid="8356921831150278868" name="menu_title_groups">"Etiketter"</string>
+    <string msgid="8725542534701811737" name="menu_unredirect_calls_to_vm">"Træk tilbage fra telefonsvarer"</string>
+    <string msgid="1466111003546611387" name="missing_app">"Der blev ikke fundet nogen app, der kan håndtere denne handling."</string>
+    <string msgid="8745511583852904385" name="missing_name">"(Intet navn)"</string>
+    <string msgid="5865884842972833120" name="missing_required_permission">"Du har deaktiveret en påkrævet tilladelse."</string>
+    <string msgid="5235324124905653550" name="multipleContactDeleteConfirmation">"Sletning af denne kontakt sletter oplysninger fra flere konti."</string>
+    <string msgid="2034640839640477827" name="nameLabelsGroup">"Navn"</string>
+    <string msgid="7466985689626017037" name="name_family">"Efternavn"</string>
+    <string msgid="4280790853455320619" name="name_given">"Fornavn"</string>
+    <string msgid="8467433655992690326" name="name_middle">"Mellemnavn"</string>
+    <string msgid="4259595234312430484" name="name_phonetic">"Fonetisk navn"</string>
+    <string msgid="2640133663656011626" name="name_phonetic_family">"Fonetisk efternavn"</string>
+    <string msgid="8723179018384187631" name="name_phonetic_given">"Fonetisk fornavn"</string>
+    <string msgid="8643721493320405200" name="name_phonetic_middle">"Fonetisk mellemnavn"</string>
+    <string msgid="59756378548779822" name="name_prefix">"Navnepræfiks"</string>
+    <string msgid="3855278445375651441" name="name_suffix">"Navnesuffiks"</string>
+    <string msgid="4137416137011817930" name="navigation_drawer_close">"Luk sidemenuen"</string>
+    <string msgid="4154758025620107419" name="navigation_drawer_label">"Etiketten <ns1:g id="LABEL_NAME">%s</ns1:g>"</string>
+    <string msgid="1126498472143250642" name="navigation_drawer_open">"Åbn sidemenuen"</string>
+    <string msgid="2823095213265993609" name="nfc_vcard_file_name">"Kontakt via NFC"</string>
+    <string msgid="2891682101053358010" name="nicknameLabelsGroup">"Kaldenavn"</string>
+    <string msgid="2228592924476426108" name="noContacts">"Din liste over kontakter er tom"</string>
+    <string msgid="5742815694687835125" name="no_button">"Nej"</string>
+    <string msgid="1276397530378323033" name="no_contact_to_share">"Der er ingen kontakter, der kan deles."</string>
+    <string msgid="6590985286250471169" name="non_phone_add_to_contacts">"Føj til kontakter"</string>
+    <string msgid="1541655052330027380" name="non_phone_caption">"Telefonnummer"</string>
+    <string msgid="7608506439725515667" name="non_phone_close">"Luk"</string>
+    <string msgid="1651921906873335656" name="nothing_to_import_message">"Der er intet at importere"</string>
+    <string msgid="2478611760751832035" name="organizationLabelsGroup">"Organisation"</string>
+    <string msgid="6718207751363732025" name="organization_company_and_title">"<ns1:g id="COMPANY_0">%2$s</ns1:g>, <ns1:g id="COMPANY_1">%1$s</ns1:g>"</string>
+    <string msgid="6468091477851199285" name="phoneLabelsGroup">"Telefon"</string>
+    <string msgid="2052542573853433204" name="photoPickerNotFoundText">"Der er ingen tilgængelige billeder på enheden."</string>
+    <string msgid="9122450996263688237" name="pick_new_photo">"Vælg et nyt billede"</string>
+    <string msgid="2129509985223564942" name="pick_photo">"Vælg billede"</string>
+    <string msgid="1936544190231136729" name="pickerSelectContactsActivityTitle">"Vælg kontakter"</string>
+    <string msgid="3487738141112589324" name="postalLabelsGroup">"Adresse"</string>
+    <string msgid="8765560217149624536" name="postal_address">"Adresse"</string>
+    <string msgid="6597491300084895548" name="postal_city">"By"</string>
+    <string msgid="7638264508416368690" name="postal_country">"Land"</string>
+    <string msgid="572136414136673751" name="postal_postcode">"Postnummer"</string>
+    <string msgid="6045263193478437672" name="postal_region">"Stat"</string>
+    <string msgid="8133143961580058972" name="postal_street">"Gade"</string>
+    <string msgid="2311011466908220528" name="progress_notifier_message">"Importerer <ns1:g id="CURRENT_NUMBER">%1$s</ns1:g>/<ns1:g id="TOTAL_NUMBER">%2$s</ns1:g>: <ns1:g id="NAME">%3$s</ns1:g>"</string>
+    <string msgid="739298028384348482" name="quickcontact_add_email">"Tilføj mail"</string>
+    <string msgid="731665835910658965" name="quickcontact_add_phone_number">"Tilføj telefonnummer"</string>
+    <string msgid="8236954313106630862" name="quickcontact_suggestion_cancel_button">"ANNULLER"</string>
+    <string msgid="3244619714781727946" name="quickcontact_suggestion_link_button">"SAMMENFLET KONTAKTPERSONER"</string>
+    <string msgid="987959416759562455" name="quickcontact_transparent_view_description">"Klik for at gå tilbage til forrige skærmbillede"</string>
+    <string msgid="4717023505914239809" name="readOnlyContactDeleteConfirmation">"Data om denne kontakt fra skrivebeskyttede konti bliver skjult, men ikke slettet."</string>
+    <string msgid="7514475664695089411" name="readOnlyContactWarning">"Denne kontakt er skrivebeskyttet. Vedkommende kan ikke slettes, men kun skjules."</string>
+    <string msgid="8914797212167683673" name="readOnlyContactWarning_positive_button">"Skjul kontakt"</string>
+    <string msgid="4251647443358422855" name="reading_vcard_failed_title">"Dataene på dette vCard kunne ikke læses"</string>
+    <string msgid="1854373894284572781" name="relationLabelsGroup">"Forhold"</string>
+    <string msgid="4898105274130284565" name="removePhoto">"Fjern billede"</string>
+    <string msgid="249805466934178869" name="ringtone_silent">"Ingen"</string>
+    <string msgid="2303463713486734520" name="ringtone_unknown">"Ukendt ringetone"</string>
+    <string msgid="2133152192716475939" name="savingDisplayGroups">"Gemmer indstillinger for visning…"</string>
+    <string msgid="8482945356247760701" name="searchHint">"Søg i kontakter"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Søg"</string>
+    <string msgid="3984833028938569930" name="search_results_searching">"Søger..."</string>
+    <string msgid="2675223022992445813" name="search_settings_description">"Navne på dine kontakter"</string>
+    <string msgid="5478489655696599219" name="select_account_dialog_title">"Konto"</string>
+    <string msgid="7740295432834590737" name="send_and_call_button">"SEND, OG RING OP"</string>
+    <string msgid="2251339182881603540" name="send_to_selection">"Send"</string>
+    <string msgid="7939932265026181043" name="separatorJoinAggregateAll">"Alle kontakter"</string>
+    <string msgid="2831414448851313345" name="separatorJoinAggregateSuggestions">"Foreslåede kontakter"</string>
+    <string msgid="4417505153468300351" name="set_default">"Indstil standard"</string>
+    <string msgid="4311613760725609801" name="set_default_account">"Brug altid ved opkald"</string>
+    <string msgid="7370213843590143771" name="set_up_profile">"Konfigurer din profil"</string>
+    <string msgid="7014388749752042863" name="setting_about">"Om Kontakter"</string>
+    <string msgid="350219740670774576" name="settings_accounts">"Konti"</string>
+    <string msgid="1534272456405343119" name="settings_my_info_title">"Mine oplysninger"</string>
+    <string msgid="8109287987498711664" name="share_contacts">"Del alle kontakter"</string>
+    <string msgid="1216431977330560559" name="share_contacts_failure">"Kontaktpersonerne kunne ikke deles."</string>
+    <string msgid="948429331673358107" name="share_error">"Denne kontakt kan ikke deles."</string>
+    <string msgid="4280926751003081042" name="share_favorite_contacts">"Del foretrukne kontakter"</string>
+    <string msgid="1504383567778497348" name="shortcutActivityTitle">"Vælg kontakt"</string>
+    <string msgid="749243779392912958" name="shortcutContact">"Kontakt"</string>
+    <string msgid="746622101599186779" name="shortcutDialContact">"Direkte opkald"</string>
+    <string msgid="2460337253595976198" name="shortcutMessageContact">"Direkte besked"</string>
+    <string msgid="7476283631356909204" name="shortcut_add_contact">"Tilføj kontakt"</string>
+    <string msgid="4277410425912984722" name="show_more_content_description">"Vis flere"</string>
+    <string msgid="4270841592496619317" name="sim_import_button_text">"Importér"</string>
+    <string msgid="1619832410253424452" name="sim_import_cancel_content_description">"Annuller"</string>
+    <string msgid="1503743663717316732" name="sim_import_contact_exists_toast">"Kontaktpersonen findes allerede på din liste over kontakter"</string>
+    <string msgid="7743815244380189651" name="sim_import_empty_message">"Der er ingen kontakter på dit SIM-kort"</string>
+    <string msgid="5559267299793622705" name="sim_import_failed_toast">"Kontaktpersonerne på SIM-kortet kan ikke importeres"</string>
+    <string msgid="2511154832820812822" name="sim_import_title">"Importér fra SIM-kort"</string>
+    <string msgid="6910517331401970693" name="sim_import_title_none_selected">"Vælg kontakter"</string>
+    <string msgid="3106905986948679720" name="single_delete_confirmation">"Vil du slette denne kontakt?"</string>
+    <string msgid="6985770499439371497" name="single_sim_display_label">"SIM-kort"</string>
+    <string msgid="1756857139634224222" name="sms">"Sms"</string>
+    <string msgid="2773424339923116234" name="sms_assistant">"Send sms til <ns1:g id="ASSISTANT">%s</ns1:g>"</string>
+    <string msgid="7741770672976099517" name="sms_by_shortcut">"<ns1:g id="CONTACT_NAME">%s</ns1:g> (send besked)"</string>
+    <string msgid="5004824430094288752" name="sms_callback">"Send sms til mistede opkald"</string>
+    <string msgid="7444227058437359641" name="sms_car">"Sms til bil"</string>
+    <string msgid="118970873419678087" name="sms_company_main">"Sms til arbejde (hovednummer)"</string>
+    <string msgid="415060214233647603" name="sms_custom">"Send en sms til <ns1:g id="CUSTOM_LABEL">%s</ns1:g>"</string>
+    <string msgid="9204042076306809634" name="sms_fax_home">"Sms til hjemmefax"</string>
+    <string msgid="8028189067816907075" name="sms_fax_work">"Sms til arbejdsfax"</string>
+    <string msgid="7524332261493162995" name="sms_home">"Sms til hjem"</string>
+    <string msgid="8153785037515047845" name="sms_isdn">"Send sms til ISDN"</string>
+    <string msgid="8621625784504541679" name="sms_main">"Send sms til hoved"</string>
+    <string msgid="4069352461380762677" name="sms_mms">"Sms til mms"</string>
+    <string msgid="5200107250451030769" name="sms_mobile">"Sms til mobil"</string>
+    <string msgid="806127844607642331" name="sms_other">"Send sms"</string>
+    <string msgid="3888842199855843152" name="sms_other_fax">"Send sms til fax"</string>
+    <string msgid="7730404569637015192" name="sms_pager">"Sms til personsøger"</string>
+    <string msgid="3329166673433967820" name="sms_radio">"Sms til radio"</string>
+    <string msgid="9034802430065267848" name="sms_telex">"Send sms til telex"</string>
+    <string msgid="6782284969132531532" name="sms_tty_tdd">"Send sms til TTY/TDD"</string>
+    <string msgid="2269624156655267740" name="sms_work">"Sms til arbejde"</string>
+    <string msgid="2459939960512702560" name="sms_work_mobile">"Send sms til arbejdsmobil"</string>
+    <string msgid="5566924423316960597" name="sms_work_pager">"Send sms til personsøger til arbejdet"</string>
+    <string msgid="7342030840130187290" name="splitConfirmation">"Vil du ophæve sammenfletningen og opdele denne kontakt i flere kontakter?"</string>
+    <string msgid="7719062163511895696" name="splitConfirmationWithPendingChanges">"Vil du gemme de ændringer, du allerede har foretaget, og ophæve sammenfletningen og opdele kontaktpersonen i flere kontakter?"</string>
+    <string msgid="9073444264887244032" name="splitConfirmationWithPendingChanges_positive_button">"Gem, og ophæv sammenfletningen"</string>
+    <string msgid="9129409098807939699" name="splitConfirmation_positive_button">"Ophæv sammenfletningen"</string>
+    <string msgid="5586870015822828392" name="status_available">"Tilgængelig"</string>
+    <string msgid="1838861100379804730" name="status_away">"Ikke til stede"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9147992455450257136" name="status_busy">"Optaget"</string>
+    <string msgid="9107788743178980902" name="suggestion_card_duplicates_title">"Mulige dubletter"</string>
+    <string msgid="4474061044387181093" name="suggestion_card_help_message">"Disse kontakter kan være den samme person. Du kan sammenflette dem til én enkelt kontakt."</string>
+    <string msgid="3039457405374454914" name="suggestion_card_this_contact_title">"Denne kontakt"</string>
+    <string msgid="7341354729436576304" name="take_new_photo">"Tag nyt billede"</string>
+    <string msgid="7496128293167402354" name="take_photo">"Tag billede"</string>
+    <string msgid="6825255752748313944" name="titleJoinContactDataWith">"Sammenflet kontakter"</string>
+    <string msgid="8602752287270586734" name="title_edit_group">"Fjern kontakter"</string>
+    <string msgid="4664084747121207202" name="title_from_google">"Fra Google"</string>
+    <string msgid="8307885412426754288" name="title_from_other_accounts">"Fra <ns1:g id="ACCOUNT">%s</ns1:g>"</string>
+    <string msgid="1215465657839085613" name="toast_join_with_empty_contact">"Skriv kontaktpersonens navn, før den knyttes sammen med en anden."</string>
+    <string msgid="288549957278065542" name="toast_making_personal_copy">"Opretter en privat kopi..."</string>
+    <string msgid="5143776250008541719" name="toast_text_copied">"Kopieret tekst"</string>
+    <string msgid="4882485525268469736" name="touch_to_share_contacts">"Tryk for at dele kontakter."</string>
+    <string msgid="5025336917533693997" name="turn_auto_sync_on_dialog_body">"De ændringer, du foretager af alle apps og konti og ikke kun Google Kontakter, holdes opdateret mellem nettet og dine enheder."</string>
+    <string msgid="1070332014838295599" name="turn_auto_sync_on_dialog_confirm_btn">"Slå til"</string>
+    <string msgid="333965456829670541" name="turn_auto_sync_on_dialog_title">"Vil du slå automatisk synkronisering til?"</string>
+    <string msgid="1425165101664071422" name="undo">"Fortryd"</string>
+    <string msgid="452592089815420457" name="url_open_error_toast">"Webadressen kunne ikke åbnes."</string>
+    <string msgid="2844874826431327531" name="vcard_export_request_rejected_message">"Anmodningen om eksport af vCard blev afvist. Prøv igen senere."</string>
+    <string msgid="5223531255894842406" name="vcard_import_failed">"vCard kunne ikke importeres."</string>
+    <string msgid="2890471184508516011" name="vcard_import_request_rejected_message">"Anmodningen om import af vCard blev afvist. Prøv igen senere."</string>
+    <string msgid="2804911199145873396" name="vcard_import_will_start_message">"<ns1:g id="FILENAME">%s</ns1:g> importeres om et øjeblik."</string>
+    <string msgid="1022969530654129470" name="vcard_import_will_start_message_with_default_name">"Filen importeres inden længe."</string>
+    <string msgid="7171709890959915954" name="vcard_unknown_filename">"kontakt"</string>
+    <string msgid="1872255818640336072" name="video_chat">"Videochat"</string>
+    <string msgid="1782685984905600034" name="view_updates_from_group">"Se opdateringer"</string>
+    <string msgid="4202998982804009261" name="websiteLabelsGroup">"Website"</string>
+    <string msgid="1268479086848288060" name="yes_button">"Ja"</string>
+</resources>

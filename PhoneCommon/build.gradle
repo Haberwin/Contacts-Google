@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion
+    sourceSets.main {
+        java.srcDirs = ['src']
+        manifest.srcFile 'AndroidManifest.xml'
+        res.srcDirs = ['res']
+    }
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+    }
+}
