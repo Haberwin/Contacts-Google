@@ -5,6 +5,7 @@ import android.provider.ContactsContract;
 
 import androidx.test.espresso.intent.rule.IntentsTestRule;
 import androidx.test.filters.LargeTest;
+import androidx.test.filters.SmallTest;
 import androidx.test.runner.AndroidJUnit4;
 
 import com.android.contacts.R;
@@ -22,7 +23,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static org.hamcrest.Matchers.allOf;
 
 @RunWith(AndroidJUnit4.class)
-@LargeTest
+@SmallTest
 public class PeopleActivityTest {
     @Rule
     public IntentsTestRule<PeopleActivity> intentsTestRule =
